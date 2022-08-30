@@ -28,5 +28,12 @@ namespace WindowsFormsApp2
             Crearcuenta Nuevaventana = new Crearcuenta();
             Nuevaventana.Show();//código para cambiar de pantalla IMPORTANTE
         }
+
+        private void BtnCrearc_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Crearcuenta Nuevaventana = new Crearcuenta();
+            Nuevaventana.Show();//código para cambiar de pantalla IMPORTANTE
+        }
     }
 }

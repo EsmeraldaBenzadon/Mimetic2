@@ -59,6 +59,7 @@
             this.btnCrearc.Size = new System.Drawing.Size(302, 109);
             this.btnCrearc.TabIndex = 1;
             this.btnCrearc.UseVisualStyleBackColor = false;
+            this.btnCrearc.Click += new System.EventHandler(this.BtnCrearc_Click);
             // 
             // pantalla_logueo
             // 
