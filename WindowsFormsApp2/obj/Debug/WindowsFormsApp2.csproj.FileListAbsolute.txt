@@ -46,3 +46,15 @@ C:\Users\47872003\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2
 C:\Users\47872003\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\47872003\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\47872003\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Crearcuenta.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Fondoinicio.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pantalla_logueo.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
