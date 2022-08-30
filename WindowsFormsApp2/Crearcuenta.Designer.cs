@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Crearcuenta));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_repetir = new System.Windows.Forms.TextBox();
             this.btnRegistrarse = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_contraseña = new System.Windows.Forms.TextBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -44,17 +44,17 @@
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 0;
             // 
-            // textBox3
+            // txt_repetir
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(213, 295);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(246, 36);
-            this.textBox3.TabIndex = 3;
+            this.txt_repetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_repetir.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_repetir.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
+            this.txt_repetir.ForeColor = System.Drawing.Color.Black;
+            this.txt_repetir.Location = new System.Drawing.Point(213, 295);
+            this.txt_repetir.Multiline = true;
+            this.txt_repetir.Name = "txt_repetir";
+            this.txt_repetir.Size = new System.Drawing.Size(246, 36);
+            this.txt_repetir.TabIndex = 3;
             // 
             // btnRegistrarse
             // 
@@ -68,30 +68,31 @@
             this.btnRegistrarse.Size = new System.Drawing.Size(234, 48);
             this.btnRegistrarse.TabIndex = 4;
             this.btnRegistrarse.UseVisualStyleBackColor = false;
+            this.btnRegistrarse.Click += new System.EventHandler(this.BtnRegistrarse_Click);
             // 
-            // textBox1
+            // txt_contraseña
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(213, 207);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 36);
-            this.textBox1.TabIndex = 5;
+            this.txt_contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_contraseña.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
+            this.txt_contraseña.ForeColor = System.Drawing.Color.Black;
+            this.txt_contraseña.Location = new System.Drawing.Point(213, 207);
+            this.txt_contraseña.Multiline = true;
+            this.txt_contraseña.Name = "txt_contraseña";
+            this.txt_contraseña.Size = new System.Drawing.Size(246, 36);
+            this.txt_contraseña.TabIndex = 5;
             // 
-            // textBox2
+            // txt_nombre
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(213, 121);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(246, 36);
-            this.textBox2.TabIndex = 6;
+            this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_nombre.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nombre.ForeColor = System.Drawing.Color.Black;
+            this.txt_nombre.Location = new System.Drawing.Point(213, 121);
+            this.txt_nombre.Multiline = true;
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(246, 36);
+            this.txt_nombre.TabIndex = 6;
             // 
             // Crearcuenta
             // 
@@ -100,14 +101,15 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_nombre);
+            this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.btnRegistrarse);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_repetir);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "Crearcuenta";
             this.Text = "Crearcuenta";
+            this.Load += new System.EventHandler(this.Crearcuenta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,9 +118,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_repetir;
         private System.Windows.Forms.Button btnRegistrarse;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_contraseña;
+        private System.Windows.Forms.TextBox txt_nombre;
     }
 }
