@@ -33,5 +33,26 @@ namespace WindowsFormsApp2.Properties {
                 return ((string)(this["BaseDeDatosProyectoConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\BDPrueba.accdb")]
+        public string BDPruebaConnectionString {
+            get {
+                return ((string)(this["BDPruebaConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\47431890\\Documents\\Databas" +
+            "eProyecto.accdb")]
+        public string DatabaseProyectoConnectionString {
+            get {
+                return ((string)(this["DatabaseProyectoConnectionString"]));
+            }
+        }
     }
 }

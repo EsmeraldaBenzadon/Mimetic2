@@ -65,11 +65,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDeDatosProyectoDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BaseDeDatosProyectoDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Crearcuenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,17 +103,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="BaseDeDatosProyectoDataSet.xsc">
-      <DependentUpon>BaseDeDatosProyectoDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="BaseDeDatosProyectoDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BaseDeDatosProyectoDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="BaseDeDatosProyectoDataSet.xss">
-      <DependentUpon>BaseDeDatosProyectoDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,11 +127,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="BaseDeDatosProyecto.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

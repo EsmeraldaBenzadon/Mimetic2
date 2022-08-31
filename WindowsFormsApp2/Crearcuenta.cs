@@ -16,7 +16,7 @@ namespace WindowsFormsApp2
         string Nombre;
         string ContraseñaU;
         string Repetir;
-        OleDbConnection BaseDeDatosProyecto;
+        OleDbConnection DatabaseProyecto;
 
         public Crearcuenta()
         {
@@ -30,27 +30,39 @@ namespace WindowsFormsApp2
 
         private void Crearcuenta_Load(object sender, EventArgs e)
         {
-            BaseDeDatosProyecto = new OleDbConnection();
-            BaseDeDatosProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = BaseDeDatosProyecto.accdb";
+            DatabaseProyecto = new OleDbConnection();
+            DatabaseProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
         }
 
         private void BtnRegistrarse_Click(object sender, EventArgs e)
         {
             Nombre = txt_nombre.Text;
             ContraseñaU = txt_contraseña.Text;
-            Repetir = txt_repetir.Text;
+            Repetir = txt_repetir.Text; 
 
             if (Nombre.Length >= 1 && ContraseñaU.Length >= 1 && ContraseñaU == Repetir)
             {
-                BaseDeDatosProyecto.Open();
+                DatabaseProyecto.Open();
                 OleDbCommand info;
                 Class1 a = new Class1();
                 a.Contraseña = ContraseñaU;
                 a.Usuario = Nombre;
-                info = new OleDbCommand("INSERT INTO BaseDeDatos (NombreU, ContraseñaU) VALUES ('" + Nombre + "' , '" + ContraseñaU + "')");
-                info.Connection = BaseDeDatosProyecto;
+                /* 
+                info = new OleDbCommand("SELECT FROM Usuarios WHERE NombreU='" + Nombre + "'");
+                OleDbDataReader lector;
+                lector = info.ExecuteReader();
+
+                if (!!lector["Nombre"]){
+                    MessageBox.Show("Ese nombre ya esta en uso");
+                    return;
+                } else {
+                
+                }
+                 */
+                info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContraseñaU) VALUES ('" + Nombre + "' , '" + ContraseñaU + "')");
+                info.Connection = DatabaseProyecto;
                 info.ExecuteNonQuery();
-                BaseDeDatosProyecto.Close();
+                DatabaseProyecto.Close();
                 MessageBox.Show("Sus datos se han enviado correctamente");
             }
             else
