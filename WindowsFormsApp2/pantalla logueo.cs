@@ -25,7 +25,7 @@ namespace WindowsFormsApp2
         private void BtnInicios_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Crearcuenta Nuevaventana = new Crearcuenta();
+            pantalla_iniciosesion Nuevaventana = new pantalla_iniciosesion();
             Nuevaventana.Show();//código para cambiar de pantalla IMPORTANTE
         }
 

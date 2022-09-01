@@ -77,11 +77,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="menu principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu principal.Designer.cs">
+      <DependentUpon>menu principal.cs</DependentUpon>
+    </Compile>
     <Compile Include="pantalla logueo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pantalla logueo.Designer.cs">
       <DependentUpon>pantalla logueo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pantalla_iniciosesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pantalla_iniciosesion.Designer.cs">
+      <DependentUpon>pantalla_iniciosesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pantalla logueo.resx">
       <DependentUpon>pantalla logueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pantalla_iniciosesion.resx">
+      <DependentUpon>pantalla_iniciosesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -64,10 +64,13 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
                 DatabaseProyecto.Close();
                 MessageBox.Show("Sus datos se han enviado correctamente");
+                this.Hide();
+                menu_principal Nuevaventana = new menu_principal();
+                Nuevaventana.Show();
             }
             else
             {
-                MessageBox.Show("Complete todas los casilleros");
+                MessageBox.Show("Complete todas los casilleros correctamente");
             }
         }
 
