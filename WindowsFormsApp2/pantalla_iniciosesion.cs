@@ -15,8 +15,8 @@ namespace WindowsFormsApp2
     {
         string nombre;
         string contraseña;
-        //OleDbConnection iniciarsesion;
-        OleDbConnection conexion = new OleDbConnection();
+        OleDbConnection iniciarsesion;
+        
 
         public pantalla_iniciosesion()
         {
@@ -25,27 +25,20 @@ namespace WindowsFormsApp2
 
         private void Pantalla_iniciosesion_Load(object sender, EventArgs e)
         {
-            //iniciarsesion = new OleDbConnection();
-            //iniciarsesion.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
-            conexion.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
-            conexion.Open();
+            iniciarsesion = new OleDbConnection();
+            iniciarsesion.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
         }
 
         private void Btn_iniciarsesion_Click(object sender, EventArgs e)
         {
             nombre = txt_nombre.Text;
             contraseña = txt_contraseña.Text;
-            //iniciarsesion.Open();
-            string sql = "select NombreU, ContraseñaU from Usuarios where ContarseñaU = '" + contraseña + "' and  NombreU = '" + nombre + "';";
-            OleDbCommand comando = new OleDbCommand(sql, conexion);
-            OleDbDataAdapter da = new OleDbDataAdapter(comando); 
+            iniciarsesion.Open();
+            string consulta = "select NombreU, ContraseñaU from Usuarios where ContarseñaU = '" + contraseña + "' and  NombreU = '" + nombre + "';";
+            OleDbCommand comando = new OleDbCommand(consulta, iniciarsesion);
             OleDbDataReader lector;
-
-            comando.CommandText = consulta;
-            consulta.ExecuteNonQuery();
-
-            //lector = comando.ExecuteReader();
-            //Boolean registroexist = lector.HasRows;
+            lector = comando.ExecuteReader();
+            Boolean registroexist = lector.HasRows;
 
             if (registroexist)
             {

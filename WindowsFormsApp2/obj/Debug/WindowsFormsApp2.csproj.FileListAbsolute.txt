@@ -59,3 +59,4 @@ C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pantalla_iniciosesion.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.bienvenidos.resources
