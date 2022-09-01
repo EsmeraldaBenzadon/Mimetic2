@@ -65,6 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bienvenidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bienvenidos.Designer.cs">
+      <DependentUpon>bienvenidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Crearcuenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="bienvenidos.resx">
+      <DependentUpon>bienvenidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Crearcuenta.resx">
       <DependentUpon>Crearcuenta.cs</DependentUpon>
     </EmbeddedResource>
