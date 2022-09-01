@@ -14,7 +14,7 @@ namespace WindowsFormsApp2
     public partial class Crearcuenta : Form
     {
         string Nombre;
-        string ContraseñaU;
+        string ContrasenaU;
         string Repetir;
         OleDbConnection DatabaseProyecto;
 
@@ -37,15 +37,15 @@ namespace WindowsFormsApp2
         private void BtnRegistrarse_Click(object sender, EventArgs e)
         {
             Nombre = txt_nombre.Text;
-            ContraseñaU = txt_contraseña.Text;
+            ContrasenaU = txt_contraseña.Text;
             Repetir = txt_repetir.Text; 
 
-            if (Nombre.Length >= 1 && ContraseñaU.Length >= 1 && ContraseñaU == Repetir)
+            if (Nombre.Length >= 1 && ContrasenaU.Length >= 1 && ContrasenaU == Repetir)
             {
                 DatabaseProyecto.Open();
                 OleDbCommand info;
                 Class1 a = new Class1();
-                a.Contraseña = ContraseñaU;
+                a.Contrasena = ContrasenaU;
                 a.Usuario = Nombre;
                 /* 
                 info = new OleDbCommand("SELECT FROM Usuarios WHERE NombreU='" + Nombre + "'");
@@ -59,13 +59,13 @@ namespace WindowsFormsApp2
                 
                 }
                  */
-                info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContraseñaU) VALUES ('" + Nombre + "' , '" + ContraseñaU + "')");
+                info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContrasenaU) VALUES ('" + Nombre + "' , '" + ContrasenaU + "')");
                 info.Connection = DatabaseProyecto;
                 info.ExecuteNonQuery();
                 DatabaseProyecto.Close();
                 MessageBox.Show("Sus datos se han enviado correctamente");
                 this.Hide();
-                menu_principal Nuevaventana = new menu_principal();
+                bienvenidos Nuevaventana = new bienvenidos();
                 Nuevaventana.Show();
             }
             else
@@ -76,7 +76,7 @@ namespace WindowsFormsApp2
 
             public class Class1
         {
-            public string Contraseña;
+            public string Contrasena;
             public string Usuario;
         }
     }

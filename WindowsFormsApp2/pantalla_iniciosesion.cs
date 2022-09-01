@@ -14,7 +14,7 @@ namespace WindowsFormsApp2
     public partial class pantalla_iniciosesion : Form
     {
         string nombre;
-        string contraseña;
+        string contrasena;
         OleDbConnection iniciarsesion;
         
 
@@ -32,9 +32,9 @@ namespace WindowsFormsApp2
         private void Btn_iniciarsesion_Click(object sender, EventArgs e)
         {
             nombre = txt_nombre.Text;
-            contraseña = txt_contraseña.Text;
+            contrasena = txt_contraseña.Text;
             iniciarsesion.Open();
-            string consulta = "select NombreU, ContraseñaU from Usuarios where ContarseñaU = '" + contraseña + "' and  NombreU = '" + nombre + "';";
+            string consulta = "select NombreU, ContrasenaU from Usuarios where NombreU = '" + nombre + "' and ContrasenaU = '"+ contrasena  + "';";
             OleDbCommand comando = new OleDbCommand(consulta, iniciarsesion);
             OleDbDataReader lector;
             lector = comando.ExecuteReader();
@@ -43,7 +43,7 @@ namespace WindowsFormsApp2
             if (registroexist)
             {
                 MessageBox.Show("Bienvenido a Mimetic");
-                menu_principal abrir = new menu_principal();
+                bienvenidos abrir = new bienvenidos();
                 this.Hide();
                 abrir.Show();
             }
