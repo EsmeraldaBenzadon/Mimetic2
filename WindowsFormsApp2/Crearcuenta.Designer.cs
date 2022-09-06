@@ -47,7 +47,7 @@
             // txt_repetir
             // 
             this.txt_repetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.txt_repetir.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_repetir.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_repetir.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
             this.txt_repetir.ForeColor = System.Drawing.Color.Black;
             this.txt_repetir.Location = new System.Drawing.Point(213, 295);
@@ -73,7 +73,7 @@
             // txt_contraseña
             // 
             this.txt_contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_contraseña.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
             this.txt_contraseña.ForeColor = System.Drawing.Color.Black;
             this.txt_contraseña.Location = new System.Drawing.Point(213, 207);
@@ -85,7 +85,7 @@
             // txt_nombre
             // 
             this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_nombre.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombre.ForeColor = System.Drawing.Color.Black;
             this.txt_nombre.Location = new System.Drawing.Point(213, 121);

@@ -28,78 +28,74 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pantalla_iniciosesion));
             this.txt_nombre = new System.Windows.Forms.TextBox();
             this.txt_contraseña = new System.Windows.Forms.TextBox();
             this.btn_iniciarsesion = new System.Windows.Forms.Button();
             this.btn_recupcontra = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(229, 82);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(229, 126);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Contraseña";
-            // 
             // txt_nombre
             // 
-            this.txt_nombre.Location = new System.Drawing.Point(321, 82);
+            this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_nombre.Location = new System.Drawing.Point(246, 163);
+            this.txt_nombre.Multiline = true;
             this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(100, 20);
+            this.txt_nombre.Size = new System.Drawing.Size(315, 33);
             this.txt_nombre.TabIndex = 2;
             // 
             // txt_contraseña
             // 
-            this.txt_contraseña.Location = new System.Drawing.Point(321, 126);
+            this.txt_contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_contraseña.Location = new System.Drawing.Point(246, 271);
+            this.txt_contraseña.Multiline = true;
             this.txt_contraseña.Name = "txt_contraseña";
-            this.txt_contraseña.Size = new System.Drawing.Size(100, 20);
+            this.txt_contraseña.Size = new System.Drawing.Size(315, 34);
             this.txt_contraseña.TabIndex = 3;
             // 
             // btn_iniciarsesion
             // 
-            this.btn_iniciarsesion.Location = new System.Drawing.Point(457, 107);
+            this.btn_iniciarsesion.BackColor = System.Drawing.Color.Transparent;
+            this.btn_iniciarsesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_iniciarsesion.BackgroundImage")));
+            this.btn_iniciarsesion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_iniciarsesion.FlatAppearance.BorderSize = 0;
+            this.btn_iniciarsesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iniciarsesion.Location = new System.Drawing.Point(305, 329);
             this.btn_iniciarsesion.Name = "btn_iniciarsesion";
-            this.btn_iniciarsesion.Size = new System.Drawing.Size(119, 32);
+            this.btn_iniciarsesion.Size = new System.Drawing.Size(200, 46);
             this.btn_iniciarsesion.TabIndex = 4;
-            this.btn_iniciarsesion.Text = "INICIAR SESION";
-            this.btn_iniciarsesion.UseVisualStyleBackColor = true;
+            this.btn_iniciarsesion.UseVisualStyleBackColor = false;
             this.btn_iniciarsesion.Click += new System.EventHandler(this.Btn_iniciarsesion_Click);
             // 
             // btn_recupcontra
             // 
-            this.btn_recupcontra.Location = new System.Drawing.Point(583, 107);
+            this.btn_recupcontra.BackColor = System.Drawing.Color.Transparent;
+            this.btn_recupcontra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_recupcontra.BackgroundImage")));
+            this.btn_recupcontra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_recupcontra.FlatAppearance.BorderSize = 0;
+            this.btn_recupcontra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_recupcontra.Location = new System.Drawing.Point(323, 380);
             this.btn_recupcontra.Name = "btn_recupcontra";
-            this.btn_recupcontra.Size = new System.Drawing.Size(145, 23);
+            this.btn_recupcontra.Size = new System.Drawing.Size(163, 12);
             this.btn_recupcontra.TabIndex = 5;
-            this.btn_recupcontra.Text = "Recuperar contarseña";
-            this.btn_recupcontra.UseVisualStyleBackColor = true;
+            this.btn_recupcontra.UseVisualStyleBackColor = false;
             // 
             // pantalla_iniciosesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_recupcontra);
             this.Controls.Add(this.btn_iniciarsesion);
             this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.txt_nombre);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Name = "pantalla_iniciosesion";
-            this.Text = "pantalla_iniciosesion";
+            this.Text = "m   --m";
             this.Load += new System.EventHandler(this.Pantalla_iniciosesion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -107,9 +103,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.TextBox txt_contraseña;
         private System.Windows.Forms.Button btn_iniciarsesion;
