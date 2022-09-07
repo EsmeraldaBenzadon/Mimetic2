@@ -79,5 +79,18 @@ namespace WindowsFormsApp2
             public string Contrasena;
             public string Usuario;
         }
+       
+
+        private void Txt_contraseña_TextChanged(object sender, EventArgs e)
+        {
+            txt_contraseña.PasswordChar = '°';
+        }
+
+        
+
+        private void Txt_repetir_TextChanged(object sender, EventArgs e)
+        {
+            txt_repetir.PasswordChar = '°';
+        }
     }
     }

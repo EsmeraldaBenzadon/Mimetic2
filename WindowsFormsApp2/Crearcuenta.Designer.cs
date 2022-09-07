@@ -55,6 +55,7 @@
             this.txt_repetir.Name = "txt_repetir";
             this.txt_repetir.Size = new System.Drawing.Size(246, 36);
             this.txt_repetir.TabIndex = 3;
+            this.txt_repetir.TextChanged += new System.EventHandler(this.Txt_repetir_TextChanged);
             // 
             // btnRegistrarse
             // 
@@ -81,6 +82,7 @@
             this.txt_contraseña.Name = "txt_contraseña";
             this.txt_contraseña.Size = new System.Drawing.Size(246, 36);
             this.txt_contraseña.TabIndex = 5;
+            this.txt_contraseña.TextChanged += new System.EventHandler(this.Txt_contraseña_TextChanged);
             // 
             // txt_nombre
             // 
