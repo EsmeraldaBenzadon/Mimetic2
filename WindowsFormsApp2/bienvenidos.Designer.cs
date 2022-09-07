@@ -48,6 +48,7 @@
             this.btnabc.Size = new System.Drawing.Size(171, 107);
             this.btnabc.TabIndex = 0;
             this.btnabc.UseVisualStyleBackColor = false;
+            this.btnabc.Click += new System.EventHandler(this.Btnabc_Click);
             // 
             // btnfrases
             // 

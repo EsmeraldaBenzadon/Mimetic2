@@ -16,5 +16,12 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void Btnabc_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Abecedario Nuevaventana = new Abecedario();
+            Nuevaventana.Show();
+        }
     }
 }

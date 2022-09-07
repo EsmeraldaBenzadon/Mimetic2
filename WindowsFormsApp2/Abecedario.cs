@@ -16,5 +16,19 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bienvenidos Nuevaventana = new bienvenidos ();
+            Nuevaventana.Show();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            A Nuevaventana = new A();
+            Nuevaventana.Show();
+        }
     }
 }
