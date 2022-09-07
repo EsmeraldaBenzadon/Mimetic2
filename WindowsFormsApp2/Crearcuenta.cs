@@ -92,5 +92,29 @@ namespace WindowsFormsApp2
         {
             txt_repetir.PasswordChar = '°';
         }
+
+        private void Pbmostrar_Click(object sender, EventArgs e)
+        {
+            pbocultar.BringToFront(); //imagen ocultar la mandamos al frente
+            txt_contraseña.PasswordChar = '\0'; //mostamos la contraseña
+        }
+
+        private void Pbocultar_Click(object sender, EventArgs e)
+        {
+            pbmostrar.BringToFront(); // imagen mostrar la mandamos al frente
+            txt_contraseña.PasswordChar = '°'; //ocultamos la contraseña
+        }
+
+        private void Pbmostrar_rep_Click(object sender, EventArgs e)
+        {
+            pbocultar_rep.BringToFront();
+            txt_repetir.PasswordChar = '\0';
+        }
+
+        private void Pbocultar_rep_Click(object sender, EventArgs e)
+        {
+            pbmostrar_rep.BringToFront();
+            txt_repetir.PasswordChar = '°';
+        }
     }
     }

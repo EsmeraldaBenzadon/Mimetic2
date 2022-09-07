@@ -33,6 +33,10 @@
             this.txt_contraseña = new System.Windows.Forms.TextBox();
             this.btn_iniciarsesion = new System.Windows.Forms.Button();
             this.btn_recupcontra = new System.Windows.Forms.Button();
+            this.pbocultar = new System.Windows.Forms.PictureBox();
+            this.pbmostrar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbocultar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmostrar)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_nombre
@@ -54,6 +58,7 @@
             this.txt_contraseña.Name = "txt_contraseña";
             this.txt_contraseña.Size = new System.Drawing.Size(315, 34);
             this.txt_contraseña.TabIndex = 3;
+            this.txt_contraseña.TextChanged += new System.EventHandler(this.Txt_contraseña_TextChanged);
             // 
             // btn_iniciarsesion
             // 
@@ -82,6 +87,30 @@
             this.btn_recupcontra.TabIndex = 5;
             this.btn_recupcontra.UseVisualStyleBackColor = false;
             // 
+            // pbocultar
+            // 
+            this.pbocultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.pbocultar.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo_tachado__1_;
+            this.pbocultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbocultar.Location = new System.Drawing.Point(526, 278);
+            this.pbocultar.Name = "pbocultar";
+            this.pbocultar.Size = new System.Drawing.Size(26, 20);
+            this.pbocultar.TabIndex = 11;
+            this.pbocultar.TabStop = false;
+            this.pbocultar.Click += new System.EventHandler(this.Pbocultar_Click);
+            // 
+            // pbmostrar
+            // 
+            this.pbmostrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.pbmostrar.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo;
+            this.pbmostrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbmostrar.Location = new System.Drawing.Point(526, 278);
+            this.pbmostrar.Name = "pbmostrar";
+            this.pbmostrar.Size = new System.Drawing.Size(26, 20);
+            this.pbmostrar.TabIndex = 12;
+            this.pbmostrar.TabStop = false;
+            this.pbmostrar.Click += new System.EventHandler(this.Pbmostrar_Click);
+            // 
             // pantalla_iniciosesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -89,6 +118,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pbmostrar);
+            this.Controls.Add(this.pbocultar);
             this.Controls.Add(this.btn_recupcontra);
             this.Controls.Add(this.btn_iniciarsesion);
             this.Controls.Add(this.txt_contraseña);
@@ -97,6 +128,8 @@
             this.Name = "pantalla_iniciosesion";
             this.Text = "m   --m";
             this.Load += new System.EventHandler(this.Pantalla_iniciosesion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbocultar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmostrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,5 +140,7 @@
         private System.Windows.Forms.TextBox txt_contraseña;
         private System.Windows.Forms.Button btn_iniciarsesion;
         private System.Windows.Forms.Button btn_recupcontra;
+        private System.Windows.Forms.PictureBox pbocultar;
+        private System.Windows.Forms.PictureBox pbmostrar;
     }
 }

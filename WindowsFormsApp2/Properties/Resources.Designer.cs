@@ -63,6 +63,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ojo {
+            get {
+                object obj = ResourceManager.GetObject("ojo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ojo_abierto_3_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("ojo_abierto_3-removebg-preview", resourceCulture);
@@ -86,6 +96,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap ojo_ocultar_2_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("ojo_ocultar_2-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ojo_tachado__1_ {
+            get {
+                object obj = ResourceManager.GetObject("ojo tachado (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

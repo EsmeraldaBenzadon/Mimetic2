@@ -54,5 +54,22 @@ namespace WindowsFormsApp2
             }
             iniciarsesion.Close();
         }
+
+        private void Pbocultar_Click(object sender, EventArgs e)
+        {
+            pbmostrar.BringToFront(); // imagen mostrar la mandamos al frente
+            txt_contraseña.PasswordChar = '°'; //ocultamos la contraseña
+        }
+
+        private void Pbmostrar_Click(object sender, EventArgs e)
+        {
+            pbocultar.BringToFront(); //imagen ocultar la mandamos al frente
+            txt_contraseña.PasswordChar = '\0'; //mostamos la contraseña
+        }
+
+        private void Txt_contraseña_TextChanged(object sender, EventArgs e)
+        {
+            txt_contraseña.PasswordChar = '°';
+        }
     }
 }

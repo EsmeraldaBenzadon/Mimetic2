@@ -354,5 +354,11 @@
   <ItemGroup>
     <None Include="Resources\ojo_tachado_3-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojo tachado %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
