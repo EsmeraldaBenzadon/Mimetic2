@@ -23,11 +23,6 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Crearcuenta_Load(object sender, EventArgs e)
         {
             DatabaseProyecto = new OleDbConnection();
@@ -38,7 +33,7 @@ namespace WindowsFormsApp2
         {
             Nombre = txt_nombre.Text;
             ContrasenaU = txt_contraseña.Text;
-            Repetir = txt_repetir.Text; 
+            Repetir = txt_repetir.Text;
 
             if (Nombre.Length >= 1 && ContrasenaU.Length >= 1 && ContrasenaU == Repetir)
             {
@@ -47,18 +42,22 @@ namespace WindowsFormsApp2
                 Class1 a = new Class1();
                 a.Contrasena = ContrasenaU;
                 a.Usuario = Nombre;
-                /* 
-                info = new OleDbCommand("SELECT FROM Usuarios WHERE NombreU='" + Nombre + "'");
-                OleDbDataReader lector;
-                lector = info.ExecuteReader();
+               
+                string preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
 
-                if (!!lector["Nombre"]){
+                
+                OleDbDataReader reader;
+                OleDbCommand comando = new OleDbCommand(preg, DatabaseProyecto);
+                reader = comando.ExecuteReader();
+
+
+                if (Nombre == preg){// poner el nombre que sacas de la base de datos
                     MessageBox.Show("Ese nombre ya esta en uso");
                     return;
-                } else {
-                
                 }
-                 */
+
+                else {
+                
                 info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContrasenaU) VALUES ('" + Nombre + "' , '" + ContrasenaU + "')");
                 info.Connection = DatabaseProyecto;
                 info.ExecuteNonQuery();
@@ -67,7 +66,9 @@ namespace WindowsFormsApp2
                 this.Hide();
                 bienvenidos Nuevaventana = new bienvenidos();
                 Nuevaventana.Show();
+                }
             }
+
             else
             {
                 MessageBox.Show("Complete todas los casilleros correctamente");
