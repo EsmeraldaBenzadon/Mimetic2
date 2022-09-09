@@ -17,6 +17,7 @@ namespace WindowsFormsApp2
         string ContrasenaU;
         string Repetir;
         OleDbConnection DatabaseProyecto;
+        DataSet ds = new DataSet();
 
         public Crearcuenta()
         {
@@ -42,16 +43,22 @@ namespace WindowsFormsApp2
                 Class1 a = new Class1();
                 a.Contrasena = ContrasenaU;
                 a.Usuario = Nombre;
-               
-                string preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
 
-                
-                OleDbDataReader reader;
-                OleDbCommand comando = new OleDbCommand(preg, DatabaseProyecto);
-                reader = comando.ExecuteReader();
+                { 
+                    String preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
+                     OleDbCommand comando = new OleDbCommand(preg, DatabaseProyecto);
+                     OleDbDataAdapter da = new OleDbDataAdapter(comando);
+                     da.Fill(ds, "Usuarios");
+                    for (int i = 0; i < ds.Tables["Usuarios"].Rows.Count; i++)
+                     txt_nombre.Text = ds.Tables["Usuarios"].Rows[0]["NombreU"].ToString();
 
+                    //reader = comando.ExecuteReader();
+                    //OleDbDataReader read;
+                    //read = comando.ExecuteReader();
+                    //OleDbDataReader reader;
 
-                if (Nombre == preg){// poner el nombre que sacas de la base de datos
+                    { if (Nombre == preg)// poner el nombre que sacas de la base de datos
+                {
                     MessageBox.Show("Ese nombre ya esta en uso");
                     return;
                 }
@@ -67,6 +74,11 @@ namespace WindowsFormsApp2
                 bienvenidos Nuevaventana = new bienvenidos();
                 Nuevaventana.Show();
                 }
+                }
+
+                    }
+                 
+               
             }
 
             else
