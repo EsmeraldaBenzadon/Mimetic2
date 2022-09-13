@@ -46,12 +46,11 @@ namespace WindowsFormsApp2
 
                 { 
                     String preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
-                     OleDbCommand comando = new OleDbCommand(preg, DatabaseProyecto);
-                     OleDbDataAdapter da = new OleDbDataAdapter(comando);
-                     da.Fill(ds, "Usuarios");
-                    for (int i = 0; i < ds.Tables["Usuarios"].Rows.Count; i++)
-                     txt_nombre.Text = ds.Tables["Usuarios"].Rows[0]["NombreU"].ToString();
-
+                    OleDbCommand comando = new OleDbCommand(preg, DatabaseProyecto);
+                    OleDbDataAdapter da = new OleDbDataAdapter(comando);
+                    da.Fill(ds, "Usuarios");
+                    txt_nombre.Text = ds.Tables["Usuarios"].Rows[0]["NombreU"].ToString();
+                    
                     //reader = comando.ExecuteReader();
                     //OleDbDataReader read;
                     //read = comando.ExecuteReader();
