@@ -88,6 +88,7 @@
             this.btnJugamos.Size = new System.Drawing.Size(165, 107);
             this.btnJugamos.TabIndex = 3;
             this.btnJugamos.UseVisualStyleBackColor = false;
+            this.btnJugamos.Click += new System.EventHandler(this.BtnJugamos_Click);
             // 
             // button1
             // 
@@ -101,6 +102,7 @@
             this.button1.Size = new System.Drawing.Size(46, 54);
             this.button1.TabIndex = 4;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // bienvenidos
             // 

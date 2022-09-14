@@ -23,5 +23,17 @@ namespace WindowsFormsApp2
             Abecedario Nuevaventana = new Abecedario();
             Nuevaventana.Show();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BtnJugamos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menu_juegos Nuevaventana = new menu_juegos();
+            Nuevaventana.Show();
+        }
     }
 }

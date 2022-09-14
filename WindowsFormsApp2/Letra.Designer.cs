@@ -60,6 +60,7 @@
             this.DoubleBuffered = true;
             this.Name = "Letra";
             this.Text = "Letra";
+            this.Load += new System.EventHandler(this.Letra_Load);
             this.Shown += new System.EventHandler(this.Letra_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.reproductor)).EndInit();
             this.ResumeLayout(false);

@@ -37,5 +37,10 @@ namespace WindowsFormsApp2
             reproductor.URL = dirProyecto + "Letras\\" + letra + ".mp4";
             reproductor.Ctlcontrols.play();
         }
+
+        private void Letra_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -48,6 +48,7 @@
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(315, 33);
             this.txt_nombre.TabIndex = 2;
+            this.txt_nombre.TextChanged += new System.EventHandler(this.Txt_nombre_TextChanged);
             // 
             // txt_contraseña
             // 

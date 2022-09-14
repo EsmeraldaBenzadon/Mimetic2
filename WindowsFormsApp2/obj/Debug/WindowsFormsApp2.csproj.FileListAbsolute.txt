@@ -97,3 +97,11 @@ C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsA
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Letra.resources
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\bin\Debug\Interop.WMPLib.dll
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\Interop.WMPLib.dll
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\Interop.WMPLib.dll
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.ResolveComReference.cache
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Letra.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ABC.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.menu_juegos.resources

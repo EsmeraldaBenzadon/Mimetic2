@@ -65,6 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC.Designer.cs">
+      <DependentUpon>ABC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Abecedario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     <Compile Include="Letra.Designer.cs">
       <DependentUpon>Letra.cs</DependentUpon>
     </Compile>
+    <Compile Include="menu juegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu juegos.Designer.cs">
+      <DependentUpon>menu juegos.cs</DependentUpon>
+    </Compile>
     <Compile Include="pantalla logueo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ABC.resx">
+      <DependentUpon>ABC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Letra.resx">
       <DependentUpon>Letra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu juegos.resx">
+      <DependentUpon>menu juegos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pantalla logueo.resx">
       <DependentUpon>pantalla logueo.cs</DependentUpon>
