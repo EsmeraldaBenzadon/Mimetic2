@@ -538,6 +538,7 @@
             this.DoubleBuffered = true;
             this.Name = "Abecedario";
             this.Text = "Abecedario";
+            this.Load += new System.EventHandler(this.Abecedario_Load);
             this.ResumeLayout(false);
 
         }

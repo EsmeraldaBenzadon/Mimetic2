@@ -12,6 +12,8 @@ namespace WindowsFormsApp2
 {
     public partial class Abecedario : Form
     {
+       public static string letras = "0";
+
         public Abecedario()
         {
             InitializeComponent();
@@ -27,211 +29,218 @@ namespace WindowsFormsApp2
         private void Button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            A Nuevaventana = new A();
+            letras = "A";
+            Letra Nuevaventana = new Letra(letras);//para pasar una variable a otro form 
             Nuevaventana.Show();
+
         }
 
         private void BtnB_Click(object sender, EventArgs e)
         {
             this.Hide();
-            B Nuevaventana = new B();
+            Letra Nuevaventana = new Letra("B");
             Nuevaventana.Show();
         }
 
         private void BtnC_Click(object sender, EventArgs e)
         {
             this.Hide();
-            C Nuevaventana = new C ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnCh_Click(object sender, EventArgs e)
         {
             this.Hide();
-            CH Nuevaventana = new CH();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            D Nuevaventana = new D();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnE_Click(object sender, EventArgs e)
         {
             this.Hide();
-            E Nuevaventana = new E ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnF_Click(object sender, EventArgs e)
         {
             this.Hide();
-            F Nuevaventana = new F ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnG_Click(object sender, EventArgs e)
         {
             this.Hide();
-            G Nuevaventana = new G ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnH_Click(object sender, EventArgs e)
         {
             this.Hide();
-            H Nuevaventana = new H ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnI_Click(object sender, EventArgs e)
         {
             this.Hide();
-            I Nuevaventana = new I();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnJ_Click(object sender, EventArgs e)
         {
             this.Hide();
-            J Nuevaventana = new J();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnK_Click(object sender, EventArgs e)
         {
             this.Hide();
-            K Nuevaventana = new K();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnL_Click(object sender, EventArgs e)
         {
             this.Hide();
-            L Nuevaventana = new L ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void Btn2L_Click(object sender, EventArgs e)
         {
             this.Hide();
-            LL Nuevaventana = new LL ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnM_Click(object sender, EventArgs e)
         {
             this.Hide();
-            M Nuevaventana = new M ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnN_Click(object sender, EventArgs e)
         {
             this.Hide();
-            N Nuevaventana = new N ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnÑ_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Ñ Nuevaventana = new Ñ ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnO_Click(object sender, EventArgs e)
         {
             this.Hide();
-            O Nuevaventana = new O ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnP_Click(object sender, EventArgs e)
         {
             this.Hide();
-            P Nuevaventana = new P ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnQ_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Q Nuevaventana = new Q ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnR_Click(object sender, EventArgs e)
         {
             this.Hide();
-            R Nuevaventana = new R ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnRR_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RR Nuevaventana = new RR();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnS_Click(object sender, EventArgs e)
         {
             this.Hide();
-            S Nuevaventana = new S ();
+            Letra Nuevaventana = new Letra ("");
             Nuevaventana.Show();
         }
 
         private void BtnT_Click(object sender, EventArgs e)
         {
             this.Hide();
-            T Nuevaventana = new T ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnU_Click(object sender, EventArgs e)
         {
             this.Hide();
-            U Nuevaventana = new U ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnV_Click(object sender, EventArgs e)
         {
             this.Hide();
-            V Nuevaventana = new V ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void Button1_Click_2(object sender, EventArgs e)
         {
             this.Hide();
-            W Nuevaventana = new W ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnXX_Click(object sender, EventArgs e)
         {
             this.Hide();
-            XX Nuevaventana = new XX();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnY_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Y Nuevaventana = new Y ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
         }
 
         private void BtnZ_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Z Nuevaventana = new Z ();
+            Letra Nuevaventana = new Letra("");
             Nuevaventana.Show();
+        }
+
+        private void Abecedario_Load(object sender, EventArgs e)
+        {
+         
         }
     }
 }

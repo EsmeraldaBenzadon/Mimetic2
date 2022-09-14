@@ -65,23 +65,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="A.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="A.Designer.cs">
-      <DependentUpon>A.cs</DependentUpon>
-    </Compile>
     <Compile Include="Abecedario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Abecedario.Designer.cs">
       <DependentUpon>Abecedario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="B.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="B.Designer.cs">
-      <DependentUpon>B.cs</DependentUpon>
     </Compile>
     <Compile Include="bienvenidos.cs">
       <SubType>Form</SubType>
@@ -89,41 +77,11 @@
     <Compile Include="bienvenidos.Designer.cs">
       <DependentUpon>bienvenidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="C.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="C.Designer.cs">
-      <DependentUpon>C.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CH.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CH.Designer.cs">
-      <DependentUpon>CH.cs</DependentUpon>
-    </Compile>
     <Compile Include="Crearcuenta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Crearcuenta.Designer.cs">
       <DependentUpon>Crearcuenta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="D.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="D.Designer.cs">
-      <DependentUpon>D.cs</DependentUpon>
-    </Compile>
-    <Compile Include="E.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="E.Designer.cs">
-      <DependentUpon>E.cs</DependentUpon>
-    </Compile>
-    <Compile Include="F.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="F.Designer.cs">
-      <DependentUpon>F.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -131,71 +89,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="G.cs">
+    <Compile Include="Letra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="G.Designer.cs">
-      <DependentUpon>G.cs</DependentUpon>
-    </Compile>
-    <Compile Include="H.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="H.Designer.cs">
-      <DependentUpon>H.cs</DependentUpon>
-    </Compile>
-    <Compile Include="I.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="I.Designer.cs">
-      <DependentUpon>I.cs</DependentUpon>
-    </Compile>
-    <Compile Include="J.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="J.Designer.cs">
-      <DependentUpon>J.cs</DependentUpon>
-    </Compile>
-    <Compile Include="K.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="K.Designer.cs">
-      <DependentUpon>K.cs</DependentUpon>
-    </Compile>
-    <Compile Include="L.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="L.Designer.cs">
-      <DependentUpon>L.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LL.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LL.Designer.cs">
-      <DependentUpon>LL.cs</DependentUpon>
-    </Compile>
-    <Compile Include="M.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="M.Designer.cs">
-      <DependentUpon>M.cs</DependentUpon>
-    </Compile>
-    <Compile Include="N.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="N.Designer.cs">
-      <DependentUpon>N.cs</DependentUpon>
-    </Compile>
-    <Compile Include="O.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="O.Designer.cs">
-      <DependentUpon>O.cs</DependentUpon>
-    </Compile>
-    <Compile Include="P.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="P.Designer.cs">
-      <DependentUpon>P.cs</DependentUpon>
+    <Compile Include="Letra.Designer.cs">
+      <DependentUpon>Letra.cs</DependentUpon>
     </Compile>
     <Compile Include="pantalla logueo.cs">
       <SubType>Form</SubType>
@@ -211,78 +109,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Q.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Q.Designer.cs">
-      <DependentUpon>Q.cs</DependentUpon>
-    </Compile>
-    <Compile Include="R.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="R.Designer.cs">
-      <DependentUpon>R.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RR.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RR.Designer.cs">
-      <DependentUpon>RR.cs</DependentUpon>
-    </Compile>
-    <Compile Include="S.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="S.Designer.cs">
-      <DependentUpon>S.cs</DependentUpon>
-    </Compile>
-    <Compile Include="T.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="T.Designer.cs">
-      <DependentUpon>T.cs</DependentUpon>
-    </Compile>
-    <Compile Include="U.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="U.Designer.cs">
-      <DependentUpon>U.cs</DependentUpon>
-    </Compile>
-    <Compile Include="V.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="V.Designer.cs">
-      <DependentUpon>V.cs</DependentUpon>
-    </Compile>
-    <Compile Include="W.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="W.Designer.cs">
-      <DependentUpon>W.cs</DependentUpon>
-    </Compile>
-    <Compile Include="XX.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="XX.Designer.cs">
-      <DependentUpon>XX.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Y.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Y.Designer.cs">
-      <DependentUpon>Y.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Z.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Z.Designer.cs">
-      <DependentUpon>Z.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ñ.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ñ.Designer.cs">
-      <DependentUpon>Ñ.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
     </EmbeddedResource>
@@ -294,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Letra.resx">
+      <DependentUpon>Letra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pantalla logueo.resx">
       <DependentUpon>pantalla logueo.cs</DependentUpon>
@@ -359,6 +188,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
