@@ -24,11 +24,15 @@ namespace WindowsFormsApp2
             string nombre = txt_nom.Text;
             int startIndex = txt_nom.TextLength;
             int endIndex = txt_nom.TextLength;
-            string letra = nombre.Substring(startIndex, endIndex);
+            string letra = startIndex, endIndex;
+            if (startIndex > 0)
+            {
+                nombre = (Convert.ToInt32(nombre.Text.Substring(startIndex, endIndex)));
+                throw new letra
+            }
             /*for (int i = 0; i < nombre.Length; i++)
             {
                 char letraDelNombre = nombre[i];
-
             }
             */
         }
