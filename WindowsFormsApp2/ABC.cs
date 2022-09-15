@@ -1,40 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.OleDb;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
     public partial class ABC : Form
     {
+        OleDbConnection DatabaseProyecto;
 
         public ABC()
         {
             InitializeComponent();
         }
- 
 
         private void Btn_nom_Click(object sender, EventArgs e)
         {
             string nombre = txt_nom.Text;
-            int startIndex = txt_nom.TextLength;
-            int endIndex = txt_nom.TextLength;
-            string letra = startIndex, endIndex;
-            if (startIndex > 0)
+            char letraDelNombre;
+            DatabaseProyecto.Open();
+            for (int i = 0; i < nombre.Length; i++)
             {
-                nombre = (Convert.ToInt32(nombre.Text.Substring(startIndex, endIndex)));
-                throw new letra
+                letraDelNombre = nombre[i];
+                string consulta = "select letra from abc where letra = '" + letraDelNombre + "';";
+                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
+                OleDbDataReader lector;
+                lector = comando.ExecuteReader();
             }
-            /*for (int i = 0; i < nombre.Length; i++)
-            {
-                char letraDelNombre = nombre[i];
-            }
-            */
+
+
+        }
+
+        private void ABC_Load(object sender, EventArgs e)
+        {
+            DatabaseProyecto = new OleDbConnection();
+            DatabaseProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
         }
     }
 }
