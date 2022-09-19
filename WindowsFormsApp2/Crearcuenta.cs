@@ -13,6 +13,8 @@ namespace WindowsFormsApp2
 {
     public partial class Crearcuenta : Form
     {
+        public static string Class1;
+
         string Nombre;
         string ContrasenaU;
         string Repetir;
@@ -28,6 +30,7 @@ namespace WindowsFormsApp2
         {
             DatabaseProyecto = new OleDbConnection();
             DatabaseProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
+            
         }
 
         private void BtnRegistrarse_Click(object sender, EventArgs e)
@@ -41,7 +44,6 @@ namespace WindowsFormsApp2
                 DatabaseProyecto.Open();
                 OleDbCommand info;
                 Class1 a = new Class1();
-                a.Contrasena = ContrasenaU;
                 a.Usuario = Nombre;
 
                 { 
@@ -88,7 +90,6 @@ namespace WindowsFormsApp2
 
             public class Class1
         {
-            public string Contrasena;
             public string Usuario;
         }
        

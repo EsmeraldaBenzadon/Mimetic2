@@ -49,7 +49,7 @@ namespace WindowsFormsApp2
             }
             else
             {
-                MessageBox.Show("Revise el usuario y contarseña, intente de nuevo");
+                MessageBox.Show("Revise el usuario y la contarseña, intente de nuevo");
                 return;
             }
             iniciarsesion.Close();

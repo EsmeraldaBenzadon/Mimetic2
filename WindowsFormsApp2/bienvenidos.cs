@@ -26,7 +26,9 @@ namespace WindowsFormsApp2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            pantalla_logueo Nuevaventana = new pantalla_logueo();
+            Nuevaventana.Show();
         }
 
         private void BtnJugamos_Click(object sender, EventArgs e)
@@ -34,6 +36,11 @@ namespace WindowsFormsApp2
             this.Hide();
             menu_juegos Nuevaventana = new menu_juegos();
             Nuevaventana.Show();
+        }
+
+        private void Bienvenidos_Load(object sender, EventArgs e)
+        {
+            label1.Text = Crearcuenta.Class1;
         }
     }
 }

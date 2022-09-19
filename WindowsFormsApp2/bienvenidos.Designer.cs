@@ -34,6 +34,7 @@
             this.btnvocabulario = new System.Windows.Forms.Button();
             this.btnJugamos = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnabc
@@ -104,6 +105,14 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(23, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 5;
+            // 
             // bienvenidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,6 +120,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnJugamos);
             this.Controls.Add(this.btnvocabulario);
@@ -119,7 +129,9 @@
             this.DoubleBuffered = true;
             this.Name = "bienvenidos";
             this.Text = "bienvenidos";
+            this.Load += new System.EventHandler(this.Bienvenidos_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -130,5 +142,6 @@
         private System.Windows.Forms.Button btnvocabulario;
         private System.Windows.Forms.Button btnJugamos;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
