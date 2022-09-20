@@ -11,7 +11,8 @@ using System.Windows.Forms;
 namespace WindowsFormsApp2
 {
     public partial class bienvenidos : Form
-    {
+    { //variable publica usuario
+        public string LogUsu;
         public bienvenidos()
         {
             InitializeComponent();
@@ -40,7 +41,12 @@ namespace WindowsFormsApp2
 
         private void Bienvenidos_Load(object sender, EventArgs e)
         {
-            label1.Text = Crearcuenta.Class1;
+            NomUsu.Text = LogUsu;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -83,6 +83,7 @@
     <Compile Include="bienvenidos.Designer.cs">
       <DependentUpon>bienvenidos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="Crearcuenta.cs">
       <SubType>Form</SubType>
     </Compile>

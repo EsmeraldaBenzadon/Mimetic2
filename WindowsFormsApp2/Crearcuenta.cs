@@ -13,8 +13,6 @@ namespace WindowsFormsApp2
 {
     public partial class Crearcuenta : Form
     {
-        public static string Class1;
-
         string Nombre;
         string ContrasenaU;
         string Repetir;
@@ -30,7 +28,7 @@ namespace WindowsFormsApp2
         {
             DatabaseProyecto = new OleDbConnection();
             DatabaseProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
-            
+
         }
 
         private void BtnRegistrarse_Click(object sender, EventArgs e)
@@ -44,42 +42,46 @@ namespace WindowsFormsApp2
                 DatabaseProyecto.Open();
                 OleDbCommand info;
                 Class1 a = new Class1();
-                a.Usuario = Nombre;
+                a.Cargar(Nombre);
+                a.Mostrar();
+                //a.Usuario = Nombre;
 
-                { 
+                {
                     String preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
                     OleDbCommand comando = new OleDbCommand(preg, DatabaseProyecto);
                     OleDbDataAdapter da = new OleDbDataAdapter(comando);
                     da.Fill(ds, "Usuarios");
-                    txt_nombre.Text = ds.Tables["Usuarios"].Rows[0]["NombreU"].ToString();
-                    
+                    //txt_nombre.Text = ds.Tables["Usuarios"].Rows[0]["NombreU"].ToString();
+
                     //reader = comando.ExecuteReader();
                     //OleDbDataReader read;
                     //read = comando.ExecuteReader();
                     //OleDbDataReader reader;
+                    
 
                     { if (Nombre == preg)// poner el nombre que sacas de la base de datos
-                {
-                    MessageBox.Show("Ese nombre ya esta en uso");
-                    return;
-                }
+                        {
+                            MessageBox.Show("Ese nombre ya esta en uso");
+                            return;
+                        }
 
-                else {
-                
-                info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContrasenaU) VALUES ('" + Nombre + "' , '" + ContrasenaU + "')");
-                info.Connection = DatabaseProyecto;
-                info.ExecuteNonQuery();
-                DatabaseProyecto.Close();
-                MessageBox.Show("Sus datos se han enviado correctamente");
-                this.Hide();
-                bienvenidos Nuevaventana = new bienvenidos();
-                Nuevaventana.Show();
-                }
-                }
+                        else {
 
+                            info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContrasenaU) VALUES ('" + Nombre + "' , '" + ContrasenaU + "')");
+                            info.Connection = DatabaseProyecto;
+                            info.ExecuteNonQuery();
+                            DatabaseProyecto.Close();
+                            MessageBox.Show("Sus datos se han enviado correctamente");
+                            this.Hide();
+                            bienvenidos Nuevaventana = new bienvenidos();
+                            Nuevaventana.LogUsu = a.Mostrar();
+                            Nuevaventana.Show();
+                        }
                     }
-                 
-               
+
+                }
+
+
             }
 
             else
@@ -88,11 +90,21 @@ namespace WindowsFormsApp2
             }
         }
 
-            public class Class1
+        public class Class1
         {
             public string Usuario;
+
+            public string Mostrar()
+            {
+                //Console.WriteLine(Usuario);
+                return (Usuario);
+            }
+            public void Cargar(string NuevoUsu)
+            {
+                Usuario = NuevoUsu;
+            }
         }
-       
+  
 
         private void Txt_contraseña_TextChanged(object sender, EventArgs e)
         {
