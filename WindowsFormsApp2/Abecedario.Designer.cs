@@ -60,6 +60,7 @@
             this.btnXX = new System.Windows.Forms.Button();
             this.btnY = new System.Windows.Forms.Button();
             this.btnZ = new System.Windows.Forms.Button();
+            this.NomUsu = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVolver
@@ -83,7 +84,7 @@
             this.btnA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnA.FlatAppearance.BorderSize = 0;
             this.btnA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnA.Location = new System.Drawing.Point(18, 29);
+            this.btnA.Location = new System.Drawing.Point(18, 28);
             this.btnA.Name = "btnA";
             this.btnA.Size = new System.Drawing.Size(78, 75);
             this.btnA.TabIndex = 1;
@@ -497,6 +498,15 @@
             this.btnZ.UseVisualStyleBackColor = false;
             this.btnZ.Click += new System.EventHandler(this.BtnZ_Click);
             // 
+            // NomUsu
+            // 
+            this.NomUsu.AutoSize = true;
+            this.NomUsu.Location = new System.Drawing.Point(716, 10);
+            this.NomUsu.Name = "NomUsu";
+            this.NomUsu.Size = new System.Drawing.Size(35, 13);
+            this.NomUsu.TabIndex = 31;
+            this.NomUsu.Text = "label1";
+            // 
             // Abecedario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -504,6 +514,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.btnZ);
             this.Controls.Add(this.btnY);
             this.Controls.Add(this.btnXX);
@@ -540,6 +551,7 @@
             this.Text = "Abecedario";
             this.Load += new System.EventHandler(this.Abecedario_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -576,5 +588,6 @@
         private System.Windows.Forms.Button btnXX;
         private System.Windows.Forms.Button btnY;
         private System.Windows.Forms.Button btnZ;
+        private System.Windows.Forms.Label NomUsu;
     }
 }

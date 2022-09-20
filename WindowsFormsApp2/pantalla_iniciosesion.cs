@@ -39,12 +39,16 @@ namespace WindowsFormsApp2
             OleDbDataReader lector;
             lector = comando.ExecuteReader();
             Boolean registroexist = lector.HasRows;
+            Class1 a = new Class1();
+            a.Cargar(nombre);
+            a.Mostrar();
 
             if (registroexist)
             {
                 MessageBox.Show("Bienvenido a Mimetic");
-                bienvenidos abrir = new bienvenidos();
                 this.Hide();
+                bienvenidos abrir = new bienvenidos();
+                abrir.LogUsu = a.Mostrar();
                 abrir.Show();
             }
             else
@@ -55,6 +59,20 @@ namespace WindowsFormsApp2
             iniciarsesion.Close();
         }
 
+        public class Class1
+        {
+            public string Usuario;
+
+            public string Mostrar()
+            {
+                //Console.WriteLine(Usuario);
+                return (Usuario);
+            }
+            public void Cargar(string NuevoUsu)
+            {
+                Usuario = NuevoUsu;
+            }
+        }
         private void Pbocultar_Click(object sender, EventArgs e)
         {
             pbmostrar.BringToFront(); // imagen mostrar la mandamos al frente

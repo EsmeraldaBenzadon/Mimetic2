@@ -50,7 +50,6 @@ C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
-C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Crearcuenta.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Fondoinicio.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pantalla_logueo.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
@@ -113,3 +112,4 @@ C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsAp
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.menu_juegos.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\bin\Debug\Interop.WMPLib.dll
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Class1.resources

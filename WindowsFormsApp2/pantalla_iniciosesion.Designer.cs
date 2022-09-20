@@ -127,7 +127,7 @@
             this.Controls.Add(this.txt_nombre);
             this.DoubleBuffered = true;
             this.Name = "pantalla_iniciosesion";
-            this.Text = "m   --m";
+            this.Text = "log in";
             this.Load += new System.EventHandler(this.Pantalla_iniciosesion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbocultar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbmostrar)).EndInit();

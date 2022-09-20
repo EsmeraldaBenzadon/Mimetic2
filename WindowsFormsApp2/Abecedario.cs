@@ -12,7 +12,10 @@ namespace WindowsFormsApp2
 {
     public partial class Abecedario : Form
     {
+
        public static string letras = "0";
+        //variable publica usuario
+        public string NombreUsu;
 
         public Abecedario()
         {
@@ -240,7 +243,8 @@ namespace WindowsFormsApp2
 
         private void Abecedario_Load(object sender, EventArgs e)
         {
-         
+           // LogUsu = Class1.Usuario;
+            NomUsu.Text = NombreUsu;
         }
     }
 }

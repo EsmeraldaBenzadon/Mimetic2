@@ -11,8 +11,20 @@ using System.Windows.Forms;
 namespace WindowsFormsApp2
 {
     public partial class bienvenidos : Form
-    { //variable publica usuario
+    {
+        public class Class1
+        {
+        //variable publica usuario
         public string LogUsu;
+            public string Mostrar()
+            {
+                //Console.WriteLine(Usuario);
+                return (LogUsu);
+            }
+        }
+        Class1 a = new Class1();
+        a.Mostrar();
+
         public bienvenidos()
         {
             InitializeComponent();
@@ -22,6 +34,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             Abecedario Nuevaventana = new Abecedario();
+            Nuevaventana.NombreUsu = a.Mostrar();
             Nuevaventana.Show();
         }
 
