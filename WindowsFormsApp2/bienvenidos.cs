@@ -23,7 +23,7 @@ namespace WindowsFormsApp2
             }
         }
         Class1 a = new Class1();
-        a.Mostrar();
+        //a.Mostrar();
 
         public bienvenidos()
         {
@@ -54,7 +54,7 @@ namespace WindowsFormsApp2
 
         private void Bienvenidos_Load(object sender, EventArgs e)
         {
-            NomUsu.Text = LogUsu;
+            //NomUsu.Text = LogUsu;
         }
 
         private void label1_Click(object sender, EventArgs e)

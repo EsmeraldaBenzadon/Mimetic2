@@ -48,7 +48,7 @@ namespace WindowsFormsApp2
                 MessageBox.Show("Bienvenido a Mimetic");
                 this.Hide();
                 bienvenidos abrir = new bienvenidos();
-                abrir.LogUsu = a.Mostrar();
+                //abrir.LogUsu = a.Mostrar();
                 abrir.Show();
             }
             else
