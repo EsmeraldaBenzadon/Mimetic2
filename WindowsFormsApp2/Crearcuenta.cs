@@ -42,10 +42,10 @@ namespace WindowsFormsApp2
             {
                 DatabaseProyecto.Open();
                 OleDbCommand info;
-                //Class1 a = new Class1();
-                //a.Cargar(Nombre);
-                //a.Mostrar();
-                
+                Class1 a = new Class1();
+                a.Cargar(Nombre);
+                a.Mostrar();
+
 
                 {
                     String preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
@@ -74,8 +74,7 @@ namespace WindowsFormsApp2
                             DatabaseProyecto.Close();
                             MessageBox.Show("Sus datos se han enviado correctamente");
                             this.Hide();
-                            bienvenidos Nuevaventana = new bienvenidos();
-                           // Nuevaventana.LogUsu = a.Mostrar();
+                            bienvenidos Nuevaventana = new bienvenidos(Nombre);
                             Nuevaventana.Show();
                         }
                     }
@@ -91,20 +90,20 @@ namespace WindowsFormsApp2
             }
         }
 
-        //public class Class1
-        //{
-        //    public string Usuario;
+        public class Class1
+        {
+            public string Usuario;
 
-        //    public string Mostrar()
-        //    {
-        //        //Console.WriteLine(Usuario);
-        //        return (Usuario);
-        //    }
-        //    public void Cargar(string NuevoUsu)
-        //    {
-        //        Usuario = NuevoUsu;
-        //    }
-        //}
+            public string Mostrar()
+            {
+                Console.WriteLine(Usuario);
+                return (Usuario);
+            }
+            public void Cargar(string NuevoUsu)
+            {
+                Usuario = NuevoUsu;
+            }
+        }
 
 
         private void Txt_contraseña_TextChanged(object sender, EventArgs e)

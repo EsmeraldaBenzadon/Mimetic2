@@ -12,29 +12,19 @@ namespace WindowsFormsApp2
 {
     public partial class bienvenidos : Form
     {
-        public class Class1
-        {
-        //variable publica usuario
-        public string LogUsu;
-            public string Mostrar()
-            {
-                //Console.WriteLine(Usuario);
-                return (LogUsu);
-            }
-        }
-        Class1 a = new Class1();
-        //a.Mostrar();
+        public string nombreusuario;
 
-        public bienvenidos()
+        public bienvenidos(string nombre)
         {
             InitializeComponent();
+            this.nombreusuario = nombre;
+            NomUsu.Text = nombre;
         }
 
         private void Btnabc_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Abecedario Nuevaventana = new Abecedario();
-            Nuevaventana.NombreUsu = a.Mostrar();
+            Abecedario Nuevaventana = new Abecedario(this.nombreusuario);
             Nuevaventana.Show();
         }
 
@@ -54,7 +44,6 @@ namespace WindowsFormsApp2
 
         private void Bienvenidos_Load(object sender, EventArgs e)
         {
-            //NomUsu.Text = LogUsu;
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -17,15 +17,17 @@ namespace WindowsFormsApp2
         //variable publica usuario
         public string NombreUsu;
 
-        public Abecedario()
+        public Abecedario(string nombre)
         {
             InitializeComponent();
+            NomUsu.Text = nombre;
+            this.NombreUsu = nombre;
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            bienvenidos Nuevaventana = new bienvenidos ();
+            bienvenidos Nuevaventana = new bienvenidos (this.NombreUsu);
             Nuevaventana.Show();
         }
 
