@@ -34,6 +34,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.NomUsu = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,11 +71,21 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 100);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
+            // NomUsu
+            // 
+            this.NomUsu.AutoSize = true;
+            this.NomUsu.Location = new System.Drawing.Point(743, 12);
+            this.NomUsu.Name = "NomUsu";
+            this.NomUsu.Size = new System.Drawing.Size(35, 13);
+            this.NomUsu.TabIndex = 4;
+            this.NomUsu.Text = "label1";
+            // 
             // ABC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.btn_nom);
@@ -95,5 +106,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label NomUsu;
     }
 }

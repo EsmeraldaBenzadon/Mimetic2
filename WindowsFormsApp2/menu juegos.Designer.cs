@@ -31,6 +31,7 @@
             this.abc = new System.Windows.Forms.Button();
             this.voc = new System.Windows.Forms.Button();
             this.frases = new System.Windows.Forms.Button();
+            this.NomUsu = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // abc
@@ -61,17 +62,29 @@
             this.frases.Text = "Fraces cotidianas";
             this.frases.UseVisualStyleBackColor = true;
             // 
+            // NomUsu
+            // 
+            this.NomUsu.AutoSize = true;
+            this.NomUsu.Location = new System.Drawing.Point(717, 24);
+            this.NomUsu.Name = "NomUsu";
+            this.NomUsu.Size = new System.Drawing.Size(35, 13);
+            this.NomUsu.TabIndex = 3;
+            this.NomUsu.Text = "label1";
+            // 
             // menu_juegos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.frases);
             this.Controls.Add(this.voc);
             this.Controls.Add(this.abc);
             this.Name = "menu_juegos";
             this.Text = "menu_juegos";
+            this.Load += new System.EventHandler(this.Menu_juegos_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -80,5 +93,6 @@
         private System.Windows.Forms.Button abc;
         private System.Windows.Forms.Button voc;
         private System.Windows.Forms.Button frases;
+        private System.Windows.Forms.Label NomUsu;
     }
 }

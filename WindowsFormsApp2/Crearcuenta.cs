@@ -42,9 +42,6 @@ namespace WindowsFormsApp2
             {
                 DatabaseProyecto.Open();
                 OleDbCommand info;
-                Class1 a = new Class1();
-                a.Cargar(Nombre);
-                a.Mostrar();
 
 
                 {
@@ -87,21 +84,6 @@ namespace WindowsFormsApp2
             else
             {
                 MessageBox.Show("Complete todas los casilleros correctamente");
-            }
-        }
-
-        public class Class1
-        {
-            public string Usuario;
-
-            public string Mostrar()
-            {
-                Console.WriteLine(Usuario);
-                return (Usuario);
-            }
-            public void Cargar(string NuevoUsu)
-            {
-                Usuario = NuevoUsu;
             }
         }
 

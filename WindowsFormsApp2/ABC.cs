@@ -7,10 +7,13 @@ namespace WindowsFormsApp2
     public partial class ABC : Form
     {
         OleDbConnection DatabaseProyecto;
+        public string NombreUsu;
 
-        public ABC()
+        public ABC(string nombre)
         {
             InitializeComponent();
+            NomUsu.Text = nombre;
+            this.NombreUsu = nombre;
         }
 
         private void Btn_nom_Click(object sender, EventArgs e)

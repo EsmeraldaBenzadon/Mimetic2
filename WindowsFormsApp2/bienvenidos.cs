@@ -31,14 +31,14 @@ namespace WindowsFormsApp2
         private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            pantalla_logueo Nuevaventana = new pantalla_logueo();
+            Fondoinicio Nuevaventana = new Fondoinicio();
             Nuevaventana.Show();
         }
 
         private void BtnJugamos_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu_juegos Nuevaventana = new menu_juegos();
+            menu_juegos Nuevaventana = new menu_juegos(this.nombreusuario);
             Nuevaventana.Show();
         }
 
@@ -49,6 +49,20 @@ namespace WindowsFormsApp2
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btnvocabulario_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Vocabulario Nuevaventana = new Vocabulario(this.nombreusuario);
+            Nuevaventana.Show();
+        }
+
+        private void Btnfrases_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Frases Nuevaventana = new Frases(this.nombreusuario);
+            Nuevaventana.Show();
         }
     }
 }
