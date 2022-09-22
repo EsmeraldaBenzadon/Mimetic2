@@ -63,6 +63,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap inside_out_joy {
+            get {
+                object obj = ResourceManager.GetObject("inside-out-joy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ojo {
             get {
                 object obj = ResourceManager.GetObject("ojo", resourceCulture);
