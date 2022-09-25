@@ -115,3 +115,5 @@ C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\bin\Debug\AxInterop.WMPL
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Crearcuenta.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Frases.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Vocabulario.resources
+C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Frases.resources
+C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Vocabulario.resources
