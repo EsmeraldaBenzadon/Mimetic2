@@ -43,14 +43,15 @@ namespace WindowsFormsApp2
         private void BtnB_Click(object sender, EventArgs e)
         {
             this.Hide();
+            letras = "B";
             Letra Nuevaventana = new Letra("B");
             Nuevaventana.Show();
         }
 
         private void BtnC_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Letra Nuevaventana = new Letra("");
+            letras = "C";
+            Letra Nuevaventana = new Letra("C");
             Nuevaventana.Show();
         }
 
