@@ -143,6 +143,9 @@
     <EmbeddedResource Include="Letra.resx">
       <DependentUpon>Letra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="memotest.resx">
+      <DependentUpon>memotest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menu juegos.resx">
       <DependentUpon>menu juegos.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +235,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\inside-out-joy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TODOBIEN.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MUYBIEN.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PERDON-DISCULPAS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PERMISO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QUETAL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MUYMALPEOR.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MUYMAL.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
