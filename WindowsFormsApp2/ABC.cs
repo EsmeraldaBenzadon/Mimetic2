@@ -22,7 +22,6 @@ namespace WindowsFormsApp2
         {
             string nombre = txt_nombre.Text;
             char letraDelNombre;
-            List<Label> labels = new List<Label>();
 
             int x = 5;
             int y = 25;

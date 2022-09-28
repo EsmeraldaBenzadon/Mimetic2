@@ -54,15 +54,15 @@ namespace WindowsFormsApp2
         private void Btnvocabulario_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Vocabulario Nuevaventana = new Vocabulario(this.nombreusuario);
-            Nuevaventana.Show();
+            //Vocabulario Nuevaventana = new Vocabulario(this.nombreusuario);
+            //Nuevaventana.Show();
         }
 
         private void Btnfrases_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Frases Nuevaventana = new Frases(this.nombreusuario);
-            Nuevaventana.Show();
+            //Frases Nuevaventana = new Frases(this.nombreusuario);
+            //Nuevaventana.Show();
         }
     }
 }
