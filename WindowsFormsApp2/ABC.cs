@@ -27,16 +27,16 @@ namespace WindowsFormsApp2
             int x = 5;
             int y = 25;
 
+
             for (int i = 0; i < nombre.Length; i++)
-            {
-                AxWindowsMediaPlayer player = new AxWindowsMediaPlayer();
-                this.Controls.Add(player);
-                player.CreateControl();
+            {AxWindowsMediaPlayer player = new AxWindowsMediaPlayer();
                 string dirProyecto = AppContext.BaseDirectory;
                 dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
                 letra = nombre [i].ToString();
-                //player.URL = dirProyecto + "Letras "+ letra +" .mp4";
-                player.URL = dirProyecto + letra + " .mp4";
+                if (letra[0] == ' ') continue;
+                this.Controls.Add(player);
+                player.CreateControl();
+                player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
                 Size size = new Size(150, 150);
                 player.Size = size;
                 player.Location = new System.Drawing.Point(x, y);
@@ -49,7 +49,7 @@ namespace WindowsFormsApp2
                 this.Controls.Add(label);
 
                 x += 160;
-                if (i > 0 && i % 6 == 0)
+                if (i > 0 && i % 7 == 0)
                 {
                     x = 5;
                     y += 180;
