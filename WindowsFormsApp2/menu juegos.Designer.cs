@@ -36,9 +36,10 @@
             // 
             // abc
             // 
-            this.abc.Location = new System.Drawing.Point(166, 104);
+            this.abc.Location = new System.Drawing.Point(249, 160);
+            this.abc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.abc.Name = "abc";
-            this.abc.Size = new System.Drawing.Size(75, 23);
+            this.abc.Size = new System.Drawing.Size(112, 35);
             this.abc.TabIndex = 0;
             this.abc.Text = "ABC";
             this.abc.UseVisualStyleBackColor = true;
@@ -46,18 +47,20 @@
             // 
             // voc
             // 
-            this.voc.Location = new System.Drawing.Point(343, 263);
+            this.voc.Location = new System.Drawing.Point(514, 405);
+            this.voc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.voc.Name = "voc";
-            this.voc.Size = new System.Drawing.Size(104, 41);
+            this.voc.Size = new System.Drawing.Size(156, 63);
             this.voc.TabIndex = 1;
             this.voc.Text = "Vocabulario especifico";
             this.voc.UseVisualStyleBackColor = true;
             // 
             // frases
             // 
-            this.frases.Location = new System.Drawing.Point(520, 104);
+            this.frases.Location = new System.Drawing.Point(780, 160);
+            this.frases.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.frases.Name = "frases";
-            this.frases.Size = new System.Drawing.Size(96, 44);
+            this.frases.Size = new System.Drawing.Size(144, 68);
             this.frases.TabIndex = 2;
             this.frases.Text = "Fraces cotidianas";
             this.frases.UseVisualStyleBackColor = true;
@@ -65,21 +68,23 @@
             // NomUsu
             // 
             this.NomUsu.AutoSize = true;
-            this.NomUsu.Location = new System.Drawing.Point(717, 24);
+            this.NomUsu.Location = new System.Drawing.Point(1246, 33);
+            this.NomUsu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NomUsu.Name = "NomUsu";
-            this.NomUsu.Size = new System.Drawing.Size(35, 13);
+            this.NomUsu.Size = new System.Drawing.Size(51, 20);
             this.NomUsu.TabIndex = 3;
             this.NomUsu.Text = "label1";
             // 
             // menu_juegos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1344, 712);
             this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.frases);
             this.Controls.Add(this.voc);
             this.Controls.Add(this.abc);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "menu_juegos";
             this.Text = "menu_juegos";
             this.Load += new System.EventHandler(this.Menu_juegos_Load);

@@ -49,6 +49,7 @@ namespace WindowsFormsApp2
                 this.Controls.Add(label);
 
                 x += 160;
+
                 if (i > 0 && i % 7 == 0)
                 {
                     x = 5;
