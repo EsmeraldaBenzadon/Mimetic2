@@ -76,7 +76,7 @@ namespace WindowsFormsApp2
         }
         private void HideImages()
         {
-            foreach (var pic in pictureBoxes) 
+            foreach (var pic in pictureBoxes)
             {
                 pic.Image = Properties.Resources.question;
             }
@@ -143,15 +143,526 @@ namespace WindowsFormsApp2
             MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
             ResetImages();
         }
-    private void startGame(object sender, EventArgs e)
-    {
-        allowClick = true;
-        setRandomImages();
-        HideImages();
-        startGameTimer();
-        clickTimer.Interval = 1000;
-        clickTimer.Tick += CLICKTIMER_TICK;
-        btnStart.Enabled = false;
+        private void startGame(object sender, EventArgs e)
+        {
+            allowClick = true;
+            setRandomImages();
+            HideImages();
+            startGameTimer();
+            clickTimer.Interval = 1000;
+            clickTimer.Tick += CLICKTIMER_TICK;
+            btnStart.Enabled = false;
+        }
+
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox4_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox5_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox6_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox7_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox8_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox9_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox10_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox11_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox12_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox13_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox14_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox15_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
+
+        private void PictureBox16_Click(object sender, EventArgs e)
+        {
+            if (!allowClick) return;
+            var pic = (PictureBox)sender;
+
+            if (firstGuess == null)
+            {
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
+                return;
+            }
+            pic.Image = (Image)pic.Tag;
+
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
+            {
+                pic.Visible = firstGuess.Visible = false;
+                {
+                    firstGuess = pic;
+
+                }
+                HideImages();
+            }
+            else
+            {
+                allowClick = false;
+                clickTimer.Start();
+
+            }
+            firstGuess = null;
+            if (pictureBoxes.Any(p => p.Visible)) return;
+            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            ResetImages();
+        }
     }
-  }
 }
+
