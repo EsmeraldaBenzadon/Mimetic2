@@ -22,7 +22,7 @@ namespace WindowsFormsApp2
         {
             string nombre = txt_nombre.Text;
             char letraDelNombre;
-            List<Label> labels = new List<Label>();
+            string letra;
 
             int x = 5;
             int y = 25;
@@ -34,8 +34,9 @@ namespace WindowsFormsApp2
                 player.CreateControl();
                 string dirProyecto = AppContext.BaseDirectory;
                 dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-                player.URL = dirProyecto + "Letras\\A.mp4";
-                //player.URL = dirProyecto + "Letras.mp4";
+                letra = nombre [i].ToString();
+                //player.URL = dirProyecto + "Letras "+ letra +" .mp4";
+                player.URL = dirProyecto + letra + " .mp4";
                 Size size = new Size(150, 150);
                 player.Size = size;
                 player.Location = new System.Drawing.Point(x, y);
