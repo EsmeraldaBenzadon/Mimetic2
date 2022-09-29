@@ -13,9 +13,9 @@ namespace WindowsFormsApp2
     public partial class memotest : Form
     {
         bool allowClick = false;
-        PictureBox firstguess;
+        PictureBox firstGuess;
         Random rnd = new Random();
-        Timer ClickTimer = new Timer();
+        Timer clickTimer = new Timer();
         int time = 60;
         Timer timer = new Timer { Interval = 1000 };
         public memotest()
@@ -68,7 +68,6 @@ namespace WindowsFormsApp2
             {
                 pic.Tag = null;
                 pic.Visible = true;
-
             }
             HideImages();
             setRandomImages();
@@ -77,7 +76,7 @@ namespace WindowsFormsApp2
         }
         private void HideImages()
         {
-            foreach (var pic in pictureBoxes) ;
+            foreach (var pic in pictureBoxes) 
             {
                 pic.Image = Properties.Resources.question;
             }
@@ -105,7 +104,6 @@ namespace WindowsFormsApp2
             }
         }
 
-
         private void CLICKTIMER_TICK(object sender, EventArgs e)
         {
             HideImages();
@@ -119,15 +117,15 @@ namespace WindowsFormsApp2
 
             if (firstGuess == null)
             {
-                fisrtGuess = pic;
-                pic Image = (Image)pic.Tag;
+                firstGuess = pic;
+                pic.Image = (Image)pic.Tag;
                 return;
             }
             pic.Image = (Image)pic.Tag;
 
-            if (pic.Image == fisrtGuess.Image && pic != fisrtGuess)
+            if (pic.Image == firstGuess.Image && pic != firstGuess)
             {
-                pic.Visible = fisrtGuess.Visible = false;
+                pic.Visible = firstGuess.Visible = false;
                 {
                     firstGuess = pic;
 
@@ -140,13 +138,11 @@ namespace WindowsFormsApp2
                 clickTimer.Start();
 
             }
-            firstguess = null;
+            firstGuess = null;
             if (pictureBoxes.Any(p => p.Visible)) return;
             MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
             ResetImages();
-
         }
-    }
     private void startGame(object sender, EventArgs e)
     {
         allowClick = true;

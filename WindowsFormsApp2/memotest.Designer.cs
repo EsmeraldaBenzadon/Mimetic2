@@ -72,7 +72,7 @@
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "START";
             this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.clickImage);
+            this.btnStart.Click += new System.EventHandler(this.startGame);
             // 
             // label1
             // 
