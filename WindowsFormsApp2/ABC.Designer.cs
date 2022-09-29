@@ -35,18 +35,16 @@
             // 
             // txt_nombre
             // 
-            this.txt_nombre.Location = new System.Drawing.Point(131, 551);
-            this.txt_nombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_nombre.Location = new System.Drawing.Point(353, 622);
             this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(919, 26);
+            this.txt_nombre.Size = new System.Drawing.Size(614, 20);
             this.txt_nombre.TabIndex = 0;
             // 
             // btn_nom
             // 
-            this.btn_nom.Location = new System.Drawing.Point(509, 615);
-            this.btn_nom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_nom.Location = new System.Drawing.Point(586, 674);
             this.btn_nom.Name = "btn_nom";
-            this.btn_nom.Size = new System.Drawing.Size(112, 35);
+            this.btn_nom.Size = new System.Drawing.Size(75, 23);
             this.btn_nom.TabIndex = 1;
             this.btn_nom.Text = "mostar";
             this.btn_nom.UseVisualStyleBackColor = true;
@@ -55,22 +53,20 @@
             // NomUsu
             // 
             this.NomUsu.AutoSize = true;
-            this.NomUsu.Location = new System.Drawing.Point(1114, 18);
-            this.NomUsu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.NomUsu.Location = new System.Drawing.Point(1288, 19);
             this.NomUsu.Name = "NomUsu";
-            this.NomUsu.Size = new System.Drawing.Size(51, 20);
+            this.NomUsu.Size = new System.Drawing.Size(35, 13);
             this.NomUsu.TabIndex = 4;
             this.NomUsu.Text = "label1";
             // 
             // ABC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.btn_nom);
             this.Controls.Add(this.txt_nombre);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ABC";
             this.Text = "ABC juego";
             this.Load += new System.EventHandler(this.ABC_Load);

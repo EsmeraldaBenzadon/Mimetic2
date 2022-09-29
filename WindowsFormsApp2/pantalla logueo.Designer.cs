@@ -40,9 +40,9 @@
             this.btnInicios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnInicios.FlatAppearance.BorderSize = 0;
             this.btnInicios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicios.Location = new System.Drawing.Point(263, 101);
+            this.btnInicios.Location = new System.Drawing.Point(493, 163);
             this.btnInicios.Name = "btnInicios";
-            this.btnInicios.Size = new System.Drawing.Size(310, 106);
+            this.btnInicios.Size = new System.Drawing.Size(382, 138);
             this.btnInicios.TabIndex = 0;
             this.btnInicios.UseVisualStyleBackColor = false;
             this.btnInicios.Click += new System.EventHandler(this.BtnInicios_Click);
@@ -54,9 +54,9 @@
             this.btnCrearc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCrearc.FlatAppearance.BorderSize = 0;
             this.btnCrearc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearc.Location = new System.Drawing.Point(263, 293);
+            this.btnCrearc.Location = new System.Drawing.Point(486, 462);
             this.btnCrearc.Name = "btnCrearc";
-            this.btnCrearc.Size = new System.Drawing.Size(302, 109);
+            this.btnCrearc.Size = new System.Drawing.Size(379, 141);
             this.btnCrearc.TabIndex = 1;
             this.btnCrearc.UseVisualStyleBackColor = false;
             this.btnCrearc.Click += new System.EventHandler(this.BtnCrearc_Click);
@@ -67,7 +67,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(821, 480);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.btnCrearc);
             this.Controls.Add(this.btnInicios);
             this.DoubleBuffered = true;
