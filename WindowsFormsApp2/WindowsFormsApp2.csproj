@@ -260,5 +260,11 @@
   <ItemGroup>
     <None Include="Resources\MUYMAL.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\485d3490861e058d4af3c69c7f41eb2d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
