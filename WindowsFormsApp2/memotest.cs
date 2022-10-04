@@ -48,7 +48,7 @@ namespace WindowsFormsApp2
 
         private void startGameTimer()
         {
-            timer.Start();
+            timer.Start();//programación del timer 
             timer.Tick += delegate
             {
                 time--;
@@ -62,7 +62,7 @@ namespace WindowsFormsApp2
                 label1.Text = "00: " + time.ToString();
             };
         }
-        private void ResetImages()
+        private void ResetImages()//memotest y la aparición de imagenes
         {
             foreach (var pic in pictureBoxes)
             {
@@ -188,7 +188,7 @@ namespace WindowsFormsApp2
             ResetImages();
         }
 
-        private void PictureBox3_Click(object sender, EventArgs e)
+        private void PictureBox3_Click(object sender, EventArgs e)//programación de las imagenes
         {
             if (!allowClick) return;
             var pic = (PictureBox)sender;
@@ -662,6 +662,11 @@ namespace WindowsFormsApp2
             if (pictureBoxes.Any(p => p.Visible)) return;
             MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
             ResetImages();
+        }
+
+        private void Memotest_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
