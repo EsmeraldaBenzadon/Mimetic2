@@ -32,6 +32,7 @@ namespace WindowsFormsApp2
         private void Btn_iniciarsesion_Click(object sender, EventArgs e)
         {
             nombre = txt_nombre.Text;
+            nombre = nombre.ToUpper();
             contrasena = txt_contraseña.Text;
             iniciarsesion.Open();
             string consulta = "select NombreU, ContrasenaU from Usuarios where NombreU = '" + nombre + "' and ContrasenaU = '"+ contrasena  + "';";

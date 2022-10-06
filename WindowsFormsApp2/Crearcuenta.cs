@@ -35,36 +35,32 @@ namespace WindowsFormsApp2
         private void BtnRegistrarse_Click(object sender, EventArgs e)
         {
             Nombre = txt_nombre.Text;
+            Nombre = Nombre.ToUpper();
             ContrasenaU = txt_contraseña.Text;
             Repetir = txt_repetir.Text;
 
             if (Nombre.Length >= 1 && ContrasenaU.Length >= 1 && ContrasenaU == Repetir)
             {
-                DatabaseProyecto.Open();
-                OleDbCommand info;
-
 
                 {
+                    DatabaseProyecto.Open();
                     String preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
                     OleDbCommand comando = new OleDbCommand(preg, DatabaseProyecto);
                     OleDbDataAdapter da = new OleDbDataAdapter(comando);
                     da.Fill(ds, "Usuarios");
-                    //txt_nombre.Text = ds.Tables["Usuarios"].Rows[0]["NombreU"].ToString();
+                    int contar = ds.Tables["Usuarios"].Rows.Count;
 
-                    //reader = comando.ExecuteReader();
-                    //OleDbDataReader read;
-                    //read = comando.ExecuteReader();
-                    //OleDbDataReader reader;
-                    
-
-                    { if (Nombre == preg)// poner el nombre que sacas de la base de datos
+                    {
+                        if (contar == 1)// poner el nombre que sacas de la base de datos
                         {
                             MessageBox.Show("Ese nombre ya esta en uso");
+                            DatabaseProyecto.Close();
                             return;
                         }
 
-                        else {
-
+                        else
+                        {
+                            OleDbCommand info;
                             info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContrasenaU) VALUES ('" + Nombre + "' , '" + ContrasenaU + "')");
                             info.Connection = DatabaseProyecto;
                             info.ExecuteNonQuery();
@@ -73,13 +69,13 @@ namespace WindowsFormsApp2
                             this.Hide();
                             bienvenidos Nuevaventana = new bienvenidos(Nombre);
                             Nuevaventana.Show();
+
                         }
                     }
 
                 }
-
-
             }
+
 
             else
             {
