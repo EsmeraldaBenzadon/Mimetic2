@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,10 +19,15 @@ namespace WindowsFormsApp2
         Timer clickTimer = new Timer();
         int time = 60;
         Timer timer = new Timer { Interval = 1000 };
-        public memotest()
+
+        //variables declaradas
+        OleDbConnection DatabaseProyecto;
+        string NombreU;
+
+        public memotest(string NombreU)
         {
             InitializeComponent();
-
+            this.NombreU = NombreU;
         }
         private PictureBox[] pictureBoxes
         {
@@ -55,8 +61,17 @@ namespace WindowsFormsApp2
                 if (time < 0)
                 {
                     timer.Stop();
-                    MessageBox.Show("TE QUEDASTE SIN TIEMPO");
-                    ResetImages();
+                    DatabaseProyecto.Open();
+                    OleDbCommand info;
+                    info = new OleDbCommand("INSERT INTO Progreso (Id_juego, Fechayhora, Progreso, NombreU) VALUES (1,'" + DateTime.Now +"', 0, '" + NombreU + "')");
+                    info.Connection = DatabaseProyecto;
+                    info.ExecuteNonQuery();
+                    DatabaseProyecto.Close();
+                    if (InputBox("Te quedaste sin tiempo", "¿Quieres volverlo a intentar?") == DialogResult.OK)
+                    {
+                        ResetImages();
+                    }
+
                 }
                 var ssTime = TimeSpan.FromSeconds(time);
                 label1.Text = "00: " + time.ToString();
@@ -666,6 +681,45 @@ namespace WindowsFormsApp2
 
         private void Memotest_Load(object sender, EventArgs e)
         {
+            DatabaseProyecto = new OleDbConnection();
+            DatabaseProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
+        }
+
+        private static DialogResult InputBox(string title, string promptText)
+        {
+            Form form = new Form();
+            Label label = new Label();
+            Button buttonOk = new Button();
+            Button buttoncancel = new Button();
+
+            form.Text = title;
+            label.Text = promptText;
+
+            buttonOk.Text = "OK";
+            buttonOk.DialogResult = DialogResult.OK;
+            buttonOk.CausesValidation = true;
+            buttoncancel.Text = "Salir";
+            buttoncancel.DialogResult = DialogResult.Cancel;
+            buttoncancel.CausesValidation = true;
+
+            label.SetBounds(26, 36, 186, 7);
+            buttonOk.SetBounds(160, 130, 80, 30);
+            buttoncancel.SetBounds(130, 130, 80, 30);
+
+            label.AutoSize = true;
+            form.ClientSize = new Size(398, 180);
+            form.FormBorderStyle = FormBorderStyle.FixedDialog;
+            form.StartPosition = FormStartPosition.CenterScreen;
+            form.MinimizeBox = false;
+            form.MaximizeBox = false;
+
+            form.Controls.AddRange(new Control[] { label, buttonOk, buttoncancel });
+            form.AcceptButton = buttonOk;
+            form.CancelButton = buttoncancel;
+
+            DialogResult dialogResult = form.ShowDialog();
+
+            return dialogResult;
 
         }
     }

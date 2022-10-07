@@ -27,19 +27,19 @@ namespace WindowsFormsApp2
 
             int x = 5;
             int y = 80;
-           
+
 
             for (int i = 0; i < nombre.Length; i++)
-            {AxWindowsMediaPlayer player = new AxWindowsMediaPlayer();
+            { AxWindowsMediaPlayer player = new AxWindowsMediaPlayer();
                 string dirProyecto = AppContext.BaseDirectory;
                 dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-                letra = nombre [i].ToString();
+                letra = nombre[i].ToString();
                 if (letra == "l" && i > 0 && nombre[i - 1].ToString() == "l")
                 {
                     salto++;
                     continue;
                 }
-                if (letra == "l" && nombre.Length >= (i + 1))
+                if (letra == "l" && nombre.Length > (i + 1))
                 {
                     if (nombre[i + 1].ToString() == "l")
                     {
@@ -51,7 +51,7 @@ namespace WindowsFormsApp2
                     salto++;
                     continue;
                 }
-                if (letra == "c" && nombre.Length >= (i + 1))
+                if (letra == "c" && nombre.Length > (i + 1))
                 {
                     if (nombre[i + 1].ToString() == "h")
                     {

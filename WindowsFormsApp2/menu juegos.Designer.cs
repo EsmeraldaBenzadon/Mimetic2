@@ -64,6 +64,7 @@
             this.frases.TabIndex = 2;
             this.frases.Text = "Fraces cotidianas";
             this.frases.UseVisualStyleBackColor = true;
+            this.frases.Click += new System.EventHandler(this.frases_Click);
             // 
             // NomUsu
             // 

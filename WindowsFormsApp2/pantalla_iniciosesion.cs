@@ -21,6 +21,7 @@ namespace WindowsFormsApp2
         public pantalla_iniciosesion()
         {
             InitializeComponent();
+
         }
 
         private void Pantalla_iniciosesion_Load(object sender, EventArgs e)

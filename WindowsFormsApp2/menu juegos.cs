@@ -32,5 +32,12 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void frases_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            memotest Nuevaventana = new memotest(this.NombreUsu);
+            Nuevaventana.Show();
+        }
     }
 }

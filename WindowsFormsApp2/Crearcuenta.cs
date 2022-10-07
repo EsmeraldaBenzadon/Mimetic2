@@ -67,6 +67,14 @@ namespace WindowsFormsApp2
                             string value = "";
                             if (InputBox("Pregunta de seguridad", "¿Cual es el primer nombre de tu mamá?", ref value) == DialogResult.OK)
                             {
+                                    while (value == "")
+                                {
+                                    MessageBox.Show("Complete la pregunta");
+                                    if (InputBox("Pregunta de seguridad", "¿Cual es el primer nombre de tu mamá?", ref value) == DialogResult.OK)
+                                    {
+                                      
+                                    }
+                                }
                                     OleDbCommand info1;
                                     value = value.ToUpper();
                                     info1 = new OleDbCommand("UPDATE Usuarios SET Pregunta1 = '" + value + "' WHERE NombreU = '" + Nombre + "'");
@@ -102,8 +110,6 @@ namespace WindowsFormsApp2
             form.Text = title;
             label.Text = promptText;
 
-            //form.AutoValidate=AutoValidate.Disable; //para control de errores
-
             buttonOk.Text = "OK"; 
             buttonOk.DialogResult = DialogResult.OK;
             buttonOk.CausesValidation = true;
@@ -118,10 +124,6 @@ namespace WindowsFormsApp2
             form.StartPosition = FormStartPosition.CenterScreen;
             form.MinimizeBox = false;
             form.MaximizeBox = false;
-
-            label.CausesValidation = true;
-
-
 
             form.Controls.AddRange(new Control[] { label, textBox, buttonOk});
             form.AcceptButton = buttonOk;

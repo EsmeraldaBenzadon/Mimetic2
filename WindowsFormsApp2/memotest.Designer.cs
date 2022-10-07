@@ -46,6 +46,7 @@
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.NomUsu = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -262,11 +263,21 @@
             this.pictureBox16.TabStop = false;
             this.pictureBox16.Click += new System.EventHandler(this.PictureBox16_Click);
             // 
+            // NomUsu
+            // 
+            this.NomUsu.AutoSize = true;
+            this.NomUsu.Location = new System.Drawing.Point(1260, 18);
+            this.NomUsu.Name = "NomUsu";
+            this.NomUsu.Size = new System.Drawing.Size(51, 20);
+            this.NomUsu.TabIndex = 18;
+            this.NomUsu.Text = "label2";
+            // 
             // memotest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1396, 912);
+            this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox14);
@@ -330,5 +341,6 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.Label NomUsu;
     }
 }
