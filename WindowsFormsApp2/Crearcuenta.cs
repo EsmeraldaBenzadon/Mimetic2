@@ -41,7 +41,6 @@ namespace WindowsFormsApp2
 
             if (Nombre.Length >= 1 && ContrasenaU.Length >= 1 && ContrasenaU == Repetir)
             {
-
                 {
                     DatabaseProyecto.Open();
                     String preg = ("SELECT NombreU FROM Usuarios WHERE NombreU = '" + Nombre + "'");
@@ -51,7 +50,7 @@ namespace WindowsFormsApp2
                     int contar = ds.Tables["Usuarios"].Rows.Count;
 
                     {
-                        if (contar == 1)// poner el nombre que sacas de la base de datos
+                        if (contar == 1)
                         {
                             MessageBox.Show("Ese nombre ya esta en uso");
                             DatabaseProyecto.Close();
@@ -64,6 +63,17 @@ namespace WindowsFormsApp2
                             info = new OleDbCommand("INSERT INTO Usuarios (NombreU, ContrasenaU) VALUES ('" + Nombre + "' , '" + ContrasenaU + "')");
                             info.Connection = DatabaseProyecto;
                             info.ExecuteNonQuery();
+                           
+                            string value = "";
+                            if (InputBox("Pregunta de seguridad", "¿Cual es el primer nombre de tu mamá?", ref value) == DialogResult.OK)
+                            {
+                                    OleDbCommand info1;
+                                    value = value.ToUpper();
+                                    info1 = new OleDbCommand("UPDATE Usuarios SET Pregunta1 = '" + value + "' WHERE NombreU = '" + Nombre + "'");
+                                    info1.Connection = DatabaseProyecto;
+                                    info1.ExecuteNonQuery();
+                            }
+
                             DatabaseProyecto.Close();
                             MessageBox.Show("Sus datos se han enviado correctamente");
                             this.Hide();
@@ -76,12 +86,53 @@ namespace WindowsFormsApp2
                 }
             }
 
-
             else
             {
                 MessageBox.Show("Complete todas los casilleros correctamente");
             }
         }
+        //empieza diseño de pregunta secreta
+        private static DialogResult InputBox(string title, string promptText, ref string value)
+        {
+            Form form = new Form();
+            Label label = new Label();
+            TextBox textBox = new TextBox();
+            Button buttonOk = new Button();
+            
+            form.Text = title;
+            label.Text = promptText;
+
+            //form.AutoValidate=AutoValidate.Disable; //para control de errores
+
+            buttonOk.Text = "OK"; 
+            buttonOk.DialogResult = DialogResult.OK;
+            buttonOk.CausesValidation = true;
+
+            label.SetBounds(26, 36, 186, 7);
+            textBox.SetBounds(26, 86, 350, 10);
+            buttonOk.SetBounds(160, 130, 80, 30);
+
+            label.AutoSize = true;
+            form.ClientSize = new Size(398, 180);
+            form.FormBorderStyle = FormBorderStyle.FixedDialog;
+            form.StartPosition = FormStartPosition.CenterScreen;
+            form.MinimizeBox = false;
+            form.MaximizeBox = false;
+
+            label.CausesValidation = true;
+
+
+
+            form.Controls.AddRange(new Control[] { label, textBox, buttonOk});
+            form.AcceptButton = buttonOk;
+
+            DialogResult dialogResult = form.ShowDialog();
+
+            value = textBox.Text;
+            return dialogResult;
+         
+        }
+
 
 
         private void Txt_contraseña_TextChanged(object sender, EventArgs e)

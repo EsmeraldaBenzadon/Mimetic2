@@ -79,5 +79,12 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void btn_recupcontra_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            recuperar_contraseña Nuevaventana = new recuperar_contraseña();
+            Nuevaventana.Show();
+        }
     }
 }
