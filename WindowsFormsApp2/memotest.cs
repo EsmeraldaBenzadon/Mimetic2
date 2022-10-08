@@ -71,7 +71,12 @@ namespace WindowsFormsApp2
                     {
                         ResetImages();
                     }
-
+                    else
+                    {
+                        this.Hide();
+                        //menu_juegos abrir = new menu_juegos();
+                        //abrir.Show();
+                    }
                 }
                 var ssTime = TimeSpan.FromSeconds(time);
                 label1.Text = "00: " + time.ToString();
@@ -154,8 +159,27 @@ namespace WindowsFormsApp2
 
             }
             firstGuess = null;
-            if (pictureBoxes.Any(p => p.Visible)) return;
-            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+            if (pictureBoxes.Any(p => p.Visible))return;
+            {
+                DatabaseProyecto.Open();
+                OleDbCommand info;
+                info = new OleDbCommand("INSERT INTO Progreso (Id_juego, Fechayhora, Progreso, NombreU) VALUES (1,'" + DateTime.Now + "', 1, '" + NombreU + "')");
+                info.Connection = DatabaseProyecto;
+                info.ExecuteNonQuery();
+                DatabaseProyecto.Close();
+                if (InputBox("Ganaste !!", "¿Quieres volverlo a intentar?") == DialogResult.OK)
+                {
+                    ResetImages();
+                }
+                else
+                {
+                    this.Hide();
+                    //menu_juegos abrir = new menu_juegos();
+                    //abrir.Show();
+                }
+            }
+            //MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
+
             ResetImages();
         }
         private void startGame(object sender, EventArgs e)
