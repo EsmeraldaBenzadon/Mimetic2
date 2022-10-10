@@ -43,25 +43,27 @@
             // 
             this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
             this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_nombre.Location = new System.Drawing.Point(369, 251);
+            this.txt_nombre.Location = new System.Drawing.Point(369, 254);
             this.txt_nombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_nombre.Multiline = true;
             this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(472, 50);
+            this.txt_nombre.Size = new System.Drawing.Size(472, 52);
             this.txt_nombre.TabIndex = 2;
             this.txt_nombre.TextChanged += new System.EventHandler(this.Txt_nombre_TextChanged);
+            this.txt_nombre.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_nombre_KeyUp);
             // 
             // txt_contraseña
             // 
             this.txt_contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
             this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_contraseña.Location = new System.Drawing.Point(369, 417);
+            this.txt_contraseña.Location = new System.Drawing.Point(369, 414);
             this.txt_contraseña.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_contraseña.Multiline = true;
             this.txt_contraseña.Name = "txt_contraseña";
             this.txt_contraseña.Size = new System.Drawing.Size(472, 51);
             this.txt_contraseña.TabIndex = 3;
             this.txt_contraseña.TextChanged += new System.EventHandler(this.Txt_contraseña_TextChanged);
+            this.txt_contraseña.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_contraseña_KeyUp);
             // 
             // btn_iniciarsesion
             // 

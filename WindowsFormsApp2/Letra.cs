@@ -18,6 +18,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
             letra = le;
+            lbl_letra.Text = le;
         }
 
         private void AxWindowsMediaPlayer1_Enter(object sender, EventArgs e)

@@ -87,5 +87,19 @@ namespace WindowsFormsApp2
             recuperar_contraseña Nuevaventana = new recuperar_contraseña();
             Nuevaventana.Show();
         }
+
+        private void txt_nombre_KeyUp(object sender, KeyEventArgs e)
+        {
+            string texto = txt_nombre.Text.Replace("\r\n", "").Replace("\n", "").Replace("\r", "");
+            txt_nombre.Text = texto;
+            txt_nombre.Select(txt_nombre.Text.Length, 0);
+        }
+
+        private void txt_contraseña_KeyUp(object sender, KeyEventArgs e)
+        {
+            string texto = txt_contraseña.Text.Replace("\r\n", "").Replace("\n", "").Replace("\r", "");
+            txt_contraseña.Text = texto;
+            txt_contraseña.Select(txt_contraseña.Text.Length, 0);
+        }
     }
 }
