@@ -39,7 +39,7 @@
             this.btnComenzar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnComenzar.FlatAppearance.BorderSize = 0;
             this.btnComenzar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComenzar.Location = new System.Drawing.Point(366, 399);
+            this.btnComenzar.Location = new System.Drawing.Point(368, 399);
             this.btnComenzar.Name = "btnComenzar";
             this.btnComenzar.Size = new System.Drawing.Size(264, 93);
             this.btnComenzar.TabIndex = 0;
