@@ -83,7 +83,9 @@
     <Compile Include="bienvenidos.Designer.cs">
       <DependentUpon>bienvenidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Crearcuenta.cs" />
+    <Compile Include="Crearcuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Crearcuenta.Designer.cs">
       <DependentUpon>Crearcuenta.cs</DependentUpon>
     </Compile>
@@ -125,6 +127,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quizgame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quizgame.Designer.cs">
+      <DependentUpon>quizgame.cs</DependentUpon>
+    </Compile>
     <Compile Include="recuperar contraseña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +179,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="quizgame.resx">
+      <DependentUpon>quizgame.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="recuperar contraseña.resx">
       <DependentUpon>recuperar contraseña.cs</DependentUpon>
     </EmbeddedResource>
@@ -274,6 +285,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\question.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAPASINCO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mamasinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hijosinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebesinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abuelasinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esposasinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hermanossinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hijasinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mellizossinco.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sobrinosinco.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
