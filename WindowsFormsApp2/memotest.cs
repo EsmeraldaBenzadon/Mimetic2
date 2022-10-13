@@ -23,11 +23,13 @@ namespace WindowsFormsApp2
         //variables declaradas
         OleDbConnection DatabaseProyecto;
         string NombreU;
+        public string NombreUsu;
 
         public memotest(string NombreU)
         {
             InitializeComponent();
             this.NombreU = NombreU;
+            NomUsu.Text = NombreU;
         }
         private PictureBox[] pictureBoxes
         {
@@ -93,8 +95,8 @@ namespace WindowsFormsApp2
                     else
                     {
                         this.Hide();
-                        //menu_juegos abrir = new menu_juegos();
-                        //abrir.Show();
+                        menu_juegos abrir = new menu_juegos(NombreU);
+                        abrir.Show();
                     }
                 }
                 var ssTime = TimeSpan.FromSeconds(time);
@@ -188,16 +190,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -216,8 +214,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -272,16 +270,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -301,8 +295,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -347,16 +341,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -422,16 +412,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -450,8 +436,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -496,16 +482,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -524,8 +506,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -570,16 +552,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -598,8 +576,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -644,16 +622,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -672,8 +646,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -718,16 +692,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -746,8 +716,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -792,16 +762,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -820,8 +786,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -866,16 +832,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -894,8 +856,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -940,16 +902,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -968,8 +926,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -1014,16 +972,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -1042,8 +996,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -1088,16 +1042,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -1116,8 +1066,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -1162,16 +1112,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -1190,8 +1136,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -1236,16 +1182,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -1264,8 +1206,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -1310,16 +1252,12 @@ namespace WindowsFormsApp2
 
                 //Búsqueda de Juegos Ganados
                 string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
-                OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
-                string datosjuego = comando.ExecuteScalar().ToString();
-                int juegoswin = Convert.ToInt32(datosjuego);
+                int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
                 consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
-                OleDbCommand comando1 = new OleDbCommand(consulta, DatabaseProyecto);
-                datosjuego = comando1.ExecuteScalar().ToString();
-                int juegoslose = Convert.ToInt32(datosjuego);
+                int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
                 double PorPer;
@@ -1338,8 +1276,8 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    //menu_juegos abrir = new menu_juegos();
-                    //abrir.Show();
+                    menu_juegos abrir = new menu_juegos(NombreU);
+                    abrir.Show();
                 }
             }
         }
@@ -1378,6 +1316,7 @@ namespace WindowsFormsApp2
             form.MinimizeBox = false;
             form.MaximizeBox = false;
 
+
             form.Controls.AddRange(new Control[] { label, buttonOk, buttoncancel });
             form.AcceptButton = buttonOk;
             form.CancelButton = buttoncancel;
@@ -1389,7 +1328,7 @@ namespace WindowsFormsApp2
         }
         private int accesobd(string consulta)
         {
-            //Búsqueda de Juegos Ganados
+            //Búsqueda de Juegos 
             OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
             string datosjuego = comando.ExecuteScalar().ToString();
             int juegoswin = Convert.ToInt32(datosjuego);
