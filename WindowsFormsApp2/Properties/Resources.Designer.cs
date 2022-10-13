@@ -63,6 +63,26 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_dias {
+            get {
+                object obj = ResourceManager.GetObject("boton dias", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton_familia__1_ {
+            get {
+                object obj = ResourceManager.GetObject("boton familia (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton_juego_abc {
             get {
                 object obj = ResourceManager.GetObject("boton juego abc", resourceCulture);
@@ -83,9 +103,49 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_meses {
+            get {
+                object obj = ResourceManager.GetObject("boton meses", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton_multiplechoice {
             get {
                 object obj = ResourceManager.GetObject("boton multiplechoice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton_numeros {
+            get {
+                object obj = ResourceManager.GetObject("boton numeros", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton_verbos {
+            get {
+                object obj = ResourceManager.GetObject("boton verbos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_1 {
+            get {
+                object obj = ResourceManager.GetObject("Group 1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +346,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap TODOBIEN {
             get {
                 object obj = ResourceManager.GetObject("TODOBIEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vocabulario_basico {
+            get {
+                object obj = ResourceManager.GetObject("vocabulario basico", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

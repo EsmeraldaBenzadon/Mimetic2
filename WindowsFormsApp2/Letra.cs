@@ -53,7 +53,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            bienvenidos Nuevaventana = new bienvenidos(this.NombreUsu);
+            Abecedario Nuevaventana = new Abecedario (this.NombreUsu);
             Nuevaventana.Show();
         }
     }

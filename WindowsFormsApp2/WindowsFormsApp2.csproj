@@ -131,6 +131,12 @@
     <Compile Include="recuperar contraseña.Designer.cs">
       <DependentUpon>recuperar contraseña.cs</DependentUpon>
     </Compile>
+    <Compile Include="voc basico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voc basico.Designer.cs">
+      <DependentUpon>voc basico.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ABC.resx">
       <DependentUpon>ABC.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,6 +179,9 @@
     </Compile>
     <EmbeddedResource Include="recuperar contraseña.resx">
       <DependentUpon>recuperar contraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voc basico.resx">
+      <DependentUpon>voc basico.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -289,6 +298,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\boton multiplechoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vocabulario basico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton verbos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton dias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton numeros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton meses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton familia %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

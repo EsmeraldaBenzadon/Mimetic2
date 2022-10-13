@@ -73,6 +73,7 @@
             this.DoubleBuffered = true;
             this.Name = "pantalla_logueo";
             this.Text = "pantalla_logueo";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Pantalla_logueo_Load);
             this.ResumeLayout(false);
 

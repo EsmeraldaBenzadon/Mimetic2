@@ -41,7 +41,7 @@ namespace WindowsFormsApp2
             // txt_nombre
             // 
             this.txt_nombre.Location = new System.Drawing.Point(182, 36);
-            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2);
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(68, 20);
             this.txt_nombre.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace WindowsFormsApp2
             // txt_newcontra
             // 
             this.txt_newcontra.Location = new System.Drawing.Point(182, 96);
-            this.txt_newcontra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_newcontra.Margin = new System.Windows.Forms.Padding(2);
             this.txt_newcontra.Name = "txt_newcontra";
             this.txt_newcontra.Size = new System.Drawing.Size(68, 20);
             this.txt_newcontra.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace WindowsFormsApp2
             // txt_repnewcontra
             // 
             this.txt_repnewcontra.Location = new System.Drawing.Point(182, 159);
-            this.txt_repnewcontra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_repnewcontra.Margin = new System.Windows.Forms.Padding(2);
             this.txt_repnewcontra.Name = "txt_repnewcontra";
             this.txt_repnewcontra.Size = new System.Drawing.Size(68, 20);
             this.txt_repnewcontra.TabIndex = 2;
@@ -95,7 +95,7 @@ namespace WindowsFormsApp2
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(155, 210);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 21);
             this.button1.TabIndex = 6;
@@ -115,9 +115,10 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.txt_repnewcontra);
             this.Controls.Add(this.txt_newcontra);
             this.Controls.Add(this.txt_nombre);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "recuperar_contraseña";
             this.Text = "recuperar_contraseña";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.recuperar_contraseña_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -90,6 +90,7 @@
             this.Controls.Add(this.reproductor);
             this.DoubleBuffered = true;
             this.Name = "Letra";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Letra_Load);
             this.Shown += new System.EventHandler(this.Letra_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.reproductor)).EndInit();

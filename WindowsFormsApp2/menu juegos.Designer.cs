@@ -41,6 +41,7 @@
             this.abc.BackColor = System.Drawing.Color.Transparent;
             this.abc.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_juego_abc;
             this.abc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.abc.FlatAppearance.BorderSize = 0;
             this.abc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.abc.Location = new System.Drawing.Point(180, 233);
             this.abc.Name = "abc";
@@ -54,6 +55,7 @@
             this.voc.BackColor = System.Drawing.Color.Transparent;
             this.voc.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_multiplechoice;
             this.voc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.voc.FlatAppearance.BorderSize = 0;
             this.voc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.voc.Location = new System.Drawing.Point(549, 484);
             this.voc.Name = "voc";
@@ -66,6 +68,7 @@
             this.frases.BackColor = System.Drawing.Color.Transparent;
             this.frases.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_memotest;
             this.frases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.frases.FlatAppearance.BorderSize = 0;
             this.frases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.frases.Location = new System.Drawing.Point(888, 233);
             this.frases.Name = "frases";
