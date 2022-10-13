@@ -92,7 +92,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::WindowsFormsApp2.Properties.Resources.duda;
             this.pictureBox2.Location = new System.Drawing.Point(27, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(648, 330);
@@ -113,6 +112,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "quizgame";
             this.Text = "quizgame";
+            this.Load += new System.EventHandler(this.Quizgame_Load);
             this.Click += new System.EventHandler(this.checkAswerEvent);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

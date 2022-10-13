@@ -22,11 +22,39 @@ namespace WindowsFormsApp2
         public quizgame()
         {
             InitializeComponent();
+            askQuestion(questionNumber);
+            totalQuestions = 10;
         }
 
         private void checkAswerEvent(object sender, EventArgs e)
         {
+            var senderObject = (Button)sender;
 
+            int buttonTag = Convert.ToInt32(senderObject.Tag);
+
+            if (buttonTag == correctAnswer)
+            {
+                score++;
+            }
+
+            if (questionNumber == totalQuestions)
+            {
+                //porcentaje de respuestas correctas 
+                percentage = (int)Math.Round((double)(score * 100) / totalQuestions);
+                MessageBox.Show (
+                    
+                    "¡TERMINASTE EL CUESTIONARIO!" + Environment.NewLine + 
+                    "OBTUVISTE  " + score + " RESPUESTAS CORRECTAS  " + Environment.NewLine + 
+                    "TU PORCENTAJE TOTAL ES " + percentage + " de 100" + Environment.NewLine + 
+                    "PRESIONA OK PARA JUGARLO DE NUEVO"
+                    );
+                score = 0;
+                questionNumber = 0;
+                askQuestion(questionNumber);
+
+            }
+            questionNumber++;
+            askQuestion(questionNumber);
         }
         private void askQuestion (int qnum)
         {
@@ -144,6 +172,11 @@ namespace WindowsFormsApp2
                     break;
 
             }
+        }
+
+        private void Quizgame_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

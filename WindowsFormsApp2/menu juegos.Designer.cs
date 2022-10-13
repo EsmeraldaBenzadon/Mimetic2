@@ -39,7 +39,6 @@
             // abc
             // 
             this.abc.BackColor = System.Drawing.Color.Transparent;
-            this.abc.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_juego_abc;
             this.abc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.abc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.abc.Location = new System.Drawing.Point(180, 233);
@@ -52,7 +51,6 @@
             // voc
             // 
             this.voc.BackColor = System.Drawing.Color.Transparent;
-            this.voc.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_multiplechoice;
             this.voc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.voc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.voc.Location = new System.Drawing.Point(549, 484);
@@ -60,11 +58,11 @@
             this.voc.Size = new System.Drawing.Size(276, 164);
             this.voc.TabIndex = 1;
             this.voc.UseVisualStyleBackColor = false;
+            this.voc.Click += new System.EventHandler(this.Voc_Click);
             // 
             // frases
             // 
             this.frases.BackColor = System.Drawing.Color.Transparent;
-            this.frases.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_memotest;
             this.frases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.frases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.frases.Location = new System.Drawing.Point(888, 233);
@@ -101,7 +99,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.seleccion_de_juego__1_;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.NomUsu);
