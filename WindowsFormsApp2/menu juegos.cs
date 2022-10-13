@@ -46,5 +46,12 @@ namespace WindowsFormsApp2
             bienvenidos Nuevaventana = new bienvenidos(this.NombreUsu);
             Nuevaventana.Show();
         }
+
+        private void Voc_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            quizgame Nuevaventana = new quizgame();
+            Nuevaventana.Show();
+        }
     }
 }
