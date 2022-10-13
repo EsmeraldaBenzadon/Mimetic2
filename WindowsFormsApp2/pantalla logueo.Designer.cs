@@ -40,7 +40,7 @@
             this.btnInicios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnInicios.FlatAppearance.BorderSize = 0;
             this.btnInicios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicios.Location = new System.Drawing.Point(493, 163);
+            this.btnInicios.Location = new System.Drawing.Point(495, 190);
             this.btnInicios.Name = "btnInicios";
             this.btnInicios.Size = new System.Drawing.Size(382, 138);
             this.btnInicios.TabIndex = 0;

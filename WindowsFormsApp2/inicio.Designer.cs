@@ -39,9 +39,9 @@
             this.btnComenzar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnComenzar.FlatAppearance.BorderSize = 0;
             this.btnComenzar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComenzar.Location = new System.Drawing.Point(368, 399);
+            this.btnComenzar.Location = new System.Drawing.Point(502, 535);
             this.btnComenzar.Name = "btnComenzar";
-            this.btnComenzar.Size = new System.Drawing.Size(264, 93);
+            this.btnComenzar.Size = new System.Drawing.Size(351, 123);
             this.btnComenzar.TabIndex = 0;
             this.btnComenzar.UseVisualStyleBackColor = false;
             this.btnComenzar.Click += new System.EventHandler(this.BtnComenzar_Click);
@@ -52,7 +52,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(995, 544);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.btnComenzar);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Transparent;

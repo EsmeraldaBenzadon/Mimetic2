@@ -275,5 +275,20 @@
   <ItemGroup>
     <None Include="Resources\question.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seleccion de juego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seleccion de juego %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton memotest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton juego abc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton multiplechoice.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,64 +28,86 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_juegos));
             this.abc = new System.Windows.Forms.Button();
             this.voc = new System.Windows.Forms.Button();
             this.frases = new System.Windows.Forms.Button();
             this.NomUsu = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // abc
             // 
-            this.abc.Location = new System.Drawing.Point(249, 160);
-            this.abc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.abc.BackColor = System.Drawing.Color.Transparent;
+            this.abc.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_juego_abc;
+            this.abc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.abc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.abc.Location = new System.Drawing.Point(180, 233);
             this.abc.Name = "abc";
-            this.abc.Size = new System.Drawing.Size(112, 35);
+            this.abc.Size = new System.Drawing.Size(276, 164);
             this.abc.TabIndex = 0;
-            this.abc.Text = "ABC";
-            this.abc.UseVisualStyleBackColor = true;
+            this.abc.UseVisualStyleBackColor = false;
             this.abc.Click += new System.EventHandler(this.Abc_Click);
             // 
             // voc
             // 
-            this.voc.Location = new System.Drawing.Point(514, 405);
-            this.voc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.voc.BackColor = System.Drawing.Color.Transparent;
+            this.voc.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_multiplechoice;
+            this.voc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.voc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.voc.Location = new System.Drawing.Point(549, 484);
             this.voc.Name = "voc";
-            this.voc.Size = new System.Drawing.Size(156, 63);
+            this.voc.Size = new System.Drawing.Size(276, 164);
             this.voc.TabIndex = 1;
-            this.voc.Text = "Vocabulario especifico";
-            this.voc.UseVisualStyleBackColor = true;
+            this.voc.UseVisualStyleBackColor = false;
             // 
             // frases
             // 
-            this.frases.Location = new System.Drawing.Point(780, 160);
-            this.frases.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.frases.BackColor = System.Drawing.Color.Transparent;
+            this.frases.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_memotest;
+            this.frases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.frases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.frases.Location = new System.Drawing.Point(888, 233);
             this.frases.Name = "frases";
-            this.frases.Size = new System.Drawing.Size(144, 68);
+            this.frases.Size = new System.Drawing.Size(276, 164);
             this.frases.TabIndex = 2;
-            this.frases.Text = "Fraces cotidianas";
-            this.frases.UseVisualStyleBackColor = true;
+            this.frases.UseVisualStyleBackColor = false;
             this.frases.Click += new System.EventHandler(this.frases_Click);
             // 
             // NomUsu
             // 
             this.NomUsu.AutoSize = true;
-            this.NomUsu.Location = new System.Drawing.Point(1246, 33);
-            this.NomUsu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.NomUsu.Location = new System.Drawing.Point(1283, 24);
             this.NomUsu.Name = "NomUsu";
-            this.NomUsu.Size = new System.Drawing.Size(51, 20);
+            this.NomUsu.Size = new System.Drawing.Size(35, 13);
             this.NomUsu.TabIndex = 3;
             this.NomUsu.Text = "label1";
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVolver.BackgroundImage")));
+            this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Location = new System.Drawing.Point(50, 590);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(95, 90);
+            this.btnVolver.TabIndex = 4;
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
+            // 
             // menu_juegos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 712);
+            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.seleccion_de_juego__1_;
+            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.frases);
             this.Controls.Add(this.voc);
             this.Controls.Add(this.abc);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "menu_juegos";
             this.Text = "menu_juegos";
             this.Load += new System.EventHandler(this.Menu_juegos_Load);
@@ -100,5 +122,6 @@
         private System.Windows.Forms.Button voc;
         private System.Windows.Forms.Button frases;
         private System.Windows.Forms.Label NomUsu;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

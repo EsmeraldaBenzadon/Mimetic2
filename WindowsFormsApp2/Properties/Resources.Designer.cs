@@ -63,6 +63,36 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_juego_abc {
+            get {
+                object obj = ResourceManager.GetObject("boton juego abc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton_memotest {
+            get {
+                object obj = ResourceManager.GetObject("boton memotest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton_multiplechoice {
+            get {
+                object obj = ResourceManager.GetObject("boton multiplechoice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap inside_out_joy {
             get {
                 object obj = ResourceManager.GetObject("inside-out-joy", resourceCulture);
@@ -226,6 +256,26 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap QUETAL {
             get {
                 object obj = ResourceManager.GetObject("QUETAL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seleccion_de_juego {
+            get {
+                object obj = ResourceManager.GetObject("seleccion de juego", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seleccion_de_juego__1_ {
+            get {
+                object obj = ResourceManager.GetObject("seleccion de juego (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

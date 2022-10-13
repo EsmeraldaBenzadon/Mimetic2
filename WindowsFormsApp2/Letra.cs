@@ -13,6 +13,7 @@ namespace WindowsFormsApp2
     public partial class Letra : Form
     {
         string letra;
+        public string NombreUsu;
 
         public Letra(string le)
         {
@@ -42,6 +43,18 @@ namespace WindowsFormsApp2
         private void Letra_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Lbl_letra_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bienvenidos Nuevaventana = new bienvenidos(this.NombreUsu);
+            Nuevaventana.Show();
         }
     }
 }

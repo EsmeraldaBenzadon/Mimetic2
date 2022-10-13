@@ -39,5 +39,12 @@ namespace WindowsFormsApp2
             memotest Nuevaventana = new memotest(this.NombreUsu);
             Nuevaventana.Show();
         }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bienvenidos Nuevaventana = new bienvenidos(this.NombreUsu);
+            Nuevaventana.Show();
+        }
     }
 }
