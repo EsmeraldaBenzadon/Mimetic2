@@ -58,7 +58,7 @@ namespace WindowsFormsApp2
         }
         private void askQuestion (int qnum)
         {
-            switch(qnum)
+           /* switch(qnum)
             {
                 case 1:
                     pictureBox2.Image = Properties.Resources.PAPASINCO;
@@ -171,7 +171,7 @@ namespace WindowsFormsApp2
                     correctAnswer = 4;
                     break;
 
-            }
+            } */
         }
 
         private void Quizgame_Load(object sender, EventArgs e)

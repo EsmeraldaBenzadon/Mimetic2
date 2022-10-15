@@ -64,5 +64,12 @@ namespace WindowsFormsApp2
             //Frases Nuevaventana = new Frases(this.nombreusuario);
             //Nuevaventana.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ABC2 Nuevaventana = new ABC2(this.nombreusuario);
+            Nuevaventana.Show();
+        }
     }
 }

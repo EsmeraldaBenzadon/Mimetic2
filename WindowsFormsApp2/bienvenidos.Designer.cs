@@ -36,6 +36,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.NomUsu = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnabc
@@ -45,9 +46,10 @@
             this.btnabc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnabc.FlatAppearance.BorderSize = 0;
             this.btnabc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnabc.Location = new System.Drawing.Point(286, 215);
+            this.btnabc.Location = new System.Drawing.Point(429, 331);
+            this.btnabc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnabc.Name = "btnabc";
-            this.btnabc.Size = new System.Drawing.Size(252, 163);
+            this.btnabc.Size = new System.Drawing.Size(378, 251);
             this.btnabc.TabIndex = 0;
             this.btnabc.UseVisualStyleBackColor = false;
             this.btnabc.Click += new System.EventHandler(this.Btnabc_Click);
@@ -59,9 +61,10 @@
             this.btnfrases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnfrases.FlatAppearance.BorderSize = 0;
             this.btnfrases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnfrases.Location = new System.Drawing.Point(754, 215);
+            this.btnfrases.Location = new System.Drawing.Point(1131, 331);
+            this.btnfrases.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnfrases.Name = "btnfrases";
-            this.btnfrases.Size = new System.Drawing.Size(252, 163);
+            this.btnfrases.Size = new System.Drawing.Size(378, 251);
             this.btnfrases.TabIndex = 1;
             this.btnfrases.UseVisualStyleBackColor = false;
             this.btnfrases.Click += new System.EventHandler(this.Btnfrases_Click);
@@ -73,9 +76,10 @@
             this.btnvocabulario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvocabulario.FlatAppearance.BorderSize = 0;
             this.btnvocabulario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnvocabulario.Location = new System.Drawing.Point(286, 438);
+            this.btnvocabulario.Location = new System.Drawing.Point(429, 674);
+            this.btnvocabulario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnvocabulario.Name = "btnvocabulario";
-            this.btnvocabulario.Size = new System.Drawing.Size(252, 163);
+            this.btnvocabulario.Size = new System.Drawing.Size(378, 251);
             this.btnvocabulario.TabIndex = 2;
             this.btnvocabulario.UseVisualStyleBackColor = false;
             this.btnvocabulario.Click += new System.EventHandler(this.Btnvocabulario_Click);
@@ -87,9 +91,10 @@
             this.btnJugamos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnJugamos.FlatAppearance.BorderSize = 0;
             this.btnJugamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJugamos.Location = new System.Drawing.Point(754, 438);
+            this.btnJugamos.Location = new System.Drawing.Point(1131, 674);
+            this.btnJugamos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnJugamos.Name = "btnJugamos";
-            this.btnJugamos.Size = new System.Drawing.Size(252, 163);
+            this.btnJugamos.Size = new System.Drawing.Size(378, 251);
             this.btnJugamos.TabIndex = 3;
             this.btnJugamos.UseVisualStyleBackColor = false;
             this.btnJugamos.Click += new System.EventHandler(this.BtnJugamos_Click);
@@ -101,9 +106,10 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(1253, 642);
+            this.button1.Location = new System.Drawing.Point(1880, 988);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 75);
+            this.button1.Size = new System.Drawing.Size(111, 115);
             this.button1.TabIndex = 4;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
@@ -111,9 +117,10 @@
             // NomUsu
             // 
             this.NomUsu.AutoSize = true;
-            this.NomUsu.Location = new System.Drawing.Point(1288, 21);
+            this.NomUsu.Location = new System.Drawing.Point(1932, 32);
+            this.NomUsu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NomUsu.Name = "NomUsu";
-            this.NomUsu.Size = new System.Drawing.Size(29, 13);
+            this.NomUsu.Size = new System.Drawing.Size(42, 20);
             this.NomUsu.TabIndex = 5;
             this.NomUsu.Text = "hols ";
             this.NomUsu.Click += new System.EventHandler(this.label1_Click);
@@ -122,19 +129,29 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(15, 9);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(22, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 6;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(905, 294);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(136, 68);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // bienvenidos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.button1);
@@ -143,6 +160,7 @@
             this.Controls.Add(this.btnfrases);
             this.Controls.Add(this.btnabc);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "bienvenidos";
             this.Text = "bienvenidos";
             this.Load += new System.EventHandler(this.Bienvenidos_Load);
@@ -160,5 +178,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label NomUsu;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
     }
 }

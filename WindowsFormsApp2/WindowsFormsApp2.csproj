@@ -71,6 +71,12 @@
     <Compile Include="ABC.Designer.cs">
       <DependentUpon>ABC.cs</DependentUpon>
     </Compile>
+    <Compile Include="ABC2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC2.Designer.cs">
+      <DependentUpon>ABC2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Abecedario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </Compile>
     <EmbeddedResource Include="ABC.resx">
       <DependentUpon>ABC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC2.resx">
+      <DependentUpon>ABC2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Abecedario.resx">
       <DependentUpon>Abecedario.cs</DependentUpon>
