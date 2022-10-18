@@ -145,6 +145,12 @@
     <Compile Include="recuperar contraseña.Designer.cs">
       <DependentUpon>recuperar contraseña.cs</DependentUpon>
     </Compile>
+    <Compile Include="scroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scroll.Designer.cs">
+      <DependentUpon>scroll.cs</DependentUpon>
+    </Compile>
     <Compile Include="voc basico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="recuperar contraseña.resx">
       <DependentUpon>recuperar contraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scroll.resx">
+      <DependentUpon>scroll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="voc basico.resx">
       <DependentUpon>voc basico.cs</DependentUpon>
