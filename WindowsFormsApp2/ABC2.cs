@@ -26,8 +26,10 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nombre = textBox1.Text;
+            string nombre = textBox1.Text.Replace(" ", "");
             char letraDelNombre;
+            string letra;
+            int salto = 0;
             List<Label> labels = new List<Label>();
 
             indiceActual = 0;
@@ -51,7 +53,32 @@ namespace WindowsFormsApp2
                 player.CreateControl();
                 string dirProyecto = AppContext.BaseDirectory;
                 dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-                player.URL = dirProyecto + "Letras\\A.mp4";
+                letra = nombre[i].ToString();
+                if (letra == "l" && i > 0 && nombre[i - 1].ToString() == "l")
+                {
+                    salto++;
+                    continue;
+                }
+                if (letra == "l" && nombre.Length > (i + 1))
+                {
+                    if (nombre[i + 1].ToString() == "l")
+                    {
+                        letra = "ll";
+                    }
+                }
+                if (letra == "h" && i > 0 && nombre[i - 1].ToString() == "c")
+                {
+                    salto++;
+                    continue;
+                }
+                if (letra == "c" && nombre.Length > (i + 1))
+                {
+                    if (nombre[i + 1].ToString() == "h")
+                    {
+                        letra = "ch";
+                    }
+                }
+                player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
                 Size size = new Size(300, 300);
                 player.Size = size;
                 //operador ternario

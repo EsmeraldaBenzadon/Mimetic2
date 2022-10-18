@@ -38,7 +38,7 @@ namespace WindowsFormsApp2
         private void BtnJugamos_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu_juegos Nuevaventana = new menu_juegos(this.nombreusuario);
+            menujuegos2 Nuevaventana = new menujuegos2(this.nombreusuario);
             Nuevaventana.Show();
         }
 

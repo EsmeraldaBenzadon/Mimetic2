@@ -142,8 +142,6 @@ namespace WindowsFormsApp2
             txt_contraseña.PasswordChar = '°';
         }
 
-        
-
         private void Txt_repetir_TextChanged(object sender, EventArgs e)
         {
             txt_repetir.PasswordChar = '°';
@@ -171,6 +169,13 @@ namespace WindowsFormsApp2
         {
             pbmostrar_rep.BringToFront();
             txt_repetir.PasswordChar = '°';
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pantalla_logueo Nuevaventana = new pantalla_logueo();
+            Nuevaventana.Show();
         }
     }
     }

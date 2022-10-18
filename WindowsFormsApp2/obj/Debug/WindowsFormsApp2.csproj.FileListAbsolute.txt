@@ -124,3 +124,4 @@ C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\bin\Debug\Interop.WMPLib
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.menujuegos2.resources

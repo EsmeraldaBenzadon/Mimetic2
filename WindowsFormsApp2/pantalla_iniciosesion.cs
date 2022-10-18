@@ -101,5 +101,12 @@ namespace WindowsFormsApp2
             txt_contraseña.Text = texto;
             txt_contraseña.Select(txt_contraseña.Text.Length, 0);
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pantalla_logueo Nuevaventana = new pantalla_logueo();
+            Nuevaventana.Show();
+        }
     }
 }
