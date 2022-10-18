@@ -95,7 +95,7 @@ namespace WindowsFormsApp2
                     else
                     {
                         this.Hide();
-                        menu_juegos abrir = new menu_juegos(NombreU);
+                        menujuegos2 abrir = new menujuegos2(NombreU);
                         abrir.Show();
                     }
                 }
@@ -214,7 +214,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -295,7 +295,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -365,7 +365,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -436,7 +436,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -506,7 +506,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -576,7 +576,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -646,7 +646,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -716,7 +716,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -786,7 +786,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -856,7 +856,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -926,7 +926,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -996,7 +996,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -1066,7 +1066,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -1136,7 +1136,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -1206,7 +1206,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
@@ -1276,7 +1276,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menu_juegos abrir = new menu_juegos(NombreU);
+                    menujuegos2 abrir = new menujuegos2(NombreU);
                     abrir.Show();
                 }
             }
