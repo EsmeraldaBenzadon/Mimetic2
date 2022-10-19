@@ -14,7 +14,12 @@ namespace WindowsFormsApp2
     public partial class ABC2 : Form
     {
         public int indiceActual;
-        public string NombreUsu;
+        public string NombreUsu, nombre;
+        int i = 0;
+        string letra;
+        AxWindowsMediaPlayer player;
+        Label label;
+        string dirProyecto;
 
         public ABC2(string NombreU)
         {
@@ -26,13 +31,8 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nombre = textBox1.Text.Replace(" ", "");
-            char letraDelNombre;
-            string letra;
-            int salto = 0;
-            List<Label> labels = new List<Label>();
+            nombre = textBox1.Text.Replace(" ", "");
 
-            indiceActual = 0;
             btnAtras.Visible = false;
             btnSiguiente.Visible = true;
 
@@ -45,94 +45,59 @@ namespace WindowsFormsApp2
                 }
             }
 
+            player = new AxWindowsMediaPlayer();
 
-            for (int i = 0; i < nombre.Length; i++)
-            {
-                AxWindowsMediaPlayer player = new AxWindowsMediaPlayer();
-                Controls.Add(player);
-                player.CreateControl();
-                string dirProyecto = AppContext.BaseDirectory;
-                dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-                letra = nombre[i].ToString();
-                if (letra == "l" && i > 0 && nombre[i - 1].ToString() == "l")
-                {
-                    salto++;
-                    continue;
-                }
-                if (letra == "l" && nombre.Length > (i + 1))
-                {
-                    if (nombre[i + 1].ToString() == "l")
-                    {
-                        letra = "ll";
-                    }
-                }
-                if (letra == "h" && i > 0 && nombre[i - 1].ToString() == "c")
-                {
-                    salto++;
-                    continue;
-                }
-                if (letra == "c" && nombre.Length > (i + 1))
-                {
-                    if (nombre[i + 1].ToString() == "h")
-                    {
-                        letra = "ch";
-                    }
-                }
-                player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
-                Size size = new Size(300, 300);
-                player.Size = size;
-                //operador ternario
-                player.Visible = (i == 0) ? true : false;
-                player.Name = "V-" + i.ToString();
-                player.Location = new System.Drawing.Point(150, 50);
-                player.Ctlenabled = false;
-                player.close();
+            Controls.Add(player);
+            player.Location = new System.Drawing.Point(150, 50);
+            player.Ctlenabled = true;
+            player.settings.mute = true;
+            Size size = new Size(300, 300);
+            player.Size = size;
+            player.CreateControl();
 
+            checkLetra(); 
 
-                letraDelNombre = nombre[i];
+            dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
+            player.Visible = true;
+            player.Name = "V-" + i.ToString();
+            player.close();
 
-                Label label = new Label();
-                label.AutoSize = true;
-                label.Name = "L-" + i.ToString();
-                //operador ternario, si es la primer posicion entonces el control va a estar visible, sino todos los demas quedan invisibles.
-                label.Visible = (i == 0) ? true : false;
-                label.Text = letraDelNombre.ToString();
-                label.Location = new System.Drawing.Point(150, 380);
-                Controls.Add(label);
-
-            }
-
+            label = new Label();
+            label.AutoSize = true;
+            label.Name = "L-" + i.ToString();
+            //operador ternario, si es la primer posicion entonces el control va a estar visible, sino todos los demas quedan invisibles.
+            label.Visible = true;
+            label.Text = letra;
+            label.Location = new System.Drawing.Point(150, 380);
+            Controls.Add(label);
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            string nombre = textBox1.Text;
-            Controls.Find("V-" + indiceActual.ToString(), true)[0].Visible = false;
-            Controls.Find("L-" + indiceActual.ToString(), true)[0].Visible = false;
-
-            indiceActual = indiceActual + 1;
-
-            Controls.Find("V-" + indiceActual.ToString(), true)[0].Visible = true;
-            Controls.Find("L-" + indiceActual.ToString(), true)[0].Visible = true;
-
-            if (nombre.Length == (indiceActual + 1))
+            nombre = textBox1.Text;
+            i++;
+            checkLetra();
+            player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
+            player.Show();
+            label.Text = letra;
+            if (nombre.Length == (i + 1))
             {
                 btnSiguiente.Visible = false;
             }
             btnAtras.Visible = true;
+            
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            string nombre = textBox1.Text;
-            Controls.Find("V-" + indiceActual.ToString(), true)[0].Visible = false;
-            Controls.Find("L-" + indiceActual.ToString(), true)[0].Visible = false;
-
-            indiceActual = indiceActual - 1;
-
-            Controls.Find("V-" + indiceActual.ToString(), true)[0].Visible = true;
-            Controls.Find("L-" + indiceActual.ToString(), true)[0].Visible = true;
-
+            nombre = textBox1.Text;
+            i--;
+            checkLetra();
+            player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
+            player.Show();
+            label.Text = letra;
             if (indiceActual == 0)
             {
                 btnAtras.Visible = false;
@@ -140,6 +105,27 @@ namespace WindowsFormsApp2
             if (nombre.Length > (indiceActual + 1))
             {
                 btnSiguiente.Visible = true;
+            }
+
+        }
+
+        public void checkLetra()
+        {
+            letra = nombre[i].ToString();
+
+            if (letra == "l" && nombre[i+1] == 'l')
+            {
+                letra = "ll";
+                i += 1;
+            }
+            else if (letra == "c" && nombre[i + 1] == 'h')
+            {
+                letra = "ch";
+                i += 1;
+            }
+            else
+            {
+                letra = nombre[i].ToString();
             }
 
         }

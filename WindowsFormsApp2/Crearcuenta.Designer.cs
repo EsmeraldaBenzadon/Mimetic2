@@ -48,10 +48,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(357, 182);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(238, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 20);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 0;
             // 
             // txt_repetir
@@ -60,11 +59,10 @@
             this.txt_repetir.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_repetir.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
             this.txt_repetir.ForeColor = System.Drawing.Color.Black;
-            this.txt_repetir.Location = new System.Drawing.Point(320, 454);
-            this.txt_repetir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_repetir.Location = new System.Drawing.Point(362, 478);
             this.txt_repetir.Multiline = true;
             this.txt_repetir.Name = "txt_repetir";
-            this.txt_repetir.Size = new System.Drawing.Size(570, 54);
+            this.txt_repetir.Size = new System.Drawing.Size(640, 54);
             this.txt_repetir.TabIndex = 3;
             this.txt_repetir.TextChanged += new System.EventHandler(this.Txt_repetir_TextChanged);
             // 
@@ -75,10 +73,9 @@
             this.btnRegistrarse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRegistrarse.FlatAppearance.BorderSize = 0;
             this.btnRegistrarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrarse.Location = new System.Drawing.Point(434, 540);
-            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnRegistrarse.Location = new System.Drawing.Point(484, 567);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(351, 74);
+            this.btnRegistrarse.Size = new System.Drawing.Size(396, 78);
             this.btnRegistrarse.TabIndex = 4;
             this.btnRegistrarse.UseVisualStyleBackColor = false;
             this.btnRegistrarse.Click += new System.EventHandler(this.BtnRegistrarse_Click);
@@ -89,11 +86,10 @@
             this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_contraseña.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F);
             this.txt_contraseña.ForeColor = System.Drawing.Color.Black;
-            this.txt_contraseña.Location = new System.Drawing.Point(320, 318);
-            this.txt_contraseña.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_contraseña.Location = new System.Drawing.Point(362, 337);
             this.txt_contraseña.Multiline = true;
             this.txt_contraseña.Name = "txt_contraseña";
-            this.txt_contraseña.Size = new System.Drawing.Size(570, 54);
+            this.txt_contraseña.Size = new System.Drawing.Size(640, 55);
             this.txt_contraseña.TabIndex = 5;
             this.txt_contraseña.TextChanged += new System.EventHandler(this.Txt_contraseña_TextChanged);
             // 
@@ -103,11 +99,10 @@
             this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_nombre.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombre.ForeColor = System.Drawing.Color.Black;
-            this.txt_nombre.Location = new System.Drawing.Point(320, 186);
-            this.txt_nombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_nombre.Location = new System.Drawing.Point(362, 196);
             this.txt_nombre.Multiline = true;
             this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(570, 54);
+            this.txt_nombre.Size = new System.Drawing.Size(640, 60);
             this.txt_nombre.TabIndex = 6;
             // 
             // pbocultar
@@ -115,10 +110,9 @@
             this.pbocultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
             this.pbocultar.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo_tachado__1_;
             this.pbocultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbocultar.Location = new System.Drawing.Point(837, 331);
-            this.pbocultar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbocultar.Location = new System.Drawing.Point(951, 347);
             this.pbocultar.Name = "pbocultar";
-            this.pbocultar.Size = new System.Drawing.Size(39, 31);
+            this.pbocultar.Size = new System.Drawing.Size(37, 32);
             this.pbocultar.TabIndex = 7;
             this.pbocultar.TabStop = false;
             this.pbocultar.Click += new System.EventHandler(this.Pbocultar_Click);
@@ -128,10 +122,9 @@
             this.pbocultar_rep.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
             this.pbocultar_rep.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo_tachado__1_;
             this.pbocultar_rep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbocultar_rep.Location = new System.Drawing.Point(834, 465);
-            this.pbocultar_rep.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbocultar_rep.Location = new System.Drawing.Point(951, 486);
             this.pbocultar_rep.Name = "pbocultar_rep";
-            this.pbocultar_rep.Size = new System.Drawing.Size(39, 31);
+            this.pbocultar_rep.Size = new System.Drawing.Size(37, 32);
             this.pbocultar_rep.TabIndex = 8;
             this.pbocultar_rep.TabStop = false;
             this.pbocultar_rep.Click += new System.EventHandler(this.Pbocultar_rep_Click);
@@ -141,10 +134,9 @@
             this.pbmostrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
             this.pbmostrar.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo;
             this.pbmostrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbmostrar.Location = new System.Drawing.Point(837, 331);
-            this.pbmostrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbmostrar.Location = new System.Drawing.Point(951, 347);
             this.pbmostrar.Name = "pbmostrar";
-            this.pbmostrar.Size = new System.Drawing.Size(42, 31);
+            this.pbmostrar.Size = new System.Drawing.Size(37, 32);
             this.pbmostrar.TabIndex = 9;
             this.pbmostrar.TabStop = false;
             this.pbmostrar.Click += new System.EventHandler(this.Pbmostrar_Click);
@@ -154,10 +146,9 @@
             this.pbmostrar_rep.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
             this.pbmostrar_rep.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo;
             this.pbmostrar_rep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbmostrar_rep.Location = new System.Drawing.Point(834, 465);
-            this.pbmostrar_rep.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbmostrar_rep.Location = new System.Drawing.Point(951, 486);
             this.pbmostrar_rep.Name = "pbmostrar_rep";
-            this.pbmostrar_rep.Size = new System.Drawing.Size(39, 31);
+            this.pbmostrar_rep.Size = new System.Drawing.Size(37, 32);
             this.pbmostrar_rep.TabIndex = 10;
             this.pbmostrar_rep.TabStop = false;
             this.pbmostrar_rep.Click += new System.EventHandler(this.Pbmostrar_rep_Click);
@@ -169,21 +160,20 @@
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVolver.Location = new System.Drawing.Point(33, 589);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnVolver.Location = new System.Drawing.Point(24, 647);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(82, 78);
+            this.btnVolver.Size = new System.Drawing.Size(75, 70);
             this.btnVolver.TabIndex = 11;
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // Crearcuenta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.pbmostrar_rep);
             this.Controls.Add(this.pbmostrar);
@@ -195,7 +185,6 @@
             this.Controls.Add(this.txt_repetir);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Crearcuenta";
             this.Text = "Crearcuenta";
             this.Load += new System.EventHandler(this.Crearcuenta_Load);

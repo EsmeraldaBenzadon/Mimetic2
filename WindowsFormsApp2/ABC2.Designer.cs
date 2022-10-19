@@ -38,16 +38,18 @@ namespace WindowsFormsApp2
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(168, 81);
+            this.textBox1.Location = new System.Drawing.Point(112, 53);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(424, 26);
+            this.textBox1.Size = new System.Drawing.Size(284, 20);
             this.textBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(634, 78);
+            this.button1.Location = new System.Drawing.Point(423, 51);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 33);
+            this.button1.Size = new System.Drawing.Size(50, 21);
             this.button1.TabIndex = 1;
             this.button1.Text = "mostar";
             this.button1.UseVisualStyleBackColor = true;
@@ -55,9 +57,10 @@ namespace WindowsFormsApp2
             // 
             // btnAtras
             // 
-            this.btnAtras.Location = new System.Drawing.Point(28, 226);
+            this.btnAtras.Location = new System.Drawing.Point(19, 147);
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Size = new System.Drawing.Size(86, 34);
+            this.btnAtras.Size = new System.Drawing.Size(57, 22);
             this.btnAtras.TabIndex = 2;
             this.btnAtras.Text = "antes";
             this.btnAtras.UseVisualStyleBackColor = true;
@@ -65,9 +68,10 @@ namespace WindowsFormsApp2
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(651, 226);
+            this.btnSiguiente.Location = new System.Drawing.Point(434, 147);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(88, 34);
+            this.btnSiguiente.Size = new System.Drawing.Size(59, 22);
             this.btnSiguiente.TabIndex = 3;
             this.btnSiguiente.Text = "siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
@@ -76,22 +80,24 @@ namespace WindowsFormsApp2
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(701, 27);
+            this.label1.Location = new System.Drawing.Point(467, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "label1";
             // 
             // ABC2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ABC2";
             this.Text = "ABC2";
             this.ResumeLayout(false);

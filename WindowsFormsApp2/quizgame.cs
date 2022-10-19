@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,8 @@ namespace WindowsFormsApp2
         int score;
         int percentage;
         int totalQuestions;
+        OleDbConnection DatabaseProyecto;
+        string NombreU;
 
         public quizgame()
         {
@@ -55,10 +58,24 @@ namespace WindowsFormsApp2
             }
             questionNumber++;
             askQuestion(questionNumber);
+
+            if(totalQuestions == 10)
+            {
+                DatabaseProyecto.Open();
+                OleDbCommand info;
+                info = new OleDbCommand("INSERT INTO Progreso (Id_juego, Fechayhora, Progreso, NombreU) VALUES (1,'" + DateTime.Now + "', 3, '" + NombreU + "')");
+                info.Connection = DatabaseProyecto;
+                info.ExecuteNonQuery();
+
+                //Búsqueda de Juegos
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                int juegos = accesobd(consulta);
+                MessageBox.Show("Has jugado " + consulta + " veces");
+            }
         }
         private void askQuestion (int qnum)
         {
-           /* switch(qnum)
+          switch(qnum)
             {
                 case 1:
                     pictureBox2.Image = Properties.Resources.PAPASINCO;
@@ -169,14 +186,24 @@ namespace WindowsFormsApp2
                     button4.Text = "ESPOSA";
 
                     correctAnswer = 4;
-                    break;
+                    break;                   
 
-            } */
+          }
         }
 
         private void Quizgame_Load(object sender, EventArgs e)
         {
+            DatabaseProyecto = new OleDbConnection();
+            DatabaseProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
+        }
 
+        private int accesobd(string consulta)
+        {
+            //Búsqueda de Juegos 
+            OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
+            string datosjuego = comando.ExecuteScalar().ToString();
+            int juegos = Convert.ToInt32(datosjuego);
+            return juegos;
         }
     }
 }
