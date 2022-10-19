@@ -250,4 +250,28 @@
   <data name="boton multiplechoice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton multiplechoice1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="domingo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\domingo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jueves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jueves.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lunes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lunes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="martes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\martes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miercoles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miercoles.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sabado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sabado.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="semana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\semana.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viernes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viernes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

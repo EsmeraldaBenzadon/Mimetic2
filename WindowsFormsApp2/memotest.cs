@@ -1335,6 +1335,10 @@ namespace WindowsFormsApp2
             return juegoswin;
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
