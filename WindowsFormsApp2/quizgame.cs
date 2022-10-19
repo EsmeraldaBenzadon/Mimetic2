@@ -20,13 +20,15 @@ namespace WindowsFormsApp2
         int percentage;
         int totalQuestions;
         OleDbConnection DatabaseProyecto;
-        string NombreU;
+        public string NombreUsu;
 
-        public quizgame()
+        public quizgame(string nombre)
         {
             InitializeComponent();
             askQuestion(questionNumber);
             totalQuestions = 10;
+            NomUsu.Text = nombre;
+            this.NombreUsu = nombre;
         }
 
         private void checkAswerEvent(object sender, EventArgs e)
@@ -40,38 +42,40 @@ namespace WindowsFormsApp2
                 score++;
             }
 
-            if (questionNumber == totalQuestions)
-            {
-                //porcentaje de respuestas correctas 
-                percentage = (int)Math.Round((double)(score * 100) / totalQuestions);
-                MessageBox.Show (
-                    
-                    "¡TERMINASTE EL CUESTIONARIO!" + Environment.NewLine + 
-                    "OBTUVISTE  " + score + " RESPUESTAS CORRECTAS  " + Environment.NewLine + 
-                    "TU PORCENTAJE TOTAL ES " + percentage + " de 100" + Environment.NewLine + 
-                    "PRESIONA OK PARA JUGARLO DE NUEVO"
-                    );
-                score = 0;
-                questionNumber = 0;
-                askQuestion(questionNumber);
-
-            }
-            questionNumber++;
-            askQuestion(questionNumber);
-
-            if(totalQuestions == 10)
+            if(questionNumber == totalQuestions)
             {
                 DatabaseProyecto.Open();
                 OleDbCommand info;
-                info = new OleDbCommand("INSERT INTO Progreso (Id_juego, Fechayhora, Progreso, NombreU) VALUES (1,'" + DateTime.Now + "', 3, '" + NombreU + "')");
+                info = new OleDbCommand("INSERT INTO Progreso (Id_juego, Fechayhora, Progreso, NombreU) VALUES (3,'" + DateTime.Now + "', 1, '" + NombreUsu + "')");
                 info.Connection = DatabaseProyecto;
                 info.ExecuteNonQuery();
 
+
                 //Búsqueda de Juegos
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreUsu + "' and Progreso = " + 1 + " and Id_juego = " + 3 + " ;";
                 int juegos = accesobd(consulta);
-                MessageBox.Show("Has jugado " + consulta + " veces");
+                DatabaseProyecto.Close();
+
+                //porcentaje de respuestas correctas 
+                percentage = (int)Math.Round((double)(score * 100) / totalQuestions);
+
+                if (InputBox("¡Terminaste el juego!", "Tuviste  " + score + " de respuestas correctas. Muy bien!  " + "\n" +
+                    "Tu porsentaje total es de " + percentage + " de 100" + Environment.NewLine +
+                    " Ya has jugado " + juegos + " veces" + "\n" + "Si quieres intentarlo una vez mas hace click en aceptar") == DialogResult.OK)
+                {
+                    score = 0;
+                    questionNumber = 0;
+                    askQuestion(questionNumber);
+                }
+                else
+                {
+                    this.Hide();
+                    menujuegos2 abrir = new menujuegos2(NombreUsu);
+                    abrir.Show();
+                }             
             }
+            questionNumber++;
+            askQuestion(questionNumber);
         }
         private void askQuestion (int qnum)
         {
@@ -104,9 +108,9 @@ namespace WindowsFormsApp2
                     pictureBox2.Image = Properties.Resources.hijosinco;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "HERMANA";
-                    button2.Text = "PAPA";
+                    button2.Text = "HIJO";
                     button3.Text = "AMIGO";
-                    button4.Text = "HIJO";
+                    button4.Text = "HOMBRE";
 
                     correctAnswer = 4;
                     break;
@@ -197,7 +201,45 @@ namespace WindowsFormsApp2
             DatabaseProyecto.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = DatabaseProyecto.accdb";
         }
 
-        private int accesobd(string consulta)
+        private static DialogResult InputBox(string title, string promptText)
+        {
+            Form form = new Form();
+            Label label = new Label();
+            Button buttonOk = new Button();
+            Button buttoncancel = new Button();
+
+            form.Text = title;
+            label.Text = promptText;
+
+            buttonOk.Text = "OK";
+            buttonOk.DialogResult = DialogResult.OK;
+            buttonOk.CausesValidation = true;
+            buttoncancel.Text = "Salir";
+            buttoncancel.DialogResult = DialogResult.Cancel;
+            buttoncancel.CausesValidation = true;
+
+            label.SetBounds(26, 36, 186, 7);
+            buttonOk.SetBounds(220, 100, 80, 30);
+            buttoncancel.SetBounds(100, 100, 80, 30);
+
+            label.AutoSize = true;
+            form.ClientSize = new Size(398, 150);
+            form.FormBorderStyle = FormBorderStyle.FixedDialog;
+            form.StartPosition = FormStartPosition.CenterScreen;
+            form.MinimizeBox = false;
+            form.MaximizeBox = false;
+
+
+            form.Controls.AddRange(new Control[] { label, buttonOk, buttoncancel });
+            form.AcceptButton = buttonOk;
+            form.CancelButton = buttoncancel;
+
+            DialogResult dialogResult = form.ShowDialog();
+
+            return dialogResult;
+        }
+
+            private int accesobd(string consulta)
         {
             //Búsqueda de Juegos 
             OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);

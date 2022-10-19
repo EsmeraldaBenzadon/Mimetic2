@@ -37,7 +37,7 @@ namespace WindowsFormsApp2
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            quizgame Nuevaventana = new quizgame();
+            quizgame Nuevaventana = new quizgame(this.NombreUsu);
             Nuevaventana.Show();
         }
 

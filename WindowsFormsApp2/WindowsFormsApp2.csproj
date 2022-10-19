@@ -113,12 +113,6 @@
     <Compile Include="memotest.Designer.cs">
       <DependentUpon>memotest.cs</DependentUpon>
     </Compile>
-    <Compile Include="memotest2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="memotest2.Designer.cs">
-      <DependentUpon>memotest2.cs</DependentUpon>
-    </Compile>
     <Compile Include="menujuegos2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,9 +180,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="memotest.resx">
       <DependentUpon>memotest.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="memotest2.resx">
-      <DependentUpon>memotest2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menujuegos2.resx">
       <DependentUpon>menujuegos2.cs</DependentUpon>
@@ -389,28 +380,10 @@
     <None Include="Resources\boton multiplechoice1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\lunes.gif" />
+    <None Include="Resources\recuperar contraseña %28olvide mi contraseña%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\martes.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\miercoles.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\jueves.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\viernes.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sabado.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\domingo.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\semana.gif" />
+    <None Include="Resources\boton asignar contraseña.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -34,6 +34,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.NomUsu = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,11 +100,21 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
+            // NomUsu
+            // 
+            this.NomUsu.AutoSize = true;
+            this.NomUsu.Location = new System.Drawing.Point(682, 13);
+            this.NomUsu.Name = "NomUsu";
+            this.NomUsu.Size = new System.Drawing.Size(35, 13);
+            this.NomUsu.TabIndex = 7;
+            this.NomUsu.Text = "label1";
+            // 
             // quizgame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(733, 549);
+            this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -116,6 +127,7 @@
             this.Click += new System.EventHandler(this.checkAswerEvent);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -127,5 +139,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label NomUsu;
     }
 }
