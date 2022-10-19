@@ -36,14 +36,14 @@ namespace WindowsFormsApp2
             btnAtras.Visible = false;
             btnSiguiente.Visible = true;
 
-            for (int i = Controls.Count - 1; i >= 0; i--)
-            {
-                Control c = Controls[i];
-                if (c.Name.StartsWith("L-") || c.Name.StartsWith("V-"))
-                {
-                    Controls.RemoveAt(i);
-                }
-            }
+            //for (int i = Controls.Count - 1; i >= 0; i--)
+            //{
+            //    Control c = Controls[i];
+            //    if (c.Name.StartsWith("L-") || c.Name.StartsWith("V-"))
+            //    {
+            //        Controls.RemoveAt(i);
+            //    }
+            //}
 
             player = new AxWindowsMediaPlayer();
 
@@ -98,11 +98,11 @@ namespace WindowsFormsApp2
             player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
             player.Show();
             label.Text = letra;
-            if (indiceActual == 0)
+            if (i == 0)
             {
                 btnAtras.Visible = false;
             }
-            if (nombre.Length > (indiceActual + 1))
+            if (nombre.Length > (i + 1))
             {
                 btnSiguiente.Visible = true;
             }

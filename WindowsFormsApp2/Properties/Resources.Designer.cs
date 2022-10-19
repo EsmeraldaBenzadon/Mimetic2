@@ -83,6 +83,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_asignar_contraseña {
+            get {
+                object obj = ResourceManager.GetObject("boton asignar contraseña", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton_dias {
             get {
                 object obj = ResourceManager.GetObject("boton dias", resourceCulture);
@@ -436,6 +446,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap QUETAL {
             get {
                 object obj = ResourceManager.GetObject("QUETAL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap recuperar_contraseña__olvide_mi_contraseña_ {
+            get {
+                object obj = ResourceManager.GetObject("recuperar contraseña (olvide mi contraseña)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

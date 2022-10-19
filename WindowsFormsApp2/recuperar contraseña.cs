@@ -90,20 +90,16 @@ namespace WindowsFormsApp2
             Label label = new Label();
             TextBox textBox = new TextBox();
             Button buttonOk = new Button();
-            //Button buttonCancel = new Button();
 
             form.Text = title;
             label.Text = promptText;
 
             buttonOk.Text = "OK";
-            //buttonCancel.Text = "Cancel";
             buttonOk.DialogResult = DialogResult.OK;
-            //buttonCancel.DialogResult = DialogResult.Cancel;
 
             label.SetBounds(36, 36, 372, 13);
             textBox.SetBounds(36, 86, 700, 20);
             buttonOk.SetBounds(228, 160, 160, 60);
-            //buttonCancel.SetBounds(400, 160, 160, 60);
 
             label.AutoSize = true;
             form.ClientSize = new Size(796, 307);
@@ -112,14 +108,21 @@ namespace WindowsFormsApp2
             form.MinimizeBox = false;
             form.MaximizeBox = false;
 
-            form.Controls.AddRange(new Control[] { label, textBox, buttonOk, /*buttonCancel*/ });
+            form.Controls.AddRange(new Control[] { label, textBox, buttonOk,});
             form.AcceptButton = buttonOk;
-            //form.CancelButton = buttonCancel;
 
             DialogResult dialogResult = form.ShowDialog();
 
             value = textBox.Text;
             return dialogResult;
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pantalla_logueo Nuevaventana = new pantalla_logueo();
+            Nuevaventana.Show();
+
         }
     }
 }
