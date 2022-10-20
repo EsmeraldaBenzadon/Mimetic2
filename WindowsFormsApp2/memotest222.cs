@@ -120,35 +120,7 @@ namespace WindowsFormsApp2
 
         private void clickImage(object sender, EventArgs e)
         {
-            if (!allowClick) return;
-            var pic = (PictureBox)sender;
 
-            if (firstGuess == null)
-            {
-                firstGuess = pic;
-                pic.Image = (Image)pic.Tag;
-                return;
-            }
-            pic.Image = (Image)pic.Tag;
-
-            if (pic.Image == firstGuess.Image && pic != firstGuess)
-            {
-                pic.Visible = firstGuess.Visible = false;
-                {
-                    firstGuess = pic;
-
-                }
-                HideImages();
-            }
-            else
-            {
-                allowClick = false;
-                clickTimer.Start();
-            }
-            firstGuess = null;
-            if (pictureBoxes.Any(p => p.Visible)) return;
-            MessageBox.Show("GANASTE, ¡PRUEBA DE NUEVO!");
-            ResetImages();
         }
         private void startGame(object sender, EventArgs e)
         {
