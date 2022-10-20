@@ -20,6 +20,7 @@ namespace WindowsFormsApp2
         AxWindowsMediaPlayer player;
         Label label;
         string dirProyecto;
+        List<string> nombre_lista;
 
         public ABC2(string NombreU)
         {
@@ -32,21 +33,19 @@ namespace WindowsFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             nombre = textBox1.Text.Replace(" ", "");
-
             btnAtras.Visible = false;
             btnSiguiente.Visible = true;
 
-            //for (int i = Controls.Count - 1; i >= 0; i--)
-            //{
-            //    Control c = Controls[i];
-            //    if (c.Name.StartsWith("L-") || c.Name.StartsWith("V-"))
-            //    {
-            //        Controls.RemoveAt(i);
-            //    }
-            //}
+            for (int i = Controls.Count - 1; i >= 0; i--)
+            {
+                Control c = Controls[i];
+                if (c.Name.StartsWith("L-") || c.Name.StartsWith("V-"))
+                {
+                    Controls.RemoveAt(i);
+                }
+            }
 
             player = new AxWindowsMediaPlayer();
-
             Controls.Add(player);
             player.Location = new System.Drawing.Point(150, 50);
             player.Ctlenabled = true;
@@ -54,8 +53,6 @@ namespace WindowsFormsApp2
             Size size = new Size(300, 300);
             player.Size = size;
             player.CreateControl();
-
-            checkLetra(); 
 
             dirProyecto = AppContext.BaseDirectory;
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
@@ -72,29 +69,31 @@ namespace WindowsFormsApp2
             label.Text = letra;
             label.Location = new System.Drawing.Point(150, 380);
             Controls.Add(label);
+            label.Text = nombre[0].ToString();
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             nombre = textBox1.Text;
+            nombre_lista = strToArr(nombre);
             i++;
-            checkLetra();
+            letra = nombre_lista[i];
             player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
             player.Show();
             label.Text = letra;
-            if (nombre.Length == (i + 1))
+            if (nombre_lista.Count == (i + 1))
             {
                 btnSiguiente.Visible = false;
             }
             btnAtras.Visible = true;
-            
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
             nombre = textBox1.Text;
+            nombre_lista = strToArr(nombre);
             i--;
-            checkLetra();
+            letra = nombre_lista[i];
             player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
             player.Show();
             label.Text = letra;
@@ -102,32 +101,34 @@ namespace WindowsFormsApp2
             {
                 btnAtras.Visible = false;
             }
-            if (nombre.Length > (i + 1))
+            if (nombre_lista.Count > (i + 1))
             {
                 btnSiguiente.Visible = true;
             }
 
         }
 
-        public void checkLetra()
+        public List<string> strToArr(string palabra)
         {
-            letra = nombre[i].ToString();
-
-            if (letra == "l" && nombre[i+1] == 'l')
+            List<string> resultado = new List<string>();
+            for (int i = 0; i < palabra.Length; i++)
             {
-                letra = "ll";
-                i += 1;
+                if (palabra[i] == 'l' && palabra[i+1] == 'l')
+                {
+                    resultado.Add("ll");
+                    i++;
+                }
+                else if (palabra[i] == 'c' && palabra[i + 1] == 'h')
+                {
+                    resultado.Add("ch");
+                    i++;
+                }
+                else
+                {
+                    resultado.Add(palabra[i].ToString());
+                }
             }
-            else if (letra == "c" && nombre[i + 1] == 'h')
-            {
-                letra = "ch";
-                i += 1;
-            }
-            else
-            {
-                letra = nombre[i].ToString();
-            }
-
+            return resultado;
         }
     }
 }
