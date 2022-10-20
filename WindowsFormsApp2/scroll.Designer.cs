@@ -54,7 +54,7 @@
             // btnHOLA
             // 
             this.btnHOLA.Location = new System.Drawing.Point(4, 54);
-            this.btnHOLA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHOLA.Margin = new System.Windows.Forms.Padding(4);
             this.btnHOLA.Name = "btnHOLA";
             this.btnHOLA.Size = new System.Drawing.Size(100, 42);
             this.btnHOLA.TabIndex = 0;
@@ -65,7 +65,7 @@
             // btnBuendia
             // 
             this.btnBuendia.Location = new System.Drawing.Point(4, 4);
-            this.btnBuendia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuendia.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuendia.Name = "btnBuendia";
             this.btnBuendia.Size = new System.Drawing.Size(100, 42);
             this.btnBuendia.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             this.reproductor.Enabled = true;
             this.reproductor.Location = new System.Drawing.Point(286, 126);
-            this.reproductor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.reproductor.Margin = new System.Windows.Forms.Padding(4);
             this.reproductor.Name = "reproductor";
             this.reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("reproductor.OcxState")));
             this.reproductor.Size = new System.Drawing.Size(497, 285);
@@ -179,9 +179,9 @@
             this.flowLayoutPanel1.Controls.Add(this.btnPermiso);
             this.flowLayoutPanel1.Controls.Add(this.btnMuybien);
             this.flowLayoutPanel1.Controls.Add(this.btnMuymal);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 50);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 69);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(123, 470);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(117, 454);
             this.flowLayoutPanel1.TabIndex = 10;
             // 
             // btnBesos
@@ -268,7 +268,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.reproductor);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "scroll";
             this.Text = "scroll";
             this.Load += new System.EventHandler(this.scroll_Load);
