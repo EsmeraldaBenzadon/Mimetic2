@@ -82,6 +82,7 @@ namespace WindowsFormsApp2
             this.btnStart.TabIndex = 2;
             this.btnStart.Text = "COMENZAR";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.startGame);
             // 
             // label1
             // 
