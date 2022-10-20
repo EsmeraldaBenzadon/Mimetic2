@@ -43,9 +43,9 @@ namespace WindowsFormsApp2
             this.btnhijo = new System.Windows.Forms.Button();
             this.btnabuelo = new System.Windows.Forms.Button();
             this.btnhija = new System.Windows.Forms.Button();
+            this.btnieto = new System.Windows.Forms.Button();
             this.btnabuela = new System.Windows.Forms.Button();
             this.btnbebe = new System.Windows.Forms.Button();
-            this.btnieto = new System.Windows.Forms.Button();
             this.btnhermanos = new System.Windows.Forms.Button();
             this.btnNieta = new System.Windows.Forms.Button();
             this.btnPrimo = new System.Windows.Forms.Button();
@@ -70,8 +70,8 @@ namespace WindowsFormsApp2
             // reproductor
             // 
             this.reproductor.Enabled = true;
-            this.reproductor.Location = new System.Drawing.Point(344, 104);
-            this.reproductor.Margin = new System.Windows.Forms.Padding(4);
+            this.reproductor.Location = new System.Drawing.Point(534, 246);
+            this.reproductor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.reproductor.Name = "reproductor";
             this.reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("reproductor.OcxState")));
             this.reproductor.Size = new System.Drawing.Size(497, 285);
@@ -80,6 +80,7 @@ namespace WindowsFormsApp2
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Controls.Add(this.btnPapa);
             this.flowLayoutPanel1.Controls.Add(this.btnHERMANO);
             this.flowLayoutPanel1.Controls.Add(this.btnMama);
@@ -111,17 +112,18 @@ namespace WindowsFormsApp2
             this.flowLayoutPanel1.Controls.Add(this.btnNovios);
             this.flowLayoutPanel1.Controls.Add(this.button1);
             this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 131);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(134, 426);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(199, 566);
             this.flowLayoutPanel1.TabIndex = 11;
             // 
             // btnPapa
             // 
-            this.btnPapa.Location = new System.Drawing.Point(4, 4);
-            this.btnPapa.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPapa.Location = new System.Drawing.Point(4, 5);
+            this.btnPapa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPapa.Name = "btnPapa";
-            this.btnPapa.Size = new System.Drawing.Size(100, 42);
+            this.btnPapa.Size = new System.Drawing.Size(112, 52);
             this.btnPapa.TabIndex = 1;
             this.btnPapa.Text = "PAPÁ";
             this.btnPapa.UseVisualStyleBackColor = true;
@@ -129,10 +131,10 @@ namespace WindowsFormsApp2
             // 
             // btnHERMANO
             // 
-            this.btnHERMANO.Location = new System.Drawing.Point(4, 54);
-            this.btnHERMANO.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHERMANO.Location = new System.Drawing.Point(4, 67);
+            this.btnHERMANO.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHERMANO.Name = "btnHERMANO";
-            this.btnHERMANO.Size = new System.Drawing.Size(100, 42);
+            this.btnHERMANO.Size = new System.Drawing.Size(112, 52);
             this.btnHERMANO.TabIndex = 0;
             this.btnHERMANO.Text = "HERMANO";
             this.btnHERMANO.UseVisualStyleBackColor = true;
@@ -140,10 +142,10 @@ namespace WindowsFormsApp2
             // 
             // btnMama
             // 
-            this.btnMama.Location = new System.Drawing.Point(4, 104);
-            this.btnMama.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMama.Location = new System.Drawing.Point(4, 129);
+            this.btnMama.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMama.Name = "btnMama";
-            this.btnMama.Size = new System.Drawing.Size(100, 42);
+            this.btnMama.Size = new System.Drawing.Size(112, 52);
             this.btnMama.TabIndex = 3;
             this.btnMama.Text = "MAMÁ";
             this.btnMama.UseVisualStyleBackColor = true;
@@ -151,10 +153,10 @@ namespace WindowsFormsApp2
             // 
             // btnHermana
             // 
-            this.btnHermana.Location = new System.Drawing.Point(4, 154);
-            this.btnHermana.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHermana.Location = new System.Drawing.Point(4, 191);
+            this.btnHermana.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHermana.Name = "btnHermana";
-            this.btnHermana.Size = new System.Drawing.Size(100, 42);
+            this.btnHermana.Size = new System.Drawing.Size(112, 52);
             this.btnHermana.TabIndex = 4;
             this.btnHermana.Text = "HERMANA";
             this.btnHermana.UseVisualStyleBackColor = true;
@@ -162,10 +164,10 @@ namespace WindowsFormsApp2
             // 
             // btnpadrastro
             // 
-            this.btnpadrastro.Location = new System.Drawing.Point(4, 204);
-            this.btnpadrastro.Margin = new System.Windows.Forms.Padding(4);
+            this.btnpadrastro.Location = new System.Drawing.Point(4, 253);
+            this.btnpadrastro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnpadrastro.Name = "btnpadrastro";
-            this.btnpadrastro.Size = new System.Drawing.Size(105, 42);
+            this.btnpadrastro.Size = new System.Drawing.Size(118, 52);
             this.btnpadrastro.TabIndex = 5;
             this.btnpadrastro.Text = "PADRASTRO";
             this.btnpadrastro.UseVisualStyleBackColor = true;
@@ -173,10 +175,10 @@ namespace WindowsFormsApp2
             // 
             // btnmellizos
             // 
-            this.btnmellizos.Location = new System.Drawing.Point(4, 254);
-            this.btnmellizos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnmellizos.Location = new System.Drawing.Point(4, 315);
+            this.btnmellizos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnmellizos.Name = "btnmellizos";
-            this.btnmellizos.Size = new System.Drawing.Size(100, 42);
+            this.btnmellizos.Size = new System.Drawing.Size(112, 52);
             this.btnmellizos.TabIndex = 6;
             this.btnmellizos.Text = "MELLIZOS";
             this.btnmellizos.UseVisualStyleBackColor = true;
@@ -184,10 +186,10 @@ namespace WindowsFormsApp2
             // 
             // btnmadrastra
             // 
-            this.btnmadrastra.Location = new System.Drawing.Point(4, 304);
-            this.btnmadrastra.Margin = new System.Windows.Forms.Padding(4);
+            this.btnmadrastra.Location = new System.Drawing.Point(4, 377);
+            this.btnmadrastra.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnmadrastra.Name = "btnmadrastra";
-            this.btnmadrastra.Size = new System.Drawing.Size(105, 42);
+            this.btnmadrastra.Size = new System.Drawing.Size(118, 52);
             this.btnmadrastra.TabIndex = 7;
             this.btnmadrastra.Text = "MADRASTRA";
             this.btnmadrastra.UseVisualStyleBackColor = true;
@@ -195,10 +197,10 @@ namespace WindowsFormsApp2
             // 
             // btngemelos
             // 
-            this.btngemelos.Location = new System.Drawing.Point(4, 354);
-            this.btngemelos.Margin = new System.Windows.Forms.Padding(4);
+            this.btngemelos.Location = new System.Drawing.Point(4, 439);
+            this.btngemelos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btngemelos.Name = "btngemelos";
-            this.btngemelos.Size = new System.Drawing.Size(100, 42);
+            this.btngemelos.Size = new System.Drawing.Size(112, 52);
             this.btngemelos.TabIndex = 8;
             this.btngemelos.Text = "GEMELOS";
             this.btngemelos.UseVisualStyleBackColor = true;
@@ -206,10 +208,10 @@ namespace WindowsFormsApp2
             // 
             // btnhijo
             // 
-            this.btnhijo.Location = new System.Drawing.Point(4, 404);
-            this.btnhijo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnhijo.Location = new System.Drawing.Point(4, 501);
+            this.btnhijo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnhijo.Name = "btnhijo";
-            this.btnhijo.Size = new System.Drawing.Size(100, 42);
+            this.btnhijo.Size = new System.Drawing.Size(112, 52);
             this.btnhijo.TabIndex = 9;
             this.btnhijo.Text = "HIJO";
             this.btnhijo.UseVisualStyleBackColor = true;
@@ -217,10 +219,10 @@ namespace WindowsFormsApp2
             // 
             // btnabuelo
             // 
-            this.btnabuelo.Location = new System.Drawing.Point(4, 454);
-            this.btnabuelo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnabuelo.Location = new System.Drawing.Point(4, 563);
+            this.btnabuelo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnabuelo.Name = "btnabuelo";
-            this.btnabuelo.Size = new System.Drawing.Size(100, 42);
+            this.btnabuelo.Size = new System.Drawing.Size(112, 52);
             this.btnabuelo.TabIndex = 10;
             this.btnabuelo.Text = "ABUELO";
             this.btnabuelo.UseVisualStyleBackColor = true;
@@ -228,21 +230,32 @@ namespace WindowsFormsApp2
             // 
             // btnhija
             // 
-            this.btnhija.Location = new System.Drawing.Point(4, 504);
-            this.btnhija.Margin = new System.Windows.Forms.Padding(4);
+            this.btnhija.Location = new System.Drawing.Point(4, 625);
+            this.btnhija.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnhija.Name = "btnhija";
-            this.btnhija.Size = new System.Drawing.Size(100, 42);
+            this.btnhija.Size = new System.Drawing.Size(112, 52);
             this.btnhija.TabIndex = 11;
             this.btnhija.Text = "HIJA";
             this.btnhija.UseVisualStyleBackColor = true;
             this.btnhija.Click += new System.EventHandler(this.btnhija_Click);
             // 
+            // btnieto
+            // 
+            this.btnieto.Location = new System.Drawing.Point(4, 687);
+            this.btnieto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnieto.Name = "btnieto";
+            this.btnieto.Size = new System.Drawing.Size(112, 52);
+            this.btnieto.TabIndex = 13;
+            this.btnieto.Text = "NIETO";
+            this.btnieto.UseVisualStyleBackColor = true;
+            this.btnieto.Click += new System.EventHandler(this.btnieto_Click);
+            // 
             // btnabuela
             // 
-            this.btnabuela.Location = new System.Drawing.Point(4, 604);
-            this.btnabuela.Margin = new System.Windows.Forms.Padding(4);
+            this.btnabuela.Location = new System.Drawing.Point(4, 749);
+            this.btnabuela.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnabuela.Name = "btnabuela";
-            this.btnabuela.Size = new System.Drawing.Size(100, 42);
+            this.btnabuela.Size = new System.Drawing.Size(112, 52);
             this.btnabuela.TabIndex = 12;
             this.btnabuela.Text = "ABUELA";
             this.btnabuela.UseVisualStyleBackColor = true;
@@ -250,32 +263,21 @@ namespace WindowsFormsApp2
             // 
             // btnbebe
             // 
-            this.btnbebe.Location = new System.Drawing.Point(4, 654);
-            this.btnbebe.Margin = new System.Windows.Forms.Padding(4);
+            this.btnbebe.Location = new System.Drawing.Point(4, 811);
+            this.btnbebe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnbebe.Name = "btnbebe";
-            this.btnbebe.Size = new System.Drawing.Size(100, 42);
+            this.btnbebe.Size = new System.Drawing.Size(112, 52);
             this.btnbebe.TabIndex = 11;
             this.btnbebe.Text = "BEBÉ";
             this.btnbebe.UseVisualStyleBackColor = true;
             this.btnbebe.Click += new System.EventHandler(this.btnbebe_Click);
             // 
-            // btnieto
-            // 
-            this.btnieto.Location = new System.Drawing.Point(4, 554);
-            this.btnieto.Margin = new System.Windows.Forms.Padding(4);
-            this.btnieto.Name = "btnieto";
-            this.btnieto.Size = new System.Drawing.Size(100, 42);
-            this.btnieto.TabIndex = 13;
-            this.btnieto.Text = "NIETO";
-            this.btnieto.UseVisualStyleBackColor = true;
-            this.btnieto.Click += new System.EventHandler(this.btnieto_Click);
-            // 
             // btnhermanos
             // 
-            this.btnhermanos.Location = new System.Drawing.Point(4, 704);
-            this.btnhermanos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnhermanos.Location = new System.Drawing.Point(4, 873);
+            this.btnhermanos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnhermanos.Name = "btnhermanos";
-            this.btnhermanos.Size = new System.Drawing.Size(100, 42);
+            this.btnhermanos.Size = new System.Drawing.Size(112, 52);
             this.btnhermanos.TabIndex = 14;
             this.btnhermanos.Text = "HERMANOS";
             this.btnhermanos.UseVisualStyleBackColor = true;
@@ -283,10 +285,10 @@ namespace WindowsFormsApp2
             // 
             // btnNieta
             // 
-            this.btnNieta.Location = new System.Drawing.Point(4, 754);
-            this.btnNieta.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNieta.Location = new System.Drawing.Point(4, 935);
+            this.btnNieta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNieta.Name = "btnNieta";
-            this.btnNieta.Size = new System.Drawing.Size(100, 42);
+            this.btnNieta.Size = new System.Drawing.Size(112, 52);
             this.btnNieta.TabIndex = 15;
             this.btnNieta.Text = "NIETA";
             this.btnNieta.UseVisualStyleBackColor = true;
@@ -294,10 +296,10 @@ namespace WindowsFormsApp2
             // 
             // btnPrimo
             // 
-            this.btnPrimo.Location = new System.Drawing.Point(4, 804);
-            this.btnPrimo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrimo.Location = new System.Drawing.Point(4, 997);
+            this.btnPrimo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrimo.Name = "btnPrimo";
-            this.btnPrimo.Size = new System.Drawing.Size(100, 42);
+            this.btnPrimo.Size = new System.Drawing.Size(112, 52);
             this.btnPrimo.TabIndex = 16;
             this.btnPrimo.Text = "PRIMO";
             this.btnPrimo.UseVisualStyleBackColor = true;
@@ -305,10 +307,10 @@ namespace WindowsFormsApp2
             // 
             // btnPrima
             // 
-            this.btnPrima.Location = new System.Drawing.Point(4, 854);
-            this.btnPrima.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrima.Location = new System.Drawing.Point(4, 1059);
+            this.btnPrima.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrima.Name = "btnPrima";
-            this.btnPrima.Size = new System.Drawing.Size(100, 42);
+            this.btnPrima.Size = new System.Drawing.Size(112, 52);
             this.btnPrima.TabIndex = 17;
             this.btnPrima.Text = "PRIMA";
             this.btnPrima.UseVisualStyleBackColor = true;
@@ -316,10 +318,10 @@ namespace WindowsFormsApp2
             // 
             // btnSobrino
             // 
-            this.btnSobrino.Location = new System.Drawing.Point(4, 904);
-            this.btnSobrino.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSobrino.Location = new System.Drawing.Point(4, 1121);
+            this.btnSobrino.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSobrino.Name = "btnSobrino";
-            this.btnSobrino.Size = new System.Drawing.Size(100, 42);
+            this.btnSobrino.Size = new System.Drawing.Size(112, 52);
             this.btnSobrino.TabIndex = 18;
             this.btnSobrino.Text = "SOBRINO";
             this.btnSobrino.UseVisualStyleBackColor = true;
@@ -327,10 +329,10 @@ namespace WindowsFormsApp2
             // 
             // btnSobrina
             // 
-            this.btnSobrina.Location = new System.Drawing.Point(4, 954);
-            this.btnSobrina.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSobrina.Location = new System.Drawing.Point(4, 1183);
+            this.btnSobrina.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSobrina.Name = "btnSobrina";
-            this.btnSobrina.Size = new System.Drawing.Size(100, 42);
+            this.btnSobrina.Size = new System.Drawing.Size(112, 52);
             this.btnSobrina.TabIndex = 19;
             this.btnSobrina.Text = "SOBRINA";
             this.btnSobrina.UseVisualStyleBackColor = true;
@@ -338,10 +340,10 @@ namespace WindowsFormsApp2
             // 
             // btnCunado
             // 
-            this.btnCunado.Location = new System.Drawing.Point(4, 1004);
-            this.btnCunado.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCunado.Location = new System.Drawing.Point(4, 1245);
+            this.btnCunado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCunado.Name = "btnCunado";
-            this.btnCunado.Size = new System.Drawing.Size(100, 42);
+            this.btnCunado.Size = new System.Drawing.Size(112, 52);
             this.btnCunado.TabIndex = 20;
             this.btnCunado.Text = "CUÑADO";
             this.btnCunado.UseVisualStyleBackColor = true;
@@ -349,10 +351,10 @@ namespace WindowsFormsApp2
             // 
             // btnCunada
             // 
-            this.btnCunada.Location = new System.Drawing.Point(4, 1054);
-            this.btnCunada.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCunada.Location = new System.Drawing.Point(4, 1307);
+            this.btnCunada.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCunada.Name = "btnCunada";
-            this.btnCunada.Size = new System.Drawing.Size(100, 42);
+            this.btnCunada.Size = new System.Drawing.Size(112, 52);
             this.btnCunada.TabIndex = 21;
             this.btnCunada.Text = "CUÑADA";
             this.btnCunada.UseVisualStyleBackColor = true;
@@ -360,10 +362,10 @@ namespace WindowsFormsApp2
             // 
             // btnTio
             // 
-            this.btnTio.Location = new System.Drawing.Point(4, 1104);
-            this.btnTio.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTio.Location = new System.Drawing.Point(4, 1369);
+            this.btnTio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTio.Name = "btnTio";
-            this.btnTio.Size = new System.Drawing.Size(100, 42);
+            this.btnTio.Size = new System.Drawing.Size(112, 52);
             this.btnTio.TabIndex = 22;
             this.btnTio.Text = "TÍO";
             this.btnTio.UseVisualStyleBackColor = true;
@@ -371,10 +373,10 @@ namespace WindowsFormsApp2
             // 
             // btnSuegro
             // 
-            this.btnSuegro.Location = new System.Drawing.Point(4, 1154);
-            this.btnSuegro.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSuegro.Location = new System.Drawing.Point(4, 1431);
+            this.btnSuegro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSuegro.Name = "btnSuegro";
-            this.btnSuegro.Size = new System.Drawing.Size(100, 42);
+            this.btnSuegro.Size = new System.Drawing.Size(112, 52);
             this.btnSuegro.TabIndex = 23;
             this.btnSuegro.Text = "SUEGRO";
             this.btnSuegro.UseVisualStyleBackColor = true;
@@ -382,10 +384,10 @@ namespace WindowsFormsApp2
             // 
             // btnEsposo
             // 
-            this.btnEsposo.Location = new System.Drawing.Point(4, 1204);
-            this.btnEsposo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEsposo.Location = new System.Drawing.Point(4, 1493);
+            this.btnEsposo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEsposo.Name = "btnEsposo";
-            this.btnEsposo.Size = new System.Drawing.Size(100, 42);
+            this.btnEsposo.Size = new System.Drawing.Size(112, 52);
             this.btnEsposo.TabIndex = 24;
             this.btnEsposo.Text = "ESPOSO";
             this.btnEsposo.UseVisualStyleBackColor = true;
@@ -393,10 +395,10 @@ namespace WindowsFormsApp2
             // 
             // btnEsposa
             // 
-            this.btnEsposa.Location = new System.Drawing.Point(4, 1254);
-            this.btnEsposa.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEsposa.Location = new System.Drawing.Point(4, 1555);
+            this.btnEsposa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEsposa.Name = "btnEsposa";
-            this.btnEsposa.Size = new System.Drawing.Size(100, 42);
+            this.btnEsposa.Size = new System.Drawing.Size(112, 52);
             this.btnEsposa.TabIndex = 25;
             this.btnEsposa.Text = "ESPOSA";
             this.btnEsposa.UseVisualStyleBackColor = true;
@@ -404,10 +406,10 @@ namespace WindowsFormsApp2
             // 
             // btnPadrino
             // 
-            this.btnPadrino.Location = new System.Drawing.Point(4, 1304);
-            this.btnPadrino.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPadrino.Location = new System.Drawing.Point(4, 1617);
+            this.btnPadrino.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPadrino.Name = "btnPadrino";
-            this.btnPadrino.Size = new System.Drawing.Size(100, 42);
+            this.btnPadrino.Size = new System.Drawing.Size(112, 52);
             this.btnPadrino.TabIndex = 26;
             this.btnPadrino.Text = "PADRINO";
             this.btnPadrino.UseVisualStyleBackColor = true;
@@ -415,10 +417,10 @@ namespace WindowsFormsApp2
             // 
             // btnMadrina
             // 
-            this.btnMadrina.Location = new System.Drawing.Point(4, 1354);
-            this.btnMadrina.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMadrina.Location = new System.Drawing.Point(4, 1679);
+            this.btnMadrina.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMadrina.Name = "btnMadrina";
-            this.btnMadrina.Size = new System.Drawing.Size(100, 42);
+            this.btnMadrina.Size = new System.Drawing.Size(112, 52);
             this.btnMadrina.TabIndex = 27;
             this.btnMadrina.Text = "MADRINA";
             this.btnMadrina.UseVisualStyleBackColor = true;
@@ -426,10 +428,10 @@ namespace WindowsFormsApp2
             // 
             // btnNovios
             // 
-            this.btnNovios.Location = new System.Drawing.Point(4, 1404);
-            this.btnNovios.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNovios.Location = new System.Drawing.Point(4, 1741);
+            this.btnNovios.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNovios.Name = "btnNovios";
-            this.btnNovios.Size = new System.Drawing.Size(100, 42);
+            this.btnNovios.Size = new System.Drawing.Size(112, 52);
             this.btnNovios.TabIndex = 28;
             this.btnNovios.Text = "NOVIOS";
             this.btnNovios.UseVisualStyleBackColor = true;
@@ -437,10 +439,10 @@ namespace WindowsFormsApp2
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(4, 1454);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(4, 1803);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 42);
+            this.button1.Size = new System.Drawing.Size(112, 52);
             this.button1.TabIndex = 29;
             this.button1.Text = "NOVIO";
             this.button1.UseVisualStyleBackColor = true;
@@ -448,10 +450,10 @@ namespace WindowsFormsApp2
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(4, 1504);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(4, 1865);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 42);
+            this.button2.Size = new System.Drawing.Size(112, 52);
             this.button2.TabIndex = 30;
             this.button2.Text = "NOVIA";
             this.button2.UseVisualStyleBackColor = true;
@@ -459,11 +461,12 @@ namespace WindowsFormsApp2
             // 
             // familia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1063, 530);
+            this.ClientSize = new System.Drawing.Size(1344, 730);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.reproductor);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "familia";
             this.Text = "familia";
             ((System.ComponentModel.ISupportInitialize)(this.reproductor)).EndInit();

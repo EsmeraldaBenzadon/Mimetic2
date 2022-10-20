@@ -161,3 +161,6 @@ C:\Users\mariano\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFor
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.memotest222.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesmemotest.resources
 C:\Users\mariano\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesmemotest.resources
+C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.familia.resources
+C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.memotest222.resources
+C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesmemotest.resources

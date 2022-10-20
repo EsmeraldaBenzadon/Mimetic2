@@ -12,6 +12,7 @@ namespace WindowsFormsApp2
 {
     public partial class voc_basico : Form
     {
+
         public voc_basico()
         {
             InitializeComponent();
@@ -20,6 +21,10 @@ namespace WindowsFormsApp2
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_familia_Click(object sender, EventArgs e)
+        {
         }
     }
 }

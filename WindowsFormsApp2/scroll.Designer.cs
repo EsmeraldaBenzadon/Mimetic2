@@ -53,10 +53,10 @@
             // 
             // btnHOLA
             // 
-            this.btnHOLA.Location = new System.Drawing.Point(4, 54);
-            this.btnHOLA.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHOLA.Location = new System.Drawing.Point(4, 67);
+            this.btnHOLA.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHOLA.Name = "btnHOLA";
-            this.btnHOLA.Size = new System.Drawing.Size(100, 42);
+            this.btnHOLA.Size = new System.Drawing.Size(112, 52);
             this.btnHOLA.TabIndex = 0;
             this.btnHOLA.Text = "HOLA";
             this.btnHOLA.UseVisualStyleBackColor = true;
@@ -64,10 +64,10 @@
             // 
             // btnBuendia
             // 
-            this.btnBuendia.Location = new System.Drawing.Point(4, 4);
-            this.btnBuendia.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuendia.Location = new System.Drawing.Point(4, 5);
+            this.btnBuendia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuendia.Name = "btnBuendia";
-            this.btnBuendia.Size = new System.Drawing.Size(100, 42);
+            this.btnBuendia.Size = new System.Drawing.Size(112, 52);
             this.btnBuendia.TabIndex = 1;
             this.btnBuendia.Text = "BUEN DÍA";
             this.btnBuendia.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             // 
             this.reproductor.Enabled = true;
             this.reproductor.Location = new System.Drawing.Point(286, 126);
-            this.reproductor.Margin = new System.Windows.Forms.Padding(4);
+            this.reproductor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.reproductor.Name = "reproductor";
             this.reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("reproductor.OcxState")));
             this.reproductor.Size = new System.Drawing.Size(497, 285);
@@ -86,10 +86,10 @@
             // 
             // btnBuenosDias
             // 
-            this.btnBuenosDias.Location = new System.Drawing.Point(4, 104);
-            this.btnBuenosDias.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuenosDias.Location = new System.Drawing.Point(4, 129);
+            this.btnBuenosDias.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuenosDias.Name = "btnBuenosDias";
-            this.btnBuenosDias.Size = new System.Drawing.Size(100, 42);
+            this.btnBuenosDias.Size = new System.Drawing.Size(112, 52);
             this.btnBuenosDias.TabIndex = 3;
             this.btnBuenosDias.Text = "BUENOS DÍAS";
             this.btnBuenosDias.UseVisualStyleBackColor = true;
@@ -97,10 +97,10 @@
             // 
             // btnBuenastardes
             // 
-            this.btnBuenastardes.Location = new System.Drawing.Point(4, 154);
-            this.btnBuenastardes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuenastardes.Location = new System.Drawing.Point(4, 191);
+            this.btnBuenastardes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuenastardes.Name = "btnBuenastardes";
-            this.btnBuenastardes.Size = new System.Drawing.Size(100, 42);
+            this.btnBuenastardes.Size = new System.Drawing.Size(112, 52);
             this.btnBuenastardes.TabIndex = 4;
             this.btnBuenastardes.Text = "BUENAS TARDES";
             this.btnBuenastardes.UseVisualStyleBackColor = true;
@@ -108,10 +108,10 @@
             // 
             // btnBuenasnoches
             // 
-            this.btnBuenasnoches.Location = new System.Drawing.Point(4, 204);
-            this.btnBuenasnoches.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuenasnoches.Location = new System.Drawing.Point(4, 253);
+            this.btnBuenasnoches.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuenasnoches.Name = "btnBuenasnoches";
-            this.btnBuenasnoches.Size = new System.Drawing.Size(100, 42);
+            this.btnBuenasnoches.Size = new System.Drawing.Size(112, 52);
             this.btnBuenasnoches.TabIndex = 5;
             this.btnBuenasnoches.Text = "BUENAS NOCHES";
             this.btnBuenasnoches.UseVisualStyleBackColor = true;
@@ -119,10 +119,10 @@
             // 
             // btnquetal
             // 
-            this.btnquetal.Location = new System.Drawing.Point(4, 254);
-            this.btnquetal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnquetal.Location = new System.Drawing.Point(4, 315);
+            this.btnquetal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnquetal.Name = "btnquetal";
-            this.btnquetal.Size = new System.Drawing.Size(100, 42);
+            this.btnquetal.Size = new System.Drawing.Size(112, 52);
             this.btnquetal.TabIndex = 6;
             this.btnquetal.Text = "¿CÓMO ESTAS?";
             this.btnquetal.UseVisualStyleBackColor = true;
@@ -130,10 +130,10 @@
             // 
             // btnbien
             // 
-            this.btnbien.Location = new System.Drawing.Point(4, 304);
-            this.btnbien.Margin = new System.Windows.Forms.Padding(4);
+            this.btnbien.Location = new System.Drawing.Point(4, 377);
+            this.btnbien.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnbien.Name = "btnbien";
-            this.btnbien.Size = new System.Drawing.Size(100, 42);
+            this.btnbien.Size = new System.Drawing.Size(112, 52);
             this.btnbien.TabIndex = 7;
             this.btnbien.Text = "BIEN";
             this.btnbien.UseVisualStyleBackColor = true;
@@ -141,10 +141,10 @@
             // 
             // btnMaso
             // 
-            this.btnMaso.Location = new System.Drawing.Point(4, 354);
-            this.btnMaso.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMaso.Location = new System.Drawing.Point(4, 439);
+            this.btnMaso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaso.Name = "btnMaso";
-            this.btnMaso.Size = new System.Drawing.Size(100, 42);
+            this.btnMaso.Size = new System.Drawing.Size(112, 52);
             this.btnMaso.TabIndex = 8;
             this.btnMaso.Text = "MÁS O MENOS ";
             this.btnMaso.UseVisualStyleBackColor = true;
@@ -152,10 +152,10 @@
             // 
             // btnMal
             // 
-            this.btnMal.Location = new System.Drawing.Point(4, 404);
-            this.btnMal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMal.Location = new System.Drawing.Point(4, 501);
+            this.btnMal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMal.Name = "btnMal";
-            this.btnMal.Size = new System.Drawing.Size(100, 42);
+            this.btnMal.Size = new System.Drawing.Size(112, 52);
             this.btnMal.TabIndex = 9;
             this.btnMal.Text = "MAL";
             this.btnMal.UseVisualStyleBackColor = true;
@@ -163,6 +163,7 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Controls.Add(this.btnBuendia);
             this.flowLayoutPanel1.Controls.Add(this.btnHOLA);
             this.flowLayoutPanel1.Controls.Add(this.btnBuenosDias);
@@ -179,17 +180,18 @@
             this.flowLayoutPanel1.Controls.Add(this.btnPermiso);
             this.flowLayoutPanel1.Controls.Add(this.btnMuybien);
             this.flowLayoutPanel1.Controls.Add(this.btnMuymal);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 69);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 86);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(117, 454);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(174, 568);
             this.flowLayoutPanel1.TabIndex = 10;
             // 
             // btnBesos
             // 
-            this.btnBesos.Location = new System.Drawing.Point(4, 454);
-            this.btnBesos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBesos.Location = new System.Drawing.Point(4, 563);
+            this.btnBesos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBesos.Name = "btnBesos";
-            this.btnBesos.Size = new System.Drawing.Size(100, 42);
+            this.btnBesos.Size = new System.Drawing.Size(112, 52);
             this.btnBesos.TabIndex = 10;
             this.btnBesos.Text = "BESOS";
             this.btnBesos.UseVisualStyleBackColor = true;
@@ -197,10 +199,10 @@
             // 
             // btnGracias
             // 
-            this.btnGracias.Location = new System.Drawing.Point(4, 504);
-            this.btnGracias.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGracias.Location = new System.Drawing.Point(4, 625);
+            this.btnGracias.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnGracias.Name = "btnGracias";
-            this.btnGracias.Size = new System.Drawing.Size(100, 60);
+            this.btnGracias.Size = new System.Drawing.Size(112, 75);
             this.btnGracias.TabIndex = 11;
             this.btnGracias.Text = "GRACIAS Y MUCHAS GRACIAS";
             this.btnGracias.UseVisualStyleBackColor = true;
@@ -208,10 +210,10 @@
             // 
             // btnDenada
             // 
-            this.btnDenada.Location = new System.Drawing.Point(4, 572);
-            this.btnDenada.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDenada.Location = new System.Drawing.Point(4, 710);
+            this.btnDenada.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDenada.Name = "btnDenada";
-            this.btnDenada.Size = new System.Drawing.Size(100, 42);
+            this.btnDenada.Size = new System.Drawing.Size(112, 52);
             this.btnDenada.TabIndex = 12;
             this.btnDenada.Text = "DE NADA";
             this.btnDenada.UseVisualStyleBackColor = true;
@@ -219,10 +221,10 @@
             // 
             // btnPerdon
             // 
-            this.btnPerdon.Location = new System.Drawing.Point(4, 622);
-            this.btnPerdon.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPerdon.Location = new System.Drawing.Point(4, 772);
+            this.btnPerdon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPerdon.Name = "btnPerdon";
-            this.btnPerdon.Size = new System.Drawing.Size(100, 42);
+            this.btnPerdon.Size = new System.Drawing.Size(112, 52);
             this.btnPerdon.TabIndex = 11;
             this.btnPerdon.Text = "PERDÓN";
             this.btnPerdon.UseVisualStyleBackColor = true;
@@ -230,10 +232,10 @@
             // 
             // btnPermiso
             // 
-            this.btnPermiso.Location = new System.Drawing.Point(4, 672);
-            this.btnPermiso.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPermiso.Location = new System.Drawing.Point(4, 834);
+            this.btnPermiso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPermiso.Name = "btnPermiso";
-            this.btnPermiso.Size = new System.Drawing.Size(100, 42);
+            this.btnPermiso.Size = new System.Drawing.Size(112, 52);
             this.btnPermiso.TabIndex = 13;
             this.btnPermiso.Text = "PERMISO";
             this.btnPermiso.UseVisualStyleBackColor = true;
@@ -241,10 +243,10 @@
             // 
             // btnMuybien
             // 
-            this.btnMuybien.Location = new System.Drawing.Point(4, 722);
-            this.btnMuybien.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMuybien.Location = new System.Drawing.Point(4, 896);
+            this.btnMuybien.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMuybien.Name = "btnMuybien";
-            this.btnMuybien.Size = new System.Drawing.Size(100, 42);
+            this.btnMuybien.Size = new System.Drawing.Size(112, 52);
             this.btnMuybien.TabIndex = 14;
             this.btnMuybien.Text = "MUY BIEN";
             this.btnMuybien.UseVisualStyleBackColor = true;
@@ -252,10 +254,10 @@
             // 
             // btnMuymal
             // 
-            this.btnMuymal.Location = new System.Drawing.Point(4, 772);
-            this.btnMuymal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMuymal.Location = new System.Drawing.Point(4, 958);
+            this.btnMuymal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMuymal.Name = "btnMuymal";
-            this.btnMuymal.Size = new System.Drawing.Size(100, 42);
+            this.btnMuymal.Size = new System.Drawing.Size(112, 52);
             this.btnMuymal.TabIndex = 15;
             this.btnMuymal.Text = "MUY MAL";
             this.btnMuymal.UseVisualStyleBackColor = true;
@@ -263,12 +265,12 @@
             // 
             // scroll
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.reproductor);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "scroll";
             this.Text = "scroll";
             this.Load += new System.EventHandler(this.scroll_Load);
