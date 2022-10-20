@@ -113,11 +113,23 @@
     <Compile Include="memotest.Designer.cs">
       <DependentUpon>memotest.cs</DependentUpon>
     </Compile>
+    <Compile Include="memotest222.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memotest222.Designer.cs">
+      <DependentUpon>memotest222.cs</DependentUpon>
+    </Compile>
     <Compile Include="menujuegos2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="menujuegos2.Designer.cs">
       <DependentUpon>menujuegos2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nivelesmemotest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nivelesmemotest.Designer.cs">
+      <DependentUpon>nivelesmemotest.cs</DependentUpon>
     </Compile>
     <Compile Include="pantalla logueo.cs">
       <SubType>Form</SubType>
@@ -181,8 +193,14 @@
     <EmbeddedResource Include="memotest.resx">
       <DependentUpon>memotest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="memotest222.resx">
+      <DependentUpon>memotest222.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menujuegos2.resx">
       <DependentUpon>menujuegos2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nivelesmemotest.resx">
+      <DependentUpon>nivelesmemotest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pantalla logueo.resx">
       <DependentUpon>pantalla logueo.cs</DependentUpon>
