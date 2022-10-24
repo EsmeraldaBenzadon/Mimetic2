@@ -99,7 +99,6 @@ C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsAp
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\Interop.WMPLib.dll
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.ResolveComReference.cache
-C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ABC.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ABC2.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Abecedario.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.bienvenidos.resources

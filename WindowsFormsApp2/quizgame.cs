@@ -83,7 +83,7 @@ namespace WindowsFormsApp2
             {
                 case 1:
                     pictureBox2.Image = Properties.Resources.PAPASINCO;
-                    lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
+                    lblQuestion.Text = "ELIGE LA OPCION CORRECTA";
                     button1.Text = "MAMÁ";
                     button2.Text = "PAPÁ";
                     button3.Text = "HERMANA";

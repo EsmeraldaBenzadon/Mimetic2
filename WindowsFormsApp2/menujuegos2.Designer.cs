@@ -44,10 +44,9 @@ namespace WindowsFormsApp2
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(240, 225);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(360, 346);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(285, 165);
+            this.button1.Size = new System.Drawing.Size(428, 254);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -59,10 +58,9 @@ namespace WindowsFormsApp2
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(871, 225);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(1306, 346);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(285, 165);
+            this.button2.Size = new System.Drawing.Size(428, 254);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -74,10 +72,9 @@ namespace WindowsFormsApp2
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(562, 500);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(843, 769);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(285, 165);
+            this.button3.Size = new System.Drawing.Size(428, 254);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -89,9 +86,10 @@ namespace WindowsFormsApp2
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVolver.Location = new System.Drawing.Point(31, 620);
+            this.btnVolver.Location = new System.Drawing.Point(46, 954);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(92, 87);
+            this.btnVolver.Size = new System.Drawing.Size(138, 134);
             this.btnVolver.TabIndex = 3;
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -99,27 +97,25 @@ namespace WindowsFormsApp2
             // NomUsu
             // 
             this.NomUsu.AutoSize = true;
-            this.NomUsu.Location = new System.Drawing.Point(1287, 25);
-            this.NomUsu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.NomUsu.Location = new System.Drawing.Point(1930, 38);
             this.NomUsu.Name = "NomUsu";
-            this.NomUsu.Size = new System.Drawing.Size(35, 13);
+            this.NomUsu.Size = new System.Drawing.Size(51, 20);
             this.NomUsu.TabIndex = 4;
             this.NomUsu.Text = "label1";
             // 
             // menujuegos2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.seleccion_de_juego1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "menujuegos2";
             this.Text = "menujuegos2";
             this.ResumeLayout(false);

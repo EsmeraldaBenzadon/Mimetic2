@@ -118,166 +118,208 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TODOBIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TODOBIEN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MUYMAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MUYMAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="seleccion de juego1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seleccion de juego1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ojo ver 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ojo ver 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PERDON_DISCULPAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PERDON-DISCULPAS.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bebesinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bebesinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ojo_ver_2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ojo_ver_2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="inside-out-joy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inside-out-joy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton memotest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton memotest1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ojo tachado (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ojo tachado (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="seleccion de juego (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seleccion de juego (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ojo ocultar 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ojo ocultar 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="abuelasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\abuelasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MUYBIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MUYBIEN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton numeros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton numeros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hijasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hijasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ojo_ocultar_2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ojo_ocultar_2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sobrinosinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sobrinosinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton memotest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton memotest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton juego abc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton juego abc1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton juego abc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton juego abc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton multiplechoice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton multiplechoice1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MUYMALPEOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MUYMALPEOR.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="vocabulario basico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vocabulario basico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="QUETAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\QUETAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="esposasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\esposasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton meses" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton meses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ojo_tachado_3-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ojo_tachado_3-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton familia (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton familia (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton multiplechoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton multiplechoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="recuperar contraseña (olvide mi contraseña)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\recuperar contraseña (olvide mi contraseña).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PERMISO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PERMISO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mellizossinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mellizossinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="boton dias" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton dias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mellizossinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mellizossinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="boton verbos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton verbos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="multiplechoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiplechoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hijosinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hijosinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="boton meses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton meses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MUYMAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MUYMAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ojo_abierto_3-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ojo_abierto_3-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PAPASINCO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PAPASINCO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="seleccion de juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seleccion de juego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mamasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mamasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hermanossinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hermanossinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boton asignar contraseña" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton asignar contraseña.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="domingo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\domingo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="memotest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memotest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jueves" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jueves.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lunes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lunes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="inside-out-joy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inside-out-joy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sobrinosinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sobrinosinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="juego del nombre-abecedario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\juego del nombre-abecedario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton numeros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton numeros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viernes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viernes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mamasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mamasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="martes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\martes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="miercoles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\miercoles.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ojo_ocultar_2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo_ocultar_2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sabado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sabado.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="flecha ida y vuelta (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha ida y vuelta (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton familia (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton familia (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojo ver 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo ver 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abuelasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abuelasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="domingo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\domingo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hijasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hijasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario dibujo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario dibujo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seleccion de juego (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seleccion de juego (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="semana" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\semana.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="viernes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\viernes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="boton juego abc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton juego abc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton memotest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton memotest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PERDON_DISCULPAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PERDON-DISCULPAS.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton asignar contraseña" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton asignar contraseña.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebesinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebesinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QUETAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QUETAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton verbos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton verbos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton memotest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton memotest1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha ida y vuelta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha ida y vuelta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MUYMALPEOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MUYMALPEOR.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sabado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sabado.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hermanossinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hermanossinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circulo usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circulo usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seleccion de juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seleccion de juego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojo_ver_2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo_ver_2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PAPASINCO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAPASINCO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton juego abc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton juego abc1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lunes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lunes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="miercoles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miercoles.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton multiplechoice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton multiplechoice1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jirafa asomada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jirafa asomada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TODOBIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TODOBIEN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hijosinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hijosinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recuperar contraseña (olvide mi contraseña)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recuperar contraseña (olvide mi contraseña).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTON listo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTON listo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton multiplechoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton multiplechoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MUYBIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MUYBIEN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojo_abierto_3-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo_abierto_3-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esposasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esposasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PERMISO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PERMISO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojo ocultar 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo ocultar 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ojo tachado (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ojo tachado (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multiplechoice (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multiplechoice (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

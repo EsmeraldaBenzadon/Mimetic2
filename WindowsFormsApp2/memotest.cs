@@ -70,7 +70,7 @@ namespace WindowsFormsApp2
                     info.ExecuteNonQuery();
   
                     //Búsqueda de Juegos Ganados
-                    string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                    string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + " and Id_juego = " + 1 + ";";
                     int juegoswin = accesobd(consulta);
  
 
@@ -1331,6 +1331,10 @@ namespace WindowsFormsApp2
             //Búsqueda de Juegos 
             OleDbCommand comando = new OleDbCommand(consulta, DatabaseProyecto);
             string datosjuego = comando.ExecuteScalar().ToString();
+            if (datosjuego == "")
+            {
+                datosjuego = "0";
+            }
             int juegoswin = Convert.ToInt32(datosjuego);
             return juegoswin;
         }

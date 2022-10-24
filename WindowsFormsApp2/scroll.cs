@@ -13,9 +13,13 @@ namespace WindowsFormsApp2
     public partial class scroll : Form
     {
         string frases;
-        public scroll()
+        string titulo;
+
+        public scroll(string title)
         {
             InitializeComponent();
+            this.titulo = title;
+            lbl_titulo.Text = title;
         }
 
         private void Reproductor_Enter(object sender, EventArgs e)
@@ -110,5 +114,34 @@ namespace WindowsFormsApp2
         {
             frases = "MUYMAL";
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            voc_basico Nuevaventana = new voc_basico();//para pasar una variable a otro form 
+            Nuevaventana.Show();
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+            InitializeMyButton(1);
+
+        }
+
+        private void InitializeMyButton(int but)
+        {
+            //string nombre_boton = "button" + but.ToString();
+
+            Button button = new Button();
+            button.AutoSize = true;
+            //button.Text = 
+            //button.Location = new System.Drawing.Point();
+            //flowLayoutPanel1.Controls.Add(button);
+            button.Name = "button" + but;
+            // this.Controls.Add(button);
+
+            button.DialogResult = DialogResult.OK;
+        }
+
     }
 }

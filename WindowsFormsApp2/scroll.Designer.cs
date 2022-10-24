@@ -47,6 +47,8 @@
             this.btnPermiso = new System.Windows.Forms.Button();
             this.btnMuybien = new System.Windows.Forms.Button();
             this.btnMuymal = new System.Windows.Forms.Button();
+            this.lbl_titulo = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.reproductor)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -56,7 +58,7 @@
             this.btnHOLA.Location = new System.Drawing.Point(4, 67);
             this.btnHOLA.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHOLA.Name = "btnHOLA";
-            this.btnHOLA.Size = new System.Drawing.Size(112, 52);
+            this.btnHOLA.Size = new System.Drawing.Size(164, 52);
             this.btnHOLA.TabIndex = 0;
             this.btnHOLA.Text = "HOLA";
             this.btnHOLA.UseVisualStyleBackColor = true;
@@ -67,7 +69,7 @@
             this.btnBuendia.Location = new System.Drawing.Point(4, 5);
             this.btnBuendia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuendia.Name = "btnBuendia";
-            this.btnBuendia.Size = new System.Drawing.Size(112, 52);
+            this.btnBuendia.Size = new System.Drawing.Size(164, 52);
             this.btnBuendia.TabIndex = 1;
             this.btnBuendia.Text = "BUEN DÍA";
             this.btnBuendia.UseVisualStyleBackColor = true;
@@ -76,7 +78,7 @@
             // reproductor
             // 
             this.reproductor.Enabled = true;
-            this.reproductor.Location = new System.Drawing.Point(286, 126);
+            this.reproductor.Location = new System.Drawing.Point(274, 121);
             this.reproductor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.reproductor.Name = "reproductor";
             this.reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("reproductor.OcxState")));
@@ -89,7 +91,7 @@
             this.btnBuenosDias.Location = new System.Drawing.Point(4, 129);
             this.btnBuenosDias.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuenosDias.Name = "btnBuenosDias";
-            this.btnBuenosDias.Size = new System.Drawing.Size(112, 52);
+            this.btnBuenosDias.Size = new System.Drawing.Size(164, 52);
             this.btnBuenosDias.TabIndex = 3;
             this.btnBuenosDias.Text = "BUENOS DÍAS";
             this.btnBuenosDias.UseVisualStyleBackColor = true;
@@ -100,7 +102,7 @@
             this.btnBuenastardes.Location = new System.Drawing.Point(4, 191);
             this.btnBuenastardes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuenastardes.Name = "btnBuenastardes";
-            this.btnBuenastardes.Size = new System.Drawing.Size(112, 52);
+            this.btnBuenastardes.Size = new System.Drawing.Size(164, 52);
             this.btnBuenastardes.TabIndex = 4;
             this.btnBuenastardes.Text = "BUENAS TARDES";
             this.btnBuenastardes.UseVisualStyleBackColor = true;
@@ -111,7 +113,7 @@
             this.btnBuenasnoches.Location = new System.Drawing.Point(4, 253);
             this.btnBuenasnoches.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuenasnoches.Name = "btnBuenasnoches";
-            this.btnBuenasnoches.Size = new System.Drawing.Size(112, 52);
+            this.btnBuenasnoches.Size = new System.Drawing.Size(164, 52);
             this.btnBuenasnoches.TabIndex = 5;
             this.btnBuenasnoches.Text = "BUENAS NOCHES";
             this.btnBuenasnoches.UseVisualStyleBackColor = true;
@@ -122,7 +124,7 @@
             this.btnquetal.Location = new System.Drawing.Point(4, 315);
             this.btnquetal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnquetal.Name = "btnquetal";
-            this.btnquetal.Size = new System.Drawing.Size(112, 52);
+            this.btnquetal.Size = new System.Drawing.Size(164, 52);
             this.btnquetal.TabIndex = 6;
             this.btnquetal.Text = "¿CÓMO ESTAS?";
             this.btnquetal.UseVisualStyleBackColor = true;
@@ -133,7 +135,7 @@
             this.btnbien.Location = new System.Drawing.Point(4, 377);
             this.btnbien.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnbien.Name = "btnbien";
-            this.btnbien.Size = new System.Drawing.Size(112, 52);
+            this.btnbien.Size = new System.Drawing.Size(164, 52);
             this.btnbien.TabIndex = 7;
             this.btnbien.Text = "BIEN";
             this.btnbien.UseVisualStyleBackColor = true;
@@ -180,11 +182,12 @@
             this.flowLayoutPanel1.Controls.Add(this.btnPermiso);
             this.flowLayoutPanel1.Controls.Add(this.btnMuybien);
             this.flowLayoutPanel1.Controls.Add(this.btnMuymal);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 86);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 39);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(174, 568);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(214, 615);
             this.flowLayoutPanel1.TabIndex = 10;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // btnBesos
             // 
@@ -263,11 +266,37 @@
             this.btnMuymal.UseVisualStyleBackColor = true;
             this.btnMuymal.Click += new System.EventHandler(this.btnMuymal_Click);
             // 
+            // lbl_titulo
+            // 
+            this.lbl_titulo.AutoSize = true;
+            this.lbl_titulo.Location = new System.Drawing.Point(601, 76);
+            this.lbl_titulo.Name = "lbl_titulo";
+            this.lbl_titulo.Size = new System.Drawing.Size(67, 20);
+            this.lbl_titulo.TabIndex = 11;
+            this.lbl_titulo.Text = "lbl_titulo";
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVolver.BackgroundImage")));
+            this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Location = new System.Drawing.Point(829, 389);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(113, 101);
+            this.btnVolver.TabIndex = 12;
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // scroll
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(978, 504);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.lbl_titulo);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.reproductor);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -277,6 +306,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.reproductor)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -300,5 +330,7 @@
         private System.Windows.Forms.Button btnPermiso;
         private System.Windows.Forms.Button btnMuybien;
         private System.Windows.Forms.Button btnMuymal;
+        private System.Windows.Forms.Label lbl_titulo;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

@@ -65,12 +65,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ABC.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ABC.Designer.cs">
-      <DependentUpon>ABC.cs</DependentUpon>
-    </Compile>
     <Compile Include="ABC2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,9 +169,6 @@
     <Compile Include="voc basico.Designer.cs">
       <DependentUpon>voc basico.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ABC.resx">
-      <DependentUpon>ABC.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ABC2.resx">
       <DependentUpon>ABC2.cs</DependentUpon>
     </EmbeddedResource>
@@ -411,6 +402,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\boton asignar contraseña.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego del nombre-abecedario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha ida y vuelta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha ida y vuelta %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTON listo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario dibujo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memotest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jirafa asomada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiplechoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiplechoice %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

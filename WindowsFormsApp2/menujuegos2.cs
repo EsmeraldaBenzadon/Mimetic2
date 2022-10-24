@@ -23,14 +23,14 @@ namespace WindowsFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ABC Nuevaventana = new ABC(this.NombreUsu);
+            ABC2 Nuevaventana = new ABC2(this.NombreUsu);
             Nuevaventana.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            memotest Nuevaventana = new memotest(this.NombreUsu);
+            nivelesmemotest Nuevaventana = new nivelesmemotest(this.NombreUsu);
             Nuevaventana.Show();
         }
 

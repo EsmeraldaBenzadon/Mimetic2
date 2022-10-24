@@ -108,6 +108,13 @@ namespace WindowsFormsApp2
 
         }
 
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menujuegos2 Nuevaventana = new menujuegos2(this.NombreUsu);
+            Nuevaventana.Show();
+        }
+
         public List<string> strToArr(string palabra)
         {
             List<string> resultado = new List<string>();

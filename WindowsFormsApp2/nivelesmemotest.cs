@@ -12,13 +12,31 @@ namespace WindowsFormsApp2
 {
     public partial class nivelesmemotest : Form
     {
-        public nivelesmemotest()
+        public string NombreUsu;
+
+        public nivelesmemotest(string NombreU)
         {
             InitializeComponent();
+            this.NombreUsu = NombreU;
+            NomUsu.Text = NombreU;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            memotest Nuevaventana = new memotest(this.NombreUsu);
+            Nuevaventana.Show();
+        }
+
+        private void nivelesmemotest_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            memotest222 Nuevaventana = new memotest222(this.NombreUsu);
+            Nuevaventana.Show();
         }
     }
 }
