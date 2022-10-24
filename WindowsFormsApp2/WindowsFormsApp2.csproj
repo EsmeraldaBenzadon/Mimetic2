@@ -445,5 +445,20 @@
   <ItemGroup>
     <None Include="Resources\multiplechoice %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu de niveles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jirafa asomada1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 1 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

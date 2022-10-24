@@ -47,10 +47,10 @@ namespace WindowsFormsApp2
 
             player = new AxWindowsMediaPlayer();
             Controls.Add(player);
-            player.Location = new System.Drawing.Point(150, 50);
+            player.Location = new System.Drawing.Point(430, 180);
             player.Ctlenabled = true;
             player.settings.mute = true;
-            Size size = new Size(300, 300);
+            Size size = new Size(450, 450);
             player.Size = size;
             player.CreateControl();
 
@@ -67,7 +67,9 @@ namespace WindowsFormsApp2
             //operador ternario, si es la primer posicion entonces el control va a estar visible, sino todos los demas quedan invisibles.
             label.Visible = true;
             label.Text = letra;
-            label.Location = new System.Drawing.Point(150, 380);
+            label.Location = new System.Drawing.Point(640, 663);
+            label.BackColor = Color.Transparent;
+            label.Font = new Font("", 20);
             Controls.Add(label);
             label.Text = nombre[0].ToString();
         }

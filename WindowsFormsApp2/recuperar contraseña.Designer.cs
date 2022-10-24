@@ -36,6 +36,14 @@ namespace WindowsFormsApp2
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.pbocultar_new = new System.Windows.Forms.PictureBox();
+            this.pbocultar_rep = new System.Windows.Forms.PictureBox();
+            this.pbmostrar_new = new System.Windows.Forms.PictureBox();
+            this.pbmostrar_rep = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbocultar_new)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbocultar_rep)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmostrar_new)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmostrar_rep)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_nombre
@@ -57,6 +65,7 @@ namespace WindowsFormsApp2
             this.txt_newcontra.Name = "txt_newcontra";
             this.txt_newcontra.Size = new System.Drawing.Size(543, 53);
             this.txt_newcontra.TabIndex = 1;
+            this.txt_newcontra.TextChanged += new System.EventHandler(this.Txt_newcontra_TextChanged);
             // 
             // txt_repnewcontra
             // 
@@ -67,6 +76,7 @@ namespace WindowsFormsApp2
             this.txt_repnewcontra.Name = "txt_repnewcontra";
             this.txt_repnewcontra.Size = new System.Drawing.Size(543, 53);
             this.txt_repnewcontra.TabIndex = 2;
+            this.txt_repnewcontra.TextChanged += new System.EventHandler(this.Txt_repnewcontra_TextChanged);
             // 
             // label1
             // 
@@ -106,6 +116,54 @@ namespace WindowsFormsApp2
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
+            // pbocultar_new
+            // 
+            this.pbocultar_new.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.pbocultar_new.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo_tachado__1_;
+            this.pbocultar_new.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbocultar_new.Location = new System.Drawing.Point(912, 369);
+            this.pbocultar_new.Name = "pbocultar_new";
+            this.pbocultar_new.Size = new System.Drawing.Size(37, 32);
+            this.pbocultar_new.TabIndex = 13;
+            this.pbocultar_new.TabStop = false;
+            this.pbocultar_new.Click += new System.EventHandler(this.Pbocultar_new_Click);
+            // 
+            // pbocultar_rep
+            // 
+            this.pbocultar_rep.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.pbocultar_rep.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo_tachado__1_;
+            this.pbocultar_rep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbocultar_rep.Location = new System.Drawing.Point(912, 506);
+            this.pbocultar_rep.Name = "pbocultar_rep";
+            this.pbocultar_rep.Size = new System.Drawing.Size(37, 32);
+            this.pbocultar_rep.TabIndex = 14;
+            this.pbocultar_rep.TabStop = false;
+            this.pbocultar_rep.Click += new System.EventHandler(this.Pbocultar_rep_Click);
+            // 
+            // pbmostrar_new
+            // 
+            this.pbmostrar_new.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.pbmostrar_new.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo;
+            this.pbmostrar_new.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbmostrar_new.Location = new System.Drawing.Point(912, 369);
+            this.pbmostrar_new.Name = "pbmostrar_new";
+            this.pbmostrar_new.Size = new System.Drawing.Size(37, 32);
+            this.pbmostrar_new.TabIndex = 15;
+            this.pbmostrar_new.TabStop = false;
+            this.pbmostrar_new.Click += new System.EventHandler(this.Pbmostrar_new_Click);
+            // 
+            // pbmostrar_rep
+            // 
+            this.pbmostrar_rep.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.pbmostrar_rep.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.ojo;
+            this.pbmostrar_rep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbmostrar_rep.Location = new System.Drawing.Point(912, 506);
+            this.pbmostrar_rep.Name = "pbmostrar_rep";
+            this.pbmostrar_rep.Size = new System.Drawing.Size(37, 32);
+            this.pbmostrar_rep.TabIndex = 16;
+            this.pbmostrar_rep.TabStop = false;
+            this.pbmostrar_rep.Click += new System.EventHandler(this.Pbmostrar_rep_Click);
+            // 
             // recuperar_contraseña
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -113,6 +171,10 @@ namespace WindowsFormsApp2
             this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recuperar_contraseña__olvide_mi_contraseña_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.pbmostrar_rep);
+            this.Controls.Add(this.pbmostrar_new);
+            this.Controls.Add(this.pbocultar_rep);
+            this.Controls.Add(this.pbocultar_new);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -125,6 +187,10 @@ namespace WindowsFormsApp2
             this.Text = "recuperar_contraseña";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.recuperar_contraseña_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbocultar_new)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbocultar_rep)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmostrar_new)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbmostrar_rep)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,5 +204,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.PictureBox pbocultar_new;
+        private System.Windows.Forms.PictureBox pbocultar_rep;
+        private System.Windows.Forms.PictureBox pbmostrar_new;
+        private System.Windows.Forms.PictureBox pbmostrar_rep;
     }
 }

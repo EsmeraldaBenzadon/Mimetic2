@@ -83,6 +83,26 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton {
+            get {
+                object obj = ResourceManager.GetObject("boton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton__1_ {
+            get {
+                object obj = ResourceManager.GetObject("boton (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton_asignar_contraseña {
             get {
                 object obj = ResourceManager.GetObject("boton asignar contraseña", resourceCulture);
@@ -273,6 +293,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Group 1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_11 {
             get {
                 object obj = ResourceManager.GetObject("Group 11", resourceCulture);
@@ -336,6 +366,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap jirafa_asomada {
             get {
                 object obj = ResourceManager.GetObject("jirafa asomada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jirafa_asomada1 {
+            get {
+                object obj = ResourceManager.GetObject("jirafa asomada1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -416,6 +456,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap memotest {
             get {
                 object obj = ResourceManager.GetObject("memotest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_de_niveles {
+            get {
+                object obj = ResourceManager.GetObject("menu de niveles", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

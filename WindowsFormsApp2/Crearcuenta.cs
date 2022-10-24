@@ -130,6 +130,7 @@ namespace WindowsFormsApp2
             form.BackColor = Color.LemonChiffon;
             form.ForeColor = Color.Black;
             form.Font = new Font("Microsoft YaHei UI", 10);
+            buttonOk.BackColor = Color.Peru;
 
             form.Controls.AddRange(new Control[] {label, textBox, buttonOk});
             form.AcceptButton = buttonOk;

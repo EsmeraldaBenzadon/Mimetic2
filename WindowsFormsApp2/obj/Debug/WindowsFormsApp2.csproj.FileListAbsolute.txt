@@ -87,7 +87,6 @@ C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\Interop.WMPLib.d
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.ResolveComReference.cache
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Letra.resources
-C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ABC.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Crearcuenta.resources
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ABC.resources
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.menu_juegos.resources
@@ -163,3 +162,4 @@ C:\Users\mariano\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFor
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.familia.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.memotest222.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesmemotest.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.familia.resources

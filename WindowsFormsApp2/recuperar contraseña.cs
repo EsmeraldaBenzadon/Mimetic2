@@ -124,5 +124,39 @@ namespace WindowsFormsApp2
             Nuevaventana.Show();
 
         }
+
+        private void Pbmostrar_new_Click(object sender, EventArgs e)
+        {
+            pbocultar_new.BringToFront(); //imagen ocultar la mandamos al frente
+            txt_newcontra.PasswordChar = '\0'; //mostamos la contraseña
+        }
+
+        private void Pbocultar_new_Click(object sender, EventArgs e)
+        {
+            pbmostrar_new.BringToFront(); // imagen mostrar la mandamos al frente
+            txt_newcontra.PasswordChar = '°'; //ocultamos la contraseña
+        }
+
+        private void Pbmostrar_rep_Click(object sender, EventArgs e)
+        {
+            pbocultar_rep.BringToFront();
+            txt_repnewcontra.PasswordChar = '\0';
+        }
+
+        private void Pbocultar_rep_Click(object sender, EventArgs e)
+        {
+            pbmostrar_rep.BringToFront();
+            txt_repnewcontra.PasswordChar = '°';
+        }
+
+        private void Txt_newcontra_TextChanged(object sender, EventArgs e)
+        {
+            txt_newcontra.PasswordChar = '°';
+        }
+
+        private void Txt_repnewcontra_TextChanged(object sender, EventArgs e)
+        {
+            txt_repnewcontra.PasswordChar = '°';
+        }
     }
 }
