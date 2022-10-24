@@ -53,6 +53,7 @@ namespace WindowsFormsApp2
                         if (contar == 1)
                         {
                             MessageBox.Show("Ese nombre ya esta en uso");
+                            ds.Clear(); //limpia el data set para la proxima lectura
                             DatabaseProyecto.Close();
                             return;
                         }
@@ -67,19 +68,21 @@ namespace WindowsFormsApp2
                             string value = "";
                             if (InputBox("Pregunta de seguridad", "¿Cual es el primer nombre de tu mamá?", ref value) == DialogResult.OK)
                             {
-                                    while (value == "")
+                                while (value == "")
                                 {
                                     MessageBox.Show("Complete la pregunta");
-                                    if (InputBox("Pregunta de seguridad", "¿Cual es el primer nombre de tu mamá?", ref value) == DialogResult.OK)
-                                    {
-                                      
-                                    }
+
+                                if (InputBox("Pregunta de seguridad", "¿Cual es el primer nombre de tu mamá?", ref value) == DialogResult.OK)
+                                { 
+                                        OleDbCommand info1;
+                                        value = value.ToUpper();
+                                        info1 = new OleDbCommand("UPDATE Usuarios SET Pregunta1 = '" + value + "' WHERE NombreU = '" + Nombre + "'");
+                                        info1.Connection = DatabaseProyecto;
+                                        info1.ExecuteNonQuery();
                                 }
-                                    OleDbCommand info1;
-                                    value = value.ToUpper();
-                                    info1 = new OleDbCommand("UPDATE Usuarios SET Pregunta1 = '" + value + "' WHERE NombreU = '" + Nombre + "'");
-                                    info1.Connection = DatabaseProyecto;
-                                    info1.ExecuteNonQuery();
+                                }
+
+
                             }
 
                             DatabaseProyecto.Close();
@@ -106,11 +109,11 @@ namespace WindowsFormsApp2
             Label label = new Label();
             TextBox textBox = new TextBox();
             Button buttonOk = new Button();
-            
+
             form.Text = title;
             label.Text = promptText;
 
-            buttonOk.Text = "OK"; 
+            buttonOk.Text = "OK";
             buttonOk.DialogResult = DialogResult.OK;
             buttonOk.CausesValidation = true;
 
@@ -124,8 +127,11 @@ namespace WindowsFormsApp2
             form.StartPosition = FormStartPosition.CenterScreen;
             form.MinimizeBox = false;
             form.MaximizeBox = false;
+            form.BackColor = Color.LemonChiffon;
+            form.ForeColor = Color.Black;
+            form.Font = new Font("Microsoft YaHei UI", 10);
 
-            form.Controls.AddRange(new Control[] { label, textBox, buttonOk});
+            form.Controls.AddRange(new Control[] {label, textBox, buttonOk});
             form.AcceptButton = buttonOk;
 
             DialogResult dialogResult = form.ShowDialog();

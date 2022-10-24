@@ -118,8 +118,8 @@ namespace WindowsFormsApp2
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            voc_basico Nuevaventana = new voc_basico();//para pasar una variable a otro form 
-            Nuevaventana.Show();
+            //voc_basico Nuevaventana = new voc_basico(this.nombreusuario);//para pasar una variable a otro form 
+            //Nuevaventana.Show();
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
