@@ -115,7 +115,7 @@
             this.NomUsu.AutoSize = true;
             this.NomUsu.BackColor = System.Drawing.Color.Transparent;
             this.NomUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NomUsu.Location = new System.Drawing.Point(88, 36);
+            this.NomUsu.Location = new System.Drawing.Point(101, 47);
             this.NomUsu.Name = "NomUsu";
             this.NomUsu.Size = new System.Drawing.Size(42, 20);
             this.NomUsu.TabIndex = 5;
@@ -137,8 +137,8 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.usuario_dibujo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(30, 25);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(67, 61);
             this.pictureBox1.TabIndex = 7;

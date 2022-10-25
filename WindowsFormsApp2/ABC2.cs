@@ -57,9 +57,12 @@ namespace WindowsFormsApp2
             dirProyecto = AppContext.BaseDirectory;
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
             player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
+            nombre_lista = strToArr(nombre);
+            letra = nombre_lista[i];
             player.Visible = true;
             player.Name = "V-" + i.ToString();
-            //player.close();
+            player.Show();
+            player.close();
 
             label = new Label();
             label.AutoSize = true;
@@ -72,6 +75,7 @@ namespace WindowsFormsApp2
             label.Font = new Font("", 20);
             Controls.Add(label);
             label.Text = nombre[0].ToString();
+
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
