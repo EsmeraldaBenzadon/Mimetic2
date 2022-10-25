@@ -43,9 +43,10 @@ namespace WindowsFormsApp2
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(339, 88);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(651, 55);
@@ -59,7 +60,7 @@ namespace WindowsFormsApp2
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(1193, 603);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 61);
             this.button1.TabIndex = 1;
@@ -74,7 +75,7 @@ namespace WindowsFormsApp2
             this.btnAtras.FlatAppearance.BorderSize = 0;
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtras.Location = new System.Drawing.Point(165, 374);
-            this.btnAtras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(2);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(91, 81);
             this.btnAtras.TabIndex = 2;
@@ -89,7 +90,7 @@ namespace WindowsFormsApp2
             this.btnSiguiente.FlatAppearance.BorderSize = 0;
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.Location = new System.Drawing.Point(1067, 374);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(2);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(91, 81);
             this.btnSiguiente.TabIndex = 3;
@@ -150,7 +151,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ABC2";
             this.Text = "ABC2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

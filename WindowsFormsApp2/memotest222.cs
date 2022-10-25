@@ -19,8 +19,7 @@ namespace WindowsFormsApp2
         PictureBox firstGuess;
         Random rnd = new Random();
         Timer clickTimer = new Timer();
-        //int time = 60;
-        int time = 5;
+        int time = 60;
         Timer timer = new Timer { Interval = 1000 };
 
         //variables declaradas

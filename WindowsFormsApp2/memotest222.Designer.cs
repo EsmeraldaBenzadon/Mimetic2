@@ -49,8 +49,8 @@ namespace WindowsFormsApp2
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.NomUsu = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -67,7 +67,6 @@ namespace WindowsFormsApp2
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -285,18 +284,6 @@ namespace WindowsFormsApp2
             this.NomUsu.TabIndex = 19;
             this.NomUsu.Text = "label2";
             // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox17.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.usuario_dibujo;
-            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox17.Location = new System.Drawing.Point(54, 37);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(67, 61);
-            this.pictureBox17.TabIndex = 20;
-            this.pictureBox17.TabStop = false;
-            // 
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.Transparent;
@@ -311,6 +298,19 @@ namespace WindowsFormsApp2
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.usuario_dibujo1;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(45, 34);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 71);
+            this.button1.TabIndex = 22;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // memotest222
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -318,8 +318,8 @@ namespace WindowsFormsApp2
             this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.memotest1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 742);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnVolver);
-            this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox14);
@@ -360,7 +360,6 @@ namespace WindowsFormsApp2
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -387,7 +386,7 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.Label NomUsu;
-        private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button button1;
     }
 }

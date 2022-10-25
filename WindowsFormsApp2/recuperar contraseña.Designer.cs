@@ -49,6 +49,7 @@ namespace WindowsFormsApp2
             // txt_nombre
             // 
             this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_nombre.Location = new System.Drawing.Point(421, 210);
             this.txt_nombre.Margin = new System.Windows.Forms.Padding(0);
             this.txt_nombre.Multiline = true;
@@ -59,6 +60,7 @@ namespace WindowsFormsApp2
             // txt_newcontra
             // 
             this.txt_newcontra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_newcontra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_newcontra.Location = new System.Drawing.Point(421, 359);
             this.txt_newcontra.Margin = new System.Windows.Forms.Padding(2);
             this.txt_newcontra.Multiline = true;
@@ -70,6 +72,7 @@ namespace WindowsFormsApp2
             // txt_repnewcontra
             // 
             this.txt_repnewcontra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
+            this.txt_repnewcontra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_repnewcontra.Location = new System.Drawing.Point(421, 496);
             this.txt_repnewcontra.Margin = new System.Windows.Forms.Padding(2);
             this.txt_repnewcontra.Multiline = true;

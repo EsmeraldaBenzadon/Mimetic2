@@ -1353,11 +1353,6 @@ namespace WindowsFormsApp2
 
         }
 
-        private void PictureBox17_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();

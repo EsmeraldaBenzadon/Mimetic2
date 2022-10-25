@@ -121,9 +121,6 @@
   <data name="MUYMAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MUYMAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 91" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hijasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hijasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -144,6 +141,9 @@
   </data>
   <data name="boton dias" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton dias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="esposasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esposasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,17 +175,17 @@
   <data name="juego del nombre-abecedario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\juego del nombre-abecedario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rectangle 34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Rectangle 59" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="viernes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\viernes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mamasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mamasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vector 410" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vector 410.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,20 +253,23 @@
   <data name="boton verbos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton verbos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="boton (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="boton memotest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton memotest1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rectangle 74" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="flecha ida y vuelta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flecha ida y vuelta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viernes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viernes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MUYMALPEOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MUYMALPEOR.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -349,11 +352,11 @@
   <data name="Group 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="boton (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rectangle 74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="esposasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\esposasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rectangle 34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PERMISO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PERMISO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -367,7 +370,7 @@
   <data name="ojo tachado (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ojo tachado (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vector 410" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vector 410.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="usuario dibujo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario dibujo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

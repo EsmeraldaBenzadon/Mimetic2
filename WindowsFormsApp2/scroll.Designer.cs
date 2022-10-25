@@ -266,7 +266,7 @@
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVolver.Location = new System.Drawing.Point(553, 253);
+            this.btnVolver.Location = new System.Drawing.Point(848, 372);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 66);
             this.btnVolver.TabIndex = 12;

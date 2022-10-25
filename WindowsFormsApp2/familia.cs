@@ -26,14 +26,9 @@ namespace WindowsFormsApp2
             reproductor.Ctlcontrols.play();
         }
 
-        private void btnPapa_Click(object sender, EventArgs e)
-        {
-            fraces = "buenos dias";
-        }
-
         private void btnMama_Click(object sender, EventArgs e)
         {
-            fraces = "buenos dias";
+            fraces = "buenosdias";
         }
 
         private void btnpadrastro_Click(object sender, EventArgs e)
