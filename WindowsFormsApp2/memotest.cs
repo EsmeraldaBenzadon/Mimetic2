@@ -17,8 +17,7 @@ namespace WindowsFormsApp2
         PictureBox firstGuess;
         Random rnd = new Random();
         Timer clickTimer = new Timer();
-        //int time = 60;
-        int time = 5;
+        int time = 60;
         Timer timer = new Timer { Interval = 1000 };
 
         //variables declaradas
@@ -1347,6 +1346,23 @@ namespace WindowsFormsApp2
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void NomUsu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            nivelesmemotest Nuevaventana = new nivelesmemotest(this.NombreU);
+            Nuevaventana.Show();
         }
     }
 }

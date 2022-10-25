@@ -460,5 +460,38 @@
   <ItemGroup>
     <None Include="Resources\Group 1 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memotest1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 592.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 593.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 594.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scroll down familia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector 410.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

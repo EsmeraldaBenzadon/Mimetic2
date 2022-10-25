@@ -323,6 +323,26 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_9 {
+            get {
+                object obj = ResourceManager.GetObject("Group 9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_91 {
+            get {
+                object obj = ResourceManager.GetObject("Group 91", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hermanossinco {
             get {
                 object obj = ResourceManager.GetObject("hermanossinco", resourceCulture);
@@ -456,6 +476,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap memotest {
             get {
                 object obj = ResourceManager.GetObject("memotest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap memotest1 {
+            get {
+                object obj = ResourceManager.GetObject("memotest1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -663,6 +693,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_34 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 34", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rectangle_59 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 59", resourceCulture);
@@ -673,9 +713,59 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_591 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 591", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_592 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 592", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_593 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 593", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_594 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 594", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rectangle_60 {
             get {
                 object obj = ResourceManager.GetObject("Rectangle 60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectangle_74 {
+            get {
+                object obj = ResourceManager.GetObject("Rectangle 74", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -696,6 +786,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap sabado {
             get {
                 object obj = ResourceManager.GetObject("sabado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scroll_down_familia {
+            get {
+                object obj = ResourceManager.GetObject("scroll down familia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -766,6 +866,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap usuario_dibujo {
             get {
                 object obj = ResourceManager.GetObject("usuario dibujo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vector_410 {
+            get {
+                object obj = ResourceManager.GetObject("Vector 410", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1361,5 +1361,12 @@ namespace WindowsFormsApp2
             int juegoswin = Convert.ToInt32(datosjuego);
             return juegoswin;
         }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            nivelesmemotest Nuevaventana = new nivelesmemotest(this.NombreU);
+            Nuevaventana.Show();
+        }
     }
 }

@@ -32,8 +32,6 @@ namespace WindowsFormsApp2
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(familia));
             this.reproductor = new AxWMPLib.AxWindowsMediaPlayer();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnPapa = new System.Windows.Forms.Button();
-            this.btnHERMANO = new System.Windows.Forms.Button();
             this.btnMama = new System.Windows.Forms.Button();
             this.btnHermana = new System.Windows.Forms.Button();
             this.btnpadrastro = new System.Windows.Forms.Button();
@@ -48,21 +46,11 @@ namespace WindowsFormsApp2
             this.btnbebe = new System.Windows.Forms.Button();
             this.btnhermanos = new System.Windows.Forms.Button();
             this.btnNieta = new System.Windows.Forms.Button();
-            this.btnPrimo = new System.Windows.Forms.Button();
             this.btnPrima = new System.Windows.Forms.Button();
             this.btnSobrino = new System.Windows.Forms.Button();
-            this.btnSobrina = new System.Windows.Forms.Button();
-            this.btnCunado = new System.Windows.Forms.Button();
-            this.btnCunada = new System.Windows.Forms.Button();
-            this.btnTio = new System.Windows.Forms.Button();
-            this.btnSuegro = new System.Windows.Forms.Button();
-            this.btnEsposo = new System.Windows.Forms.Button();
-            this.btnEsposa = new System.Windows.Forms.Button();
-            this.btnPadrino = new System.Windows.Forms.Button();
-            this.btnMadrina = new System.Windows.Forms.Button();
-            this.btnNovios = new System.Windows.Forms.Button();
+            this.btnHERMANO = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.reproductor)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -70,19 +58,18 @@ namespace WindowsFormsApp2
             // reproductor
             // 
             this.reproductor.Enabled = true;
-            this.reproductor.Location = new System.Drawing.Point(534, 246);
-            this.reproductor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.reproductor.Location = new System.Drawing.Point(524, 190);
             this.reproductor.Name = "reproductor";
             this.reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("reproductor.OcxState")));
-            this.reproductor.Size = new System.Drawing.Size(497, 285);
+            this.reproductor.Size = new System.Drawing.Size(680, 402);
             this.reproductor.TabIndex = 3;
             this.reproductor.Enter += new System.EventHandler(this.reproductor_Enter);
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.btnPapa);
-            this.flowLayoutPanel1.Controls.Add(this.btnHERMANO);
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.Rectangle_34;
             this.flowLayoutPanel1.Controls.Add(this.btnMama);
             this.flowLayoutPanel1.Controls.Add(this.btnHermana);
             this.flowLayoutPanel1.Controls.Add(this.btnpadrastro);
@@ -97,376 +84,277 @@ namespace WindowsFormsApp2
             this.flowLayoutPanel1.Controls.Add(this.btnbebe);
             this.flowLayoutPanel1.Controls.Add(this.btnhermanos);
             this.flowLayoutPanel1.Controls.Add(this.btnNieta);
-            this.flowLayoutPanel1.Controls.Add(this.btnPrimo);
             this.flowLayoutPanel1.Controls.Add(this.btnPrima);
             this.flowLayoutPanel1.Controls.Add(this.btnSobrino);
-            this.flowLayoutPanel1.Controls.Add(this.btnSobrina);
-            this.flowLayoutPanel1.Controls.Add(this.btnCunado);
-            this.flowLayoutPanel1.Controls.Add(this.btnCunada);
-            this.flowLayoutPanel1.Controls.Add(this.btnTio);
-            this.flowLayoutPanel1.Controls.Add(this.btnSuegro);
-            this.flowLayoutPanel1.Controls.Add(this.btnEsposo);
-            this.flowLayoutPanel1.Controls.Add(this.btnEsposa);
-            this.flowLayoutPanel1.Controls.Add(this.btnPadrino);
-            this.flowLayoutPanel1.Controls.Add(this.btnMadrina);
-            this.flowLayoutPanel1.Controls.Add(this.btnNovios);
+            this.flowLayoutPanel1.Controls.Add(this.btnHERMANO);
             this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 131);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(11, 147);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(199, 566);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(259, 570);
             this.flowLayoutPanel1.TabIndex = 11;
-            // 
-            // btnPapa
-            // 
-            this.btnPapa.Location = new System.Drawing.Point(4, 5);
-            this.btnPapa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnPapa.Name = "btnPapa";
-            this.btnPapa.Size = new System.Drawing.Size(112, 52);
-            this.btnPapa.TabIndex = 1;
-            this.btnPapa.Text = "PAPÁ";
-            this.btnPapa.UseVisualStyleBackColor = true;
-            this.btnPapa.Click += new System.EventHandler(this.btnPapa_Click);
-            // 
-            // btnHERMANO
-            // 
-            this.btnHERMANO.Location = new System.Drawing.Point(4, 67);
-            this.btnHERMANO.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnHERMANO.Name = "btnHERMANO";
-            this.btnHERMANO.Size = new System.Drawing.Size(112, 52);
-            this.btnHERMANO.TabIndex = 0;
-            this.btnHERMANO.Text = "HERMANO";
-            this.btnHERMANO.UseVisualStyleBackColor = true;
-            this.btnHERMANO.Click += new System.EventHandler(this.btnHERMANO_Click);
             // 
             // btnMama
             // 
-            this.btnMama.Location = new System.Drawing.Point(4, 129);
-            this.btnMama.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnMama.FlatAppearance.BorderSize = 0;
+            this.btnMama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMama.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMama.Location = new System.Drawing.Point(3, 3);
             this.btnMama.Name = "btnMama";
-            this.btnMama.Size = new System.Drawing.Size(112, 52);
+            this.btnMama.Size = new System.Drawing.Size(166, 34);
             this.btnMama.TabIndex = 3;
-            this.btnMama.Text = "MAMÁ";
+            this.btnMama.Text = "BUENOS DIAS";
             this.btnMama.UseVisualStyleBackColor = true;
             this.btnMama.Click += new System.EventHandler(this.btnMama_Click);
             // 
             // btnHermana
             // 
-            this.btnHermana.Location = new System.Drawing.Point(4, 191);
-            this.btnHermana.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnHermana.FlatAppearance.BorderSize = 0;
+            this.btnHermana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHermana.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHermana.Location = new System.Drawing.Point(3, 43);
             this.btnHermana.Name = "btnHermana";
-            this.btnHermana.Size = new System.Drawing.Size(112, 52);
+            this.btnHermana.Size = new System.Drawing.Size(202, 34);
             this.btnHermana.TabIndex = 4;
-            this.btnHermana.Text = "HERMANA";
+            this.btnHermana.Text = "BUENAS TARDES";
             this.btnHermana.UseVisualStyleBackColor = true;
             this.btnHermana.Click += new System.EventHandler(this.btnHermana_Click);
             // 
             // btnpadrastro
             // 
-            this.btnpadrastro.Location = new System.Drawing.Point(4, 253);
-            this.btnpadrastro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnpadrastro.FlatAppearance.BorderSize = 0;
+            this.btnpadrastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnpadrastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpadrastro.Location = new System.Drawing.Point(3, 83);
             this.btnpadrastro.Name = "btnpadrastro";
-            this.btnpadrastro.Size = new System.Drawing.Size(118, 52);
+            this.btnpadrastro.Size = new System.Drawing.Size(202, 34);
             this.btnpadrastro.TabIndex = 5;
-            this.btnpadrastro.Text = "PADRASTRO";
+            this.btnpadrastro.Text = "BUENAS NOCHES";
             this.btnpadrastro.UseVisualStyleBackColor = true;
             this.btnpadrastro.Click += new System.EventHandler(this.btnpadrastro_Click);
             // 
             // btnmellizos
             // 
-            this.btnmellizos.Location = new System.Drawing.Point(4, 315);
-            this.btnmellizos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnmellizos.FlatAppearance.BorderSize = 0;
+            this.btnmellizos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmellizos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmellizos.Location = new System.Drawing.Point(3, 123);
             this.btnmellizos.Name = "btnmellizos";
-            this.btnmellizos.Size = new System.Drawing.Size(112, 52);
+            this.btnmellizos.Size = new System.Drawing.Size(166, 34);
             this.btnmellizos.TabIndex = 6;
-            this.btnmellizos.Text = "MELLIZOS";
+            this.btnmellizos.Text = "¿QUE TAL?                                                                        " +
+    "                    ";
             this.btnmellizos.UseVisualStyleBackColor = true;
             this.btnmellizos.Click += new System.EventHandler(this.btnmellizos_Click);
             // 
             // btnmadrastra
             // 
-            this.btnmadrastra.Location = new System.Drawing.Point(4, 377);
-            this.btnmadrastra.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnmadrastra.FlatAppearance.BorderSize = 0;
+            this.btnmadrastra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmadrastra.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmadrastra.Location = new System.Drawing.Point(3, 163);
             this.btnmadrastra.Name = "btnmadrastra";
-            this.btnmadrastra.Size = new System.Drawing.Size(118, 52);
+            this.btnmadrastra.Size = new System.Drawing.Size(191, 34);
             this.btnmadrastra.TabIndex = 7;
-            this.btnmadrastra.Text = "MADRASTRA";
+            this.btnmadrastra.Text = "¿COMO ESTAS?                                                            ";
             this.btnmadrastra.UseVisualStyleBackColor = true;
             this.btnmadrastra.Click += new System.EventHandler(this.btnmadrastra_Click);
             // 
             // btngemelos
             // 
-            this.btngemelos.Location = new System.Drawing.Point(4, 439);
-            this.btngemelos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btngemelos.FlatAppearance.BorderSize = 0;
+            this.btngemelos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btngemelos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btngemelos.Location = new System.Drawing.Point(3, 203);
             this.btngemelos.Name = "btngemelos";
-            this.btngemelos.Size = new System.Drawing.Size(112, 52);
+            this.btngemelos.Size = new System.Drawing.Size(122, 34);
             this.btngemelos.TabIndex = 8;
-            this.btngemelos.Text = "GEMELOS";
+            this.btngemelos.Text = "MUY BIEN                ";
             this.btngemelos.UseVisualStyleBackColor = true;
             this.btngemelos.Click += new System.EventHandler(this.btngemelos_Click);
             // 
             // btnhijo
             // 
-            this.btnhijo.Location = new System.Drawing.Point(4, 501);
-            this.btnhijo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnhijo.FlatAppearance.BorderSize = 0;
+            this.btnhijo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnhijo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnhijo.Location = new System.Drawing.Point(3, 243);
             this.btnhijo.Name = "btnhijo";
-            this.btnhijo.Size = new System.Drawing.Size(112, 52);
+            this.btnhijo.Size = new System.Drawing.Size(181, 34);
             this.btnhijo.TabIndex = 9;
-            this.btnhijo.Text = "HIJO";
+            this.btnhijo.Text = "BIEN                           ";
             this.btnhijo.UseVisualStyleBackColor = true;
             this.btnhijo.Click += new System.EventHandler(this.btnhijo_Click);
             // 
             // btnabuelo
             // 
-            this.btnabuelo.Location = new System.Drawing.Point(4, 563);
-            this.btnabuelo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnabuelo.FlatAppearance.BorderSize = 0;
+            this.btnabuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnabuelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnabuelo.Location = new System.Drawing.Point(3, 283);
             this.btnabuelo.Name = "btnabuelo";
-            this.btnabuelo.Size = new System.Drawing.Size(112, 52);
+            this.btnabuelo.Size = new System.Drawing.Size(212, 34);
             this.btnabuelo.TabIndex = 10;
-            this.btnabuelo.Text = "ABUELO";
+            this.btnabuelo.Text = "TODO BIEN                           ";
             this.btnabuelo.UseVisualStyleBackColor = true;
             this.btnabuelo.Click += new System.EventHandler(this.btnabuelo_Click);
             // 
             // btnhija
             // 
-            this.btnhija.Location = new System.Drawing.Point(4, 625);
-            this.btnhija.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnhija.FlatAppearance.BorderSize = 0;
+            this.btnhija.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnhija.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnhija.Location = new System.Drawing.Point(3, 323);
             this.btnhija.Name = "btnhija";
-            this.btnhija.Size = new System.Drawing.Size(112, 52);
+            this.btnhija.Size = new System.Drawing.Size(212, 34);
             this.btnhija.TabIndex = 11;
-            this.btnhija.Text = "HIJA";
+            this.btnhija.Text = "MAS O MENOS                        ";
             this.btnhija.UseVisualStyleBackColor = true;
             this.btnhija.Click += new System.EventHandler(this.btnhija_Click);
             // 
             // btnieto
             // 
-            this.btnieto.Location = new System.Drawing.Point(4, 687);
-            this.btnieto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnieto.FlatAppearance.BorderSize = 0;
+            this.btnieto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnieto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnieto.Location = new System.Drawing.Point(3, 363);
             this.btnieto.Name = "btnieto";
-            this.btnieto.Size = new System.Drawing.Size(112, 52);
+            this.btnieto.Size = new System.Drawing.Size(212, 34);
             this.btnieto.TabIndex = 13;
-            this.btnieto.Text = "NIETO";
+            this.btnieto.Text = "MAL                                                                       ";
             this.btnieto.UseVisualStyleBackColor = true;
             this.btnieto.Click += new System.EventHandler(this.btnieto_Click);
             // 
             // btnabuela
             // 
-            this.btnabuela.Location = new System.Drawing.Point(4, 749);
-            this.btnabuela.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnabuela.FlatAppearance.BorderSize = 0;
+            this.btnabuela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnabuela.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnabuela.Location = new System.Drawing.Point(3, 403);
             this.btnabuela.Name = "btnabuela";
-            this.btnabuela.Size = new System.Drawing.Size(112, 52);
+            this.btnabuela.Size = new System.Drawing.Size(212, 34);
             this.btnabuela.TabIndex = 12;
-            this.btnabuela.Text = "ABUELA";
+            this.btnabuela.Text = "MUY MAL                                           ";
             this.btnabuela.UseVisualStyleBackColor = true;
             this.btnabuela.Click += new System.EventHandler(this.btnabuela_Click);
             // 
             // btnbebe
             // 
-            this.btnbebe.Location = new System.Drawing.Point(4, 811);
-            this.btnbebe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnbebe.FlatAppearance.BorderSize = 0;
+            this.btnbebe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnbebe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbebe.Location = new System.Drawing.Point(3, 443);
             this.btnbebe.Name = "btnbebe";
-            this.btnbebe.Size = new System.Drawing.Size(112, 52);
+            this.btnbebe.Size = new System.Drawing.Size(212, 34);
             this.btnbebe.TabIndex = 11;
-            this.btnbebe.Text = "BEBÉ";
+            this.btnbebe.Text = "BESOS                                           ";
             this.btnbebe.UseVisualStyleBackColor = true;
             this.btnbebe.Click += new System.EventHandler(this.btnbebe_Click);
             // 
             // btnhermanos
             // 
-            this.btnhermanos.Location = new System.Drawing.Point(4, 873);
-            this.btnhermanos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnhermanos.FlatAppearance.BorderSize = 0;
+            this.btnhermanos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnhermanos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnhermanos.Location = new System.Drawing.Point(3, 483);
             this.btnhermanos.Name = "btnhermanos";
-            this.btnhermanos.Size = new System.Drawing.Size(112, 52);
+            this.btnhermanos.Size = new System.Drawing.Size(212, 34);
             this.btnhermanos.TabIndex = 14;
-            this.btnhermanos.Text = "HERMANOS";
+            this.btnhermanos.Text = "GRACIAS                                                 ";
             this.btnhermanos.UseVisualStyleBackColor = true;
             this.btnhermanos.Click += new System.EventHandler(this.btnhermanos_Click);
             // 
             // btnNieta
             // 
-            this.btnNieta.Location = new System.Drawing.Point(4, 935);
-            this.btnNieta.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnNieta.FlatAppearance.BorderSize = 0;
+            this.btnNieta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNieta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNieta.Location = new System.Drawing.Point(3, 523);
             this.btnNieta.Name = "btnNieta";
-            this.btnNieta.Size = new System.Drawing.Size(112, 52);
+            this.btnNieta.Size = new System.Drawing.Size(235, 34);
             this.btnNieta.TabIndex = 15;
-            this.btnNieta.Text = "NIETA";
+            this.btnNieta.Text = "DE NADA                                              ";
             this.btnNieta.UseVisualStyleBackColor = true;
             this.btnNieta.Click += new System.EventHandler(this.btnNieta_Click);
             // 
-            // btnPrimo
-            // 
-            this.btnPrimo.Location = new System.Drawing.Point(4, 997);
-            this.btnPrimo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnPrimo.Name = "btnPrimo";
-            this.btnPrimo.Size = new System.Drawing.Size(112, 52);
-            this.btnPrimo.TabIndex = 16;
-            this.btnPrimo.Text = "PRIMO";
-            this.btnPrimo.UseVisualStyleBackColor = true;
-            this.btnPrimo.Click += new System.EventHandler(this.btnPrimo_Click);
-            // 
             // btnPrima
             // 
-            this.btnPrima.Location = new System.Drawing.Point(4, 1059);
-            this.btnPrima.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnPrima.FlatAppearance.BorderSize = 0;
+            this.btnPrima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrima.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrima.Location = new System.Drawing.Point(3, 563);
             this.btnPrima.Name = "btnPrima";
-            this.btnPrima.Size = new System.Drawing.Size(112, 52);
+            this.btnPrima.Size = new System.Drawing.Size(212, 34);
             this.btnPrima.TabIndex = 17;
-            this.btnPrima.Text = "PRIMA";
+            this.btnPrima.Text = "PERDON                                              ";
             this.btnPrima.UseVisualStyleBackColor = true;
             this.btnPrima.Click += new System.EventHandler(this.btnPrima_Click);
             // 
             // btnSobrino
             // 
-            this.btnSobrino.Location = new System.Drawing.Point(4, 1121);
-            this.btnSobrino.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSobrino.FlatAppearance.BorderSize = 0;
+            this.btnSobrino.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSobrino.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSobrino.Location = new System.Drawing.Point(3, 603);
             this.btnSobrino.Name = "btnSobrino";
-            this.btnSobrino.Size = new System.Drawing.Size(112, 52);
+            this.btnSobrino.Size = new System.Drawing.Size(212, 34);
             this.btnSobrino.TabIndex = 18;
-            this.btnSobrino.Text = "SOBRINO";
+            this.btnSobrino.Text = "PERMISO                                                 ";
             this.btnSobrino.UseVisualStyleBackColor = true;
             this.btnSobrino.Click += new System.EventHandler(this.btnSobrino_Click);
             // 
-            // btnSobrina
+            // btnHERMANO
             // 
-            this.btnSobrina.Location = new System.Drawing.Point(4, 1183);
-            this.btnSobrina.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSobrina.Name = "btnSobrina";
-            this.btnSobrina.Size = new System.Drawing.Size(112, 52);
-            this.btnSobrina.TabIndex = 19;
-            this.btnSobrina.Text = "SOBRINA";
-            this.btnSobrina.UseVisualStyleBackColor = true;
-            this.btnSobrina.Click += new System.EventHandler(this.btnSobrina_Click);
-            // 
-            // btnCunado
-            // 
-            this.btnCunado.Location = new System.Drawing.Point(4, 1245);
-            this.btnCunado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCunado.Name = "btnCunado";
-            this.btnCunado.Size = new System.Drawing.Size(112, 52);
-            this.btnCunado.TabIndex = 20;
-            this.btnCunado.Text = "CUÑADO";
-            this.btnCunado.UseVisualStyleBackColor = true;
-            this.btnCunado.Click += new System.EventHandler(this.btnCunado_Click);
-            // 
-            // btnCunada
-            // 
-            this.btnCunada.Location = new System.Drawing.Point(4, 1307);
-            this.btnCunada.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCunada.Name = "btnCunada";
-            this.btnCunada.Size = new System.Drawing.Size(112, 52);
-            this.btnCunada.TabIndex = 21;
-            this.btnCunada.Text = "CUÑADA";
-            this.btnCunada.UseVisualStyleBackColor = true;
-            this.btnCunada.Click += new System.EventHandler(this.btnCunada_Click);
-            // 
-            // btnTio
-            // 
-            this.btnTio.Location = new System.Drawing.Point(4, 1369);
-            this.btnTio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnTio.Name = "btnTio";
-            this.btnTio.Size = new System.Drawing.Size(112, 52);
-            this.btnTio.TabIndex = 22;
-            this.btnTio.Text = "TÍO";
-            this.btnTio.UseVisualStyleBackColor = true;
-            this.btnTio.Click += new System.EventHandler(this.btnTio_Click);
-            // 
-            // btnSuegro
-            // 
-            this.btnSuegro.Location = new System.Drawing.Point(4, 1431);
-            this.btnSuegro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSuegro.Name = "btnSuegro";
-            this.btnSuegro.Size = new System.Drawing.Size(112, 52);
-            this.btnSuegro.TabIndex = 23;
-            this.btnSuegro.Text = "SUEGRO";
-            this.btnSuegro.UseVisualStyleBackColor = true;
-            this.btnSuegro.Click += new System.EventHandler(this.btnSuegro_Click);
-            // 
-            // btnEsposo
-            // 
-            this.btnEsposo.Location = new System.Drawing.Point(4, 1493);
-            this.btnEsposo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEsposo.Name = "btnEsposo";
-            this.btnEsposo.Size = new System.Drawing.Size(112, 52);
-            this.btnEsposo.TabIndex = 24;
-            this.btnEsposo.Text = "ESPOSO";
-            this.btnEsposo.UseVisualStyleBackColor = true;
-            this.btnEsposo.Click += new System.EventHandler(this.btnEsposo_Click);
-            // 
-            // btnEsposa
-            // 
-            this.btnEsposa.Location = new System.Drawing.Point(4, 1555);
-            this.btnEsposa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEsposa.Name = "btnEsposa";
-            this.btnEsposa.Size = new System.Drawing.Size(112, 52);
-            this.btnEsposa.TabIndex = 25;
-            this.btnEsposa.Text = "ESPOSA";
-            this.btnEsposa.UseVisualStyleBackColor = true;
-            this.btnEsposa.Click += new System.EventHandler(this.btnEsposa_Click);
-            // 
-            // btnPadrino
-            // 
-            this.btnPadrino.Location = new System.Drawing.Point(4, 1617);
-            this.btnPadrino.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnPadrino.Name = "btnPadrino";
-            this.btnPadrino.Size = new System.Drawing.Size(112, 52);
-            this.btnPadrino.TabIndex = 26;
-            this.btnPadrino.Text = "PADRINO";
-            this.btnPadrino.UseVisualStyleBackColor = true;
-            this.btnPadrino.Click += new System.EventHandler(this.btnPadrino_Click);
-            // 
-            // btnMadrina
-            // 
-            this.btnMadrina.Location = new System.Drawing.Point(4, 1679);
-            this.btnMadrina.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnMadrina.Name = "btnMadrina";
-            this.btnMadrina.Size = new System.Drawing.Size(112, 52);
-            this.btnMadrina.TabIndex = 27;
-            this.btnMadrina.Text = "MADRINA";
-            this.btnMadrina.UseVisualStyleBackColor = true;
-            this.btnMadrina.Click += new System.EventHandler(this.btnMadrina_Click);
-            // 
-            // btnNovios
-            // 
-            this.btnNovios.Location = new System.Drawing.Point(4, 1741);
-            this.btnNovios.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnNovios.Name = "btnNovios";
-            this.btnNovios.Size = new System.Drawing.Size(112, 52);
-            this.btnNovios.TabIndex = 28;
-            this.btnNovios.Text = "NOVIOS";
-            this.btnNovios.UseVisualStyleBackColor = true;
-            this.btnNovios.Click += new System.EventHandler(this.btnNovios_Click);
+            this.btnHERMANO.FlatAppearance.BorderSize = 0;
+            this.btnHERMANO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHERMANO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHERMANO.Location = new System.Drawing.Point(3, 643);
+            this.btnHERMANO.Name = "btnHERMANO";
+            this.btnHERMANO.Size = new System.Drawing.Size(212, 34);
+            this.btnHERMANO.TabIndex = 0;
+            this.btnHERMANO.Text = "BUEN DIA                                                  ";
+            this.btnHERMANO.UseVisualStyleBackColor = true;
+            this.btnHERMANO.Click += new System.EventHandler(this.btnHERMANO_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(4, 1803);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(3, 683);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 52);
-            this.button1.TabIndex = 29;
-            this.button1.Text = "NOVIO";
+            this.button1.Size = new System.Drawing.Size(212, 34);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "HOLA                                               ";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // button2
+            // btnVolver
             // 
-            this.button2.Location = new System.Drawing.Point(4, 1865);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 52);
-            this.button2.TabIndex = 30;
-            this.button2.Text = "NOVIA";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVolver.BackgroundImage")));
+            this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Location = new System.Drawing.Point(306, 624);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(97, 93);
+            this.btnVolver.TabIndex = 12;
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
             // familia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 730);
+            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.scroll_down_familia;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.reproductor);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "familia";
             this.Text = "familia";
             ((System.ComponentModel.ISupportInitialize)(this.reproductor)).EndInit();
@@ -479,7 +367,6 @@ namespace WindowsFormsApp2
 
         private AxWMPLib.AxWindowsMediaPlayer reproductor;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button btnPapa;
         private System.Windows.Forms.Button btnHERMANO;
         private System.Windows.Forms.Button btnMama;
         private System.Windows.Forms.Button btnHermana;
@@ -495,20 +382,9 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Button btnieto;
         private System.Windows.Forms.Button btnhermanos;
         private System.Windows.Forms.Button btnNieta;
-        private System.Windows.Forms.Button btnPrimo;
         private System.Windows.Forms.Button btnPrima;
         private System.Windows.Forms.Button btnSobrino;
-        private System.Windows.Forms.Button btnSobrina;
-        private System.Windows.Forms.Button btnCunado;
-        private System.Windows.Forms.Button btnCunada;
-        private System.Windows.Forms.Button btnTio;
-        private System.Windows.Forms.Button btnSuegro;
-        private System.Windows.Forms.Button btnEsposo;
-        private System.Windows.Forms.Button btnEsposa;
-        private System.Windows.Forms.Button btnPadrino;
-        private System.Windows.Forms.Button btnMadrina;
-        private System.Windows.Forms.Button btnNovios;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

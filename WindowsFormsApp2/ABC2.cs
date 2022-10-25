@@ -59,7 +59,7 @@ namespace WindowsFormsApp2
             player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
             player.Visible = true;
             player.Name = "V-" + i.ToString();
-            player.close();
+            //player.close();
 
             label = new Label();
             label.AutoSize = true;

@@ -12,7 +12,7 @@ namespace WindowsFormsApp2
 {
     public partial class familia : Form
     {
-        string famili;
+        string fraces;
         public familia()
         {
             InitializeComponent();
@@ -22,163 +22,116 @@ namespace WindowsFormsApp2
         {
             string dirProyecto = AppContext.BaseDirectory;
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            reproductor.URL = dirProyecto + "Letras\\" + famili + ".mp4";
+            reproductor.URL = dirProyecto + "Letras\\" + fraces + ".mp4";
             reproductor.Ctlcontrols.play();
         }
 
         private void btnPapa_Click(object sender, EventArgs e)
         {
-            famili = "papa";
+            fraces = "buenos dias";
         }
 
         private void btnMama_Click(object sender, EventArgs e)
         {
-            famili = "mama";
+            fraces = "buenos dias";
         }
 
         private void btnpadrastro_Click(object sender, EventArgs e)
         {
-            famili = "padrastro";
+            fraces = "buenas noches";
         }
 
         private void btnmadrastra_Click(object sender, EventArgs e)
         {
-            famili = "madrastra";
+            fraces = "¿como estas?";
         }
 
         private void btnhijo_Click(object sender, EventArgs e)
         {
-            famili = "hijo";
+            fraces = "BIEN";
         }
 
         private void btnhija_Click(object sender, EventArgs e)
         {
-            famili = "hija";
+            fraces = "mas o menos";
         }
 
         private void btnbebe_Click(object sender, EventArgs e)
         {
-            famili = "bebe";
+            fraces = "besos";
         }
 
         private void btnhermanos_Click(object sender, EventArgs e)
         {
-            famili = "hermanos"; 
+            fraces = "gracias"; 
         }
 
         private void btnHERMANO_Click(object sender, EventArgs e)
         {
-            famili = "hermano";
+            fraces = "buen dia";
         }
 
         private void btnHermana_Click(object sender, EventArgs e)
         {
-            famili = "hermana";
+            fraces = "buenas tardes";
         }
 
         private void btnmellizos_Click(object sender, EventArgs e)
         {
-            famili = "mellizos";
+            fraces = "¿que tal?";
         }
 
         private void btngemelos_Click(object sender, EventArgs e)
         {
-            famili = "gemelos";
+            fraces = "muy bien";
         }
 
         private void btnabuelo_Click(object sender, EventArgs e)
         {
-            famili = "abuelo";
+            fraces = "todo bien";
         }
 
         private void btnabuela_Click(object sender, EventArgs e)
         {
-            famili = "abuela";
+            fraces = "muy mal";
         }
 
         private void btnieto_Click(object sender, EventArgs e)
         {
-            famili = "nieto";
+            fraces = "mal";
         }
 
         private void btnNieta_Click(object sender, EventArgs e)
         {
-            famili = "nieta";
+            fraces = "de nada";
         }
 
         private void btnPrimo_Click(object sender, EventArgs e)
         {
-            famili = "primo";
+            fraces = "no hay de que";
         }
 
         private void btnPrima_Click(object sender, EventArgs e)
         {
-            famili = "prima";
+            fraces = "perdon";
         }
 
         private void btnSobrino_Click(object sender, EventArgs e)
         {
-            famili = "sobrino";
+            fraces = "permiso";
         }
 
-        private void btnSobrina_Click(object sender, EventArgs e)
+
+        private void BtnVolver_Click(object sender, EventArgs e)
         {
-            famili = "sobrina";
+            this.Hide();
+            //bienvenidos Nuevaventana = new bienvenidos(this.nombreusuario);
+            //Nuevaventana.Show();
         }
 
-        private void btnCunado_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            famili = "cuñado";
-        }
-
-        private void btnCunada_Click(object sender, EventArgs e)
-        {
-            famili = "cuñada";
-        }
-
-        private void btnTio_Click(object sender, EventArgs e)
-        {
-            famili = "tio";
-        }
-
-        private void btnSuegro_Click(object sender, EventArgs e)
-        {
-            famili = "suegro_a";
-        }
-
-        private void btnEsposo_Click(object sender, EventArgs e)
-        {
-            famili = "esposo";
-        }
-
-        private void btnMadrina_Click(object sender, EventArgs e)
-        {
-            famili = "Madrina";
-        }
-
-        private void btnPadrino_Click(object sender, EventArgs e)
-        {
-            famili = "padrino";
-        }
-
-        private void btnEsposa_Click(object sender, EventArgs e)
-        {
-            famili = "esposa";
-        }
-
-        private void btnNovios_Click(object sender, EventArgs e)
-        {
-            famili = "novios";
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            famili = "novio";
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            famili = "novia";
+            fraces = "hola";
         }
     }
 }

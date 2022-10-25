@@ -20,7 +20,6 @@ namespace WindowsFormsApp2
         public Abecedario(string nombre)
         {
             InitializeComponent();
-            NomUsu.Text = nombre;
             this.NombreUsu = nombre;
         }
 
@@ -273,8 +272,6 @@ namespace WindowsFormsApp2
 
         private void Abecedario_Load(object sender, EventArgs e)
         {
-           // LogUsu = Class1.Usuario;
-            NomUsu.Text = NombreUsu;
         }
     }
 }
