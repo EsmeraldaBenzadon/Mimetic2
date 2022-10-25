@@ -1333,6 +1333,11 @@ namespace WindowsFormsApp2
             form.StartPosition = FormStartPosition.CenterScreen;
             form.MinimizeBox = false;
             form.MaximizeBox = false;
+            form.BackColor = Color.PaleGreen;
+            form.ForeColor = Color.Black;
+            form.Font = new Font("Microsoft Sans Serif", 8);
+            buttonOk.BackColor = Color.White;
+            buttoncancel.BackColor = Color.White;
 
 
             form.Controls.AddRange(new Control[] { label, buttonOk, buttoncancel });

@@ -17,7 +17,8 @@ namespace WindowsFormsApp2
         PictureBox firstGuess;
         Random rnd = new Random();
         Timer clickTimer = new Timer();
-        int time = 60;
+        //int time = 60;
+        int time = 5;
         Timer timer = new Timer { Interval = 1000 };
 
         //variables declaradas
@@ -1315,7 +1316,11 @@ namespace WindowsFormsApp2
             form.StartPosition = FormStartPosition.CenterScreen;
             form.MinimizeBox = false;
             form.MaximizeBox = false;
-
+            form.BackColor = Color.PaleGreen;
+            form.ForeColor = Color.Black;
+            form.Font = new Font("Microsoft Sans Serif", 8);
+            buttonOk.BackColor = Color.White;
+            buttoncancel.BackColor = Color.White;
 
             form.Controls.AddRange(new Control[] { label, buttonOk, buttoncancel });
             form.AcceptButton = buttonOk;

@@ -218,7 +218,7 @@ namespace WindowsFormsApp2
             buttoncancel.DialogResult = DialogResult.Cancel;
             buttoncancel.CausesValidation = true;
 
-            label.SetBounds(26, 36, 186, 7);
+            label.SetBounds(26, 32, 186, 7);
             buttonOk.SetBounds(220, 100, 80, 30);
             buttoncancel.SetBounds(100, 100, 80, 30);
 
@@ -228,6 +228,11 @@ namespace WindowsFormsApp2
             form.StartPosition = FormStartPosition.CenterScreen;
             form.MinimizeBox = false;
             form.MaximizeBox = false;
+            form.BackColor = Color.LightSalmon;
+            form.ForeColor = Color.Black;
+            form.Font = new Font("Microsoft Sans Serif", 9);
+            buttonOk.BackColor = Color.White;
+            buttoncancel.BackColor = Color.White;
 
 
             form.Controls.AddRange(new Control[] { label, buttonOk, buttoncancel });
