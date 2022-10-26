@@ -17,7 +17,8 @@ namespace WindowsFormsApp2
         public string NombreUsu, nombre;
         int i = 0;
         string letra;
-        AxWindowsMediaPlayer player;
+        //AxWindowsMediaPlayer player;
+        PictureBox player;
         Label label;
         string dirProyecto;
         List<string> nombre_lista;
@@ -45,24 +46,25 @@ namespace WindowsFormsApp2
                 }
             }
 
-            player = new AxWindowsMediaPlayer();
+            player = new PictureBox();
             Controls.Add(player);
-            player.Location = new System.Drawing.Point(430, 180);
-            player.Ctlenabled = true;
-            player.settings.mute = true;
-            Size size = new Size(450, 450);
+            player.Location = new System.Drawing.Point(339, 180);
+            //player.Ctlenabled = true;
+            Size size = new Size(640, 360);
             player.Size = size;
             player.CreateControl();
-
             dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
+
+            nombre = textBox1.Text;
             nombre_lista = strToArr(nombre);
             letra = nombre_lista[i];
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + letra + ".gif");
+            player.Show();
+
             player.Visible = true;
             player.Name = "V-" + i.ToString();
             player.Show();
-            player.close();
 
             label = new Label();
             label.AutoSize = true;
@@ -74,7 +76,7 @@ namespace WindowsFormsApp2
             label.BackColor = Color.Transparent;
             label.Font = new Font("", 20);
             Controls.Add(label);
-            label.Text = nombre[0].ToString();
+            label.Text = letra;
 
         }
 
@@ -84,7 +86,7 @@ namespace WindowsFormsApp2
             nombre_lista = strToArr(nombre);
             i++;
             letra = nombre_lista[i];
-            player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + letra + ".gif");
             player.Show();
             label.Text = letra;
             if (nombre_lista.Count == (i + 1))
@@ -100,7 +102,7 @@ namespace WindowsFormsApp2
             nombre_lista = strToArr(nombre);
             i--;
             letra = nombre_lista[i];
-            player.URL = dirProyecto + "Letras\\" + letra + ".mp4";
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + letra + ".gif");
             player.Show();
             label.Text = letra;
             if (i == 0)

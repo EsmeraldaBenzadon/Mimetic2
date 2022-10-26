@@ -19,6 +19,8 @@ namespace WindowsFormsApp2
         int score;
         int percentage;
         int totalQuestions;
+
+
         OleDbConnection DatabaseProyecto;
         public string NombreUsu;
 
@@ -98,7 +100,7 @@ namespace WindowsFormsApp2
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "MAMÁ";
                     button2.Text = "PERRO";
-                    button3.Text = "PLANRA";
+                    button3.Text = "PLANTA";
                     button4.Text = "AZUL";
 
                     correctAnswer = 1;

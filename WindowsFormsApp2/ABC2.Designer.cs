@@ -44,6 +44,7 @@ namespace WindowsFormsApp2
             // 
             this.textBox1.BackColor = System.Drawing.Color.MidnightBlue;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(339, 88);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
@@ -58,6 +59,8 @@ namespace WindowsFormsApp2
             this.button1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.BOTON_listo;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(1193, 603);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
@@ -73,6 +76,8 @@ namespace WindowsFormsApp2
             this.btnAtras.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.flecha_ida_y_vuelta__1_;
             this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtras.Location = new System.Drawing.Point(165, 374);
             this.btnAtras.Margin = new System.Windows.Forms.Padding(2);
@@ -88,6 +93,8 @@ namespace WindowsFormsApp2
             this.btnSiguiente.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.flecha_ida_y_vuelta;
             this.btnSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSiguiente.FlatAppearance.BorderSize = 0;
+            this.btnSiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSiguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.Location = new System.Drawing.Point(1067, 374);
             this.btnSiguiente.Margin = new System.Windows.Forms.Padding(2);
@@ -115,6 +122,8 @@ namespace WindowsFormsApp2
             this.btnVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVolver.BackgroundImage")));
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Location = new System.Drawing.Point(32, 587);
             this.btnVolver.Name = "btnVolver";
