@@ -37,7 +37,7 @@ namespace WindowsFormsApp2
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            nivelesquiz Nuevaventana = new nivelesquiz ();
+            nivelesquiz Nuevaventana = new nivelesquiz (this.NombreUsu);
             Nuevaventana.Show();
         }
 

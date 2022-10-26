@@ -43,7 +43,8 @@
             // txt_nombre
             // 
             this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombre.Location = new System.Drawing.Point(415, 267);
             this.txt_nombre.Multiline = true;
             this.txt_nombre.Name = "txt_nombre";
@@ -55,7 +56,8 @@
             // txt_contraseña
             // 
             this.txt_contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(170)))), ((int)(((byte)(102)))));
-            this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_contraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contraseña.Location = new System.Drawing.Point(415, 437);
             this.txt_contraseña.Multiline = true;
             this.txt_contraseña.Name = "txt_contraseña";

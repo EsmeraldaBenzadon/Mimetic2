@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.NomUsu = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -52,16 +53,27 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
+            // NomUsu
+            // 
+            this.NomUsu.AutoSize = true;
+            this.NomUsu.Location = new System.Drawing.Point(733, 25);
+            this.NomUsu.Name = "NomUsu";
+            this.NomUsu.Size = new System.Drawing.Size(35, 13);
+            this.NomUsu.TabIndex = 2;
+            this.NomUsu.Text = "label1";
+            // 
             // nivelesquiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.NomUsu);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "nivelesquiz";
             this.Text = "nivelesquiz";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -69,5 +81,6 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label NomUsu;
     }
 }
