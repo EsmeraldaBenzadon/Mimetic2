@@ -88,8 +88,6 @@ C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\AxInterop.WMPLib
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.ResolveComReference.cache
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Letra.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Crearcuenta.resources
-C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ABC.resources
-C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.menu_juegos.resources
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.memotest.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.memotest.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.recuperar_contraseña.resources
@@ -163,3 +161,14 @@ C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsAp
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.memotest222.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesmemotest.resources
 C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.familia.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ABC2.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.familia.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.memotest222.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.menujuegos2.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesmemotest.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.quizgame.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.quizgame222.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.recuperar_contraseña.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.scroll.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.voc_basico.resources
+C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesquiz.resources
