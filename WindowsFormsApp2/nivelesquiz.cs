@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
+     
     public partial class nivelesquiz : Form
     {
-        public nivelesquiz()
+        public string NombreUsu;
+
+        public nivelesquiz(string nombre)
         {
             InitializeComponent();
+            NomUsu.Text = nombre;
+            this.NombreUsu = nombre;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -25,7 +30,7 @@ namespace WindowsFormsApp2
         private void Button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            quizgame222 Nuevaventana = new quizgame222();
+            quizgame222 Nuevaventana = new quizgame222(this.NombreUsu);
             Nuevaventana.Show();
         }
     }

@@ -71,7 +71,7 @@ namespace WindowsFormsApp2
             //operador ternario, si es la primer posicion entonces el control va a estar visible, sino todos los demas quedan invisibles.
             label.Visible = true;
             label.Text = letra;
-            label.Location = new System.Drawing.Point(640, 663);
+            label.Location = new System.Drawing.Point(640, 575);
             label.BackColor = Color.Transparent;
             label.Font = new Font("", 20);
             Controls.Add(label);
