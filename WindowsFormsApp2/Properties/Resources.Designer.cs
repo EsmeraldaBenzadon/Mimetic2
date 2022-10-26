@@ -63,9 +63,29 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abril {
+            get {
+                object obj = ResourceManager.GetObject("abril", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap abuelasinco {
             get {
                 object obj = ResourceManager.GetObject("abuelasinco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap agosto {
+            get {
+                object obj = ResourceManager.GetObject("agosto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +263,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diciembre {
+            get {
+                object obj = ResourceManager.GetObject("diciembre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap domingo {
             get {
                 object obj = ResourceManager.GetObject("domingo", resourceCulture);
@@ -253,9 +283,29 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ener {
+            get {
+                object obj = ResourceManager.GetObject("ener", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap esposasinco {
             get {
                 object obj = ResourceManager.GetObject("esposasinco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap febrero {
+            get {
+                object obj = ResourceManager.GetObject("febrero", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,6 +473,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap junio {
+            get {
+                object obj = ResourceManager.GetObject("junio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lunes {
             get {
                 object obj = ResourceManager.GetObject("lunes", resourceCulture);
@@ -456,6 +516,26 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap martes {
             get {
                 object obj = ResourceManager.GetObject("martes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marzo {
+            get {
+                object obj = ResourceManager.GetObject("marzo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mayo {
+            get {
+                object obj = ResourceManager.GetObject("mayo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -556,6 +636,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap MUYMALPEOR {
             get {
                 object obj = ResourceManager.GetObject("MUYMALPEOR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap noviembre {
+            get {
+                object obj = ResourceManager.GetObject("noviembre", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -836,6 +926,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap semana {
             get {
                 object obj = ResourceManager.GetObject("semana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap septiembre {
+            get {
+                object obj = ResourceManager.GetObject("septiembre", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

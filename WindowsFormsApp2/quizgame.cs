@@ -59,7 +59,8 @@ namespace WindowsFormsApp2
                 //porcentaje de respuestas correctas 
                 percentage = (int)Math.Round((double)(score * 100) / totalQuestions);
 
-                if (InputBox("¡Terminaste el juego!", "Tuviste  " + score + " de respuestas correctas. Muy bien!  " + "\n" +
+                if 
+                    (InputBox("¡Terminaste el juego!", "Tuviste  " + score + " de respuestas correctas. Muy bien!  " + "\n" +
                     "Tu porsentaje total es de " + percentage + " de 100" + Environment.NewLine +
                     " Ya has jugado " + juegos + " veces" + "\n" + "Si quieres intentarlo una vez mas hace click en aceptar") == DialogResult.OK)
                 {
