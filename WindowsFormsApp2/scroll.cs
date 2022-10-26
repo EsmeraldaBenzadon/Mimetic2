@@ -24,95 +24,39 @@ namespace WindowsFormsApp2
 
         private void Reproductor_Enter(object sender, EventArgs e)
         {
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            reproductor.URL = dirProyecto + "Letras\\" + frases + ".mp4";
-            reproductor.Ctlcontrols.play();
+            //string dirProyecto = AppContext.BaseDirectory;
+            //dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            //reproductor.URL = dirProyecto + "Letras\\" + frases + ".mp4";
+            //reproductor.Ctlcontrols.play();
         }
 
-        private void BtnHOLA_Click(object sender, EventArgs e)
-        {
-            frases = "HOLA"; 
-        }
-
-        private void btnBuendia_Click(object sender, EventArgs e)
-        {
-            frases = "BUENDIA";
-        }
-
-        private void btnBuenosDias_Click(object sender, EventArgs e)
-        {
-            frases = "buenosdias";
-        }
-
-        private void btnBuenastardes_Click(object sender, EventArgs e)
-        {
-            frases = "BUENASTARDES";
-        }
-
-        private void btnBuenasnoches_Click(object sender, EventArgs e)
-        {
-            frases = "BUENASNOCHES";
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frases = "COMOESTAS";
-        }
-
-        private void btnbien_Click(object sender, EventArgs e)
-        {
-            frases = "BIEN";
-        }
-
-        private void btnMaso_Click(object sender, EventArgs e)
-        {
-            frases = "MASOMENOS";
-        }
-
-        private void btnMal_Click(object sender, EventArgs e)
-        {
-            frases = "MAL";
-        }
-
+        
         private void scroll_Load(object sender, EventArgs e)
         {
+            if (titulo == "familia") 
+            {
+                string[] familia = { "Mama", "Papa", "Perro" };
 
+                for (int i = 0; i < familia.Length; i++)
+                {
+                    Button button = new Button();
+                    button.AutoSize = true;
+                    button.Name = "btn" + familia[i];
+                    button.Text = familia[i];
+                    flowLayoutPanel1.Controls.Add(button);
+                    button.Click += btnSide_Click;
+                    button.DialogResult = DialogResult.OK;
+
+                }
+            }
         }
-
-        private void btnBesos_Click(object sender, EventArgs e)
+        public void btnSide_Click(object sender, EventArgs e)
         {
-            frases = "BESOSMEJILLAS";
-        }
-
-        private void btnGracias_Click(object sender, EventArgs e)
-        {
-            frases = "GRACIAS-MUCHASGRACIAS";
-        }
-
-        private void btnDenada_Click(object sender, EventArgs e)
-        {
-            frases = "DENADA-NOHAYDEQUE";
-        }
-
-        private void btnPerdon_Click(object sender, EventArgs e)
-        {
-            frases = "PERDON-DISCULPAS";
-        }
-
-        private void btnPermiso_Click(object sender, EventArgs e)
-        {
-            frases = "PERMISO";
-        }
-
-        private void btnMuybien_Click(object sender, EventArgs e)
-        {
-            frases = "MUYBIEN";
-        }
-
-        private void btnMuymal_Click(object sender, EventArgs e)
-        {
-            frases = "MUYMAL";
+            //MessageBox.Show(sender.Text);
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            pictureBox = Image.FromFile(dirProyecto + "Letras\\" + familia + ".gif");
+           
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -120,27 +64,6 @@ namespace WindowsFormsApp2
             this.Hide();
             //voc_basico Nuevaventana = new voc_basico(this.nombreusuario);//para pasar una variable a otro form 
             //Nuevaventana.Show();
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-            InitializeMyButton(1);
-
-        }
-
-        private void InitializeMyButton(int but)
-        {
-            //string nombre_boton = "button" + but.ToString();
-
-            Button button = new Button();
-            button.AutoSize = true;
-            //button.Text = 
-            //button.Location = new System.Drawing.Point();
-            //flowLayoutPanel1.Controls.Add(button);
-            button.Name = "button" + but;
-            // this.Controls.Add(button);
-
-            button.DialogResult = DialogResult.OK;
         }
 
     }

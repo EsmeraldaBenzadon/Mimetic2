@@ -17,7 +17,6 @@ namespace WindowsFormsApp2
         public string NombreUsu, nombre;
         int i = 0;
         string letra;
-        //AxWindowsMediaPlayer player;
         PictureBox player;
         Label label;
         string dirProyecto;
