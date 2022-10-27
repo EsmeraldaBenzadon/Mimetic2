@@ -583,6 +583,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu_de_niveles1 {
+            get {
+                object obj = ResourceManager.GetObject("menu de niveles1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap miercoles {
             get {
                 object obj = ResourceManager.GetObject("miercoles", resourceCulture);

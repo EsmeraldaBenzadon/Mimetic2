@@ -544,5 +544,8 @@
   <ItemGroup>
     <None Include="Resources\diciembre.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu de niveles1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

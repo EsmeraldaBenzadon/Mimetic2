@@ -24,7 +24,9 @@ namespace WindowsFormsApp2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-           
+            this.Hide();
+            quizgame Nuevaventana = new quizgame(this.NombreUsu);
+            Nuevaventana.Show();
         }
 
         private void Button2_Click(object sender, EventArgs e)

@@ -121,8 +121,14 @@
   <data name="MUYMAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MUYMAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hijasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hijasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group 91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abril" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abril.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mayo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mayo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="seleccion de juego1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seleccion de juego1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,9 +148,6 @@
   <data name="boton dias" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton dias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="esposasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\esposasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MAL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -156,6 +159,9 @@
   </data>
   <data name="boton meses" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton meses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agosto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agosto.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="memotest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\memotest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +184,8 @@
   <data name="Rectangle 59" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 59.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group 91" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="viernes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viernes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mamasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mamasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,14 +214,17 @@
   <data name="Group 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="diciembre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diciembre.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="abuelasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abuelasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="domingo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\domingo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu de niveles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu de niveles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hijasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hijasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="usuario dibujo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario dibujo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,11 +241,20 @@
   <data name="Rectangle 592" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 592.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="seleccion de juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seleccion de juego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="boton memotest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton memotest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="septiembre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\septiembre.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PERDON_DISCULPAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PERDON-DISCULPAS.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marzo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marzo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="boton asignar contraseña" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton asignar contraseña.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,8 +271,11 @@
   <data name="boton verbos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton verbos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="boton (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="usuario dibujo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario dibujo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\junio.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="boton memotest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton memotest1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,14 +283,14 @@
   <data name="ojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Rectangle 74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="flecha ida y vuelta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flecha ida y vuelta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="viernes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\viernes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MUYMALPEOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MUYMALPEOR.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,6 +301,9 @@
   <data name="hermanossinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hermanossinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="febrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\febrero.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Rectangle 593" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 593.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -289,11 +313,17 @@
   <data name="circulo usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circulo usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="seleccion de juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seleccion de juego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="esposasinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esposasinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ojo_ver_2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ojo_ver_2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noviembre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noviembre.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu de niveles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu de niveles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jirafa asomada1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jirafa asomada1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,6 +361,9 @@
   <data name="hijosinco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hijosinco.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ener" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ener.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="recuperar contraseña (olvide mi contraseña)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recuperar contraseña (olvide mi contraseña).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -352,8 +385,8 @@
   <data name="Group 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rectangle 74" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="boton (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rectangle 34" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -370,37 +403,7 @@
   <data name="ojo tachado (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ojo tachado (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="usuario dibujo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usuario dibujo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="abril" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\abril.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="agosto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agosto.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="diciembre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\diciembre.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ener" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ener.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="febrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\febrero.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="junio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\junio.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marzo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marzo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mayo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mayo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noviembre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noviembre.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="septiembre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\septiembre.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu de niveles1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu de niveles1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

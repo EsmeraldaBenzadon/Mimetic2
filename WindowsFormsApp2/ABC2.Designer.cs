@@ -46,11 +46,10 @@ namespace WindowsFormsApp2
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(339, 88);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(508, 135);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(651, 55);
+            this.textBox1.Size = new System.Drawing.Size(976, 85);
             this.textBox1.TabIndex = 0;
             // 
             // button1
@@ -62,10 +61,9 @@ namespace WindowsFormsApp2
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(1193, 603);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(1790, 928);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 61);
+            this.button1.Size = new System.Drawing.Size(200, 94);
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -79,10 +77,9 @@ namespace WindowsFormsApp2
             this.btnAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtras.Location = new System.Drawing.Point(165, 374);
-            this.btnAtras.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAtras.Location = new System.Drawing.Point(263, 509);
             this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Size = new System.Drawing.Size(91, 81);
+            this.btnAtras.Size = new System.Drawing.Size(136, 125);
             this.btnAtras.TabIndex = 2;
             this.btnAtras.UseVisualStyleBackColor = false;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
@@ -96,10 +93,9 @@ namespace WindowsFormsApp2
             this.btnSiguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnSiguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSiguiente.Location = new System.Drawing.Point(1067, 374);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSiguiente.Location = new System.Drawing.Point(1596, 509);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(91, 81);
+            this.btnSiguiente.Size = new System.Drawing.Size(136, 125);
             this.btnSiguiente.TabIndex = 3;
             this.btnSiguiente.UseVisualStyleBackColor = false;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
@@ -109,10 +105,9 @@ namespace WindowsFormsApp2
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(103, 48);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(154, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.Size = new System.Drawing.Size(79, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "label1";
             // 
@@ -125,9 +120,10 @@ namespace WindowsFormsApp2
             this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVolver.Location = new System.Drawing.Point(32, 587);
+            this.btnVolver.Location = new System.Drawing.Point(48, 903);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(93, 92);
+            this.btnVolver.Size = new System.Drawing.Size(140, 142);
             this.btnVolver.TabIndex = 5;
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
@@ -137,20 +133,19 @@ namespace WindowsFormsApp2
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.usuario_dibujo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 30);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(48, 46);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 61);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 94);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
             // ABC2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.juego_del_nombre_abecedario;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.label1);
@@ -160,7 +155,6 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.textBox1);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ABC2";
             this.Text = "ABC2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
