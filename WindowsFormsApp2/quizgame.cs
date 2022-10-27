@@ -73,7 +73,7 @@ namespace WindowsFormsApp2
                 else
                 {
                     this.Hide();
-                    menujuegos2 abrir = new menujuegos2(NombreUsu);
+                    nivelesquiz abrir = new nivelesquiz(NombreUsu);
                     abrir.Show();
                 }             
             }
@@ -254,6 +254,13 @@ namespace WindowsFormsApp2
             string datosjuego = comando.ExecuteScalar().ToString();
             int juegos = Convert.ToInt32(datosjuego);
             return juegos;
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            nivelesquiz abrir = new nivelesquiz(NombreUsu);
+            abrir.Show();
         }
     }
 }

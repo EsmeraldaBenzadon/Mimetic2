@@ -50,6 +50,8 @@
             this.btn_familia.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_familia__1_;
             this.btn_familia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_familia.FlatAppearance.BorderSize = 0;
+            this.btn_familia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_familia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_familia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_familia.Location = new System.Drawing.Point(181, 83);
             this.btn_familia.Name = "btn_familia";
@@ -65,6 +67,8 @@
             this.btn_meses.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_meses;
             this.btn_meses.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_meses.FlatAppearance.BorderSize = 0;
+            this.btn_meses.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_meses.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_meses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_meses.Location = new System.Drawing.Point(909, 83);
             this.btn_meses.Name = "btn_meses";
@@ -79,6 +83,8 @@
             this.btn_dias.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_dias;
             this.btn_dias.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_dias.FlatAppearance.BorderSize = 0;
+            this.btn_dias.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_dias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_dias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_dias.Location = new System.Drawing.Point(203, 482);
             this.btn_dias.Name = "btn_dias";
@@ -93,6 +99,8 @@
             this.btn_numeros.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_numeros;
             this.btn_numeros.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_numeros.FlatAppearance.BorderSize = 0;
+            this.btn_numeros.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_numeros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_numeros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_numeros.Location = new System.Drawing.Point(909, 482);
             this.btn_numeros.Name = "btn_numeros";
@@ -107,6 +115,8 @@
             this.btn_verbos.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton_verbos;
             this.btn_verbos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_verbos.FlatAppearance.BorderSize = 0;
+            this.btn_verbos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_verbos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_verbos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_verbos.Location = new System.Drawing.Point(540, 286);
             this.btn_verbos.Name = "btn_verbos";
@@ -132,7 +142,7 @@
             this.pictureBox2.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.jirafa_asomada;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(1035, 375);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(164, 115);
             this.pictureBox2.TabIndex = 6;
@@ -145,6 +155,8 @@
             this.btnVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVolver.BackgroundImage")));
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Location = new System.Drawing.Point(23, 624);
             this.btnVolver.Name = "btnVolver";
@@ -159,7 +171,7 @@
             this.pictureBox3.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.usuario_dibujo;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(21, 18);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(67, 61);
             this.pictureBox3.TabIndex = 9;
@@ -197,6 +209,7 @@
             this.Name = "voc_basico";
             this.Text = "voc_basico";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Voc_basico_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

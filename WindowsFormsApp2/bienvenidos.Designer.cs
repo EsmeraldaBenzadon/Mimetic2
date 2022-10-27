@@ -46,6 +46,8 @@
             this.btnabc.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnabc.BackgroundImage")));
             this.btnabc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnabc.FlatAppearance.BorderSize = 0;
+            this.btnabc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnabc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnabc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnabc.Location = new System.Drawing.Point(286, 215);
             this.btnabc.Name = "btnabc";
@@ -60,6 +62,8 @@
             this.btnfrases.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnfrases.BackgroundImage")));
             this.btnfrases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnfrases.FlatAppearance.BorderSize = 0;
+            this.btnfrases.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnfrases.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnfrases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnfrases.Location = new System.Drawing.Point(754, 215);
             this.btnfrases.Name = "btnfrases";
@@ -74,6 +78,8 @@
             this.btnvocabulario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnvocabulario.BackgroundImage")));
             this.btnvocabulario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvocabulario.FlatAppearance.BorderSize = 0;
+            this.btnvocabulario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnvocabulario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnvocabulario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnvocabulario.Location = new System.Drawing.Point(286, 438);
             this.btnvocabulario.Name = "btnvocabulario";
@@ -88,6 +94,8 @@
             this.btnJugamos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnJugamos.BackgroundImage")));
             this.btnJugamos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnJugamos.FlatAppearance.BorderSize = 0;
+            this.btnJugamos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnJugamos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnJugamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJugamos.Location = new System.Drawing.Point(754, 438);
             this.btnJugamos.Name = "btnJugamos";

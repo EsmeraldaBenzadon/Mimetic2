@@ -176,6 +176,7 @@
             this.btnVolver.Size = new System.Drawing.Size(97, 93);
             this.btnVolver.TabIndex = 22;
             this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
             // quizgame
             // 

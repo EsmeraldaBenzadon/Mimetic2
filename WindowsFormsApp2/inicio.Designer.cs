@@ -38,6 +38,8 @@
             this.btnComenzar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnComenzar.BackgroundImage")));
             this.btnComenzar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnComenzar.FlatAppearance.BorderSize = 0;
+            this.btnComenzar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnComenzar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnComenzar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnComenzar.Location = new System.Drawing.Point(498, 537);
             this.btnComenzar.Name = "btnComenzar";

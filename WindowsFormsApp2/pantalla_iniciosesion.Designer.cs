@@ -72,6 +72,8 @@
             this.btn_iniciarsesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_iniciarsesion.BackgroundImage")));
             this.btn_iniciarsesion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_iniciarsesion.FlatAppearance.BorderSize = 0;
+            this.btn_iniciarsesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_iniciarsesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_iniciarsesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_iniciarsesion.Location = new System.Drawing.Point(515, 534);
             this.btn_iniciarsesion.Name = "btn_iniciarsesion";
@@ -86,6 +88,8 @@
             this.btn_recupcontra.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_recupcontra.BackgroundImage")));
             this.btn_recupcontra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_recupcontra.FlatAppearance.BorderSize = 0;
+            this.btn_recupcontra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_recupcontra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_recupcontra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_recupcontra.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_recupcontra.Location = new System.Drawing.Point(583, 617);
@@ -125,6 +129,8 @@
             this.btnVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVolver.BackgroundImage")));
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Location = new System.Drawing.Point(31, 632);
             this.btnVolver.Name = "btnVolver";

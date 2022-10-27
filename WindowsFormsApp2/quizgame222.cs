@@ -255,6 +255,13 @@ namespace WindowsFormsApp2
             int juegos = Convert.ToInt32(datosjuego);
             return juegos;
         }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            nivelesquiz abrir = new nivelesquiz(NombreUsu);
+            abrir.Show();
+        }
     }
 }
 

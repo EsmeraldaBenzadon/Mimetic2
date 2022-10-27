@@ -39,6 +39,8 @@
             this.btnInicios.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnInicios.BackgroundImage")));
             this.btnInicios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnInicios.FlatAppearance.BorderSize = 0;
+            this.btnInicios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnInicios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnInicios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInicios.Location = new System.Drawing.Point(495, 190);
             this.btnInicios.Name = "btnInicios";
@@ -53,6 +55,8 @@
             this.btnCrearc.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCrearc.BackgroundImage")));
             this.btnCrearc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCrearc.FlatAppearance.BorderSize = 0;
+            this.btnCrearc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnCrearc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCrearc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCrearc.Location = new System.Drawing.Point(486, 462);
             this.btnCrearc.Name = "btnCrearc";

@@ -35,5 +35,12 @@ namespace WindowsFormsApp2
             quizgame222 Nuevaventana = new quizgame222(this.NombreUsu);
             Nuevaventana.Show();
         }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menujuegos2 Nuevaventana = new menujuegos2(this.NombreUsu);
+            Nuevaventana.Show();
+        }
     }
 }

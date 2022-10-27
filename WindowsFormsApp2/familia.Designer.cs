@@ -97,6 +97,8 @@ namespace WindowsFormsApp2
             // btnMama
             // 
             this.btnMama.FlatAppearance.BorderSize = 0;
+            this.btnMama.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnMama.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnMama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMama.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMama.Location = new System.Drawing.Point(3, 3);
@@ -110,6 +112,8 @@ namespace WindowsFormsApp2
             // btnHermana
             // 
             this.btnHermana.FlatAppearance.BorderSize = 0;
+            this.btnHermana.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnHermana.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnHermana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHermana.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHermana.Location = new System.Drawing.Point(3, 43);
@@ -123,6 +127,8 @@ namespace WindowsFormsApp2
             // btnpadrastro
             // 
             this.btnpadrastro.FlatAppearance.BorderSize = 0;
+            this.btnpadrastro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnpadrastro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnpadrastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnpadrastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpadrastro.Location = new System.Drawing.Point(3, 83);
@@ -136,6 +142,8 @@ namespace WindowsFormsApp2
             // btnmellizos
             // 
             this.btnmellizos.FlatAppearance.BorderSize = 0;
+            this.btnmellizos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnmellizos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnmellizos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmellizos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmellizos.Location = new System.Drawing.Point(3, 123);
@@ -150,6 +158,8 @@ namespace WindowsFormsApp2
             // btnmadrastra
             // 
             this.btnmadrastra.FlatAppearance.BorderSize = 0;
+            this.btnmadrastra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnmadrastra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnmadrastra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmadrastra.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmadrastra.Location = new System.Drawing.Point(3, 163);
@@ -163,6 +173,8 @@ namespace WindowsFormsApp2
             // btngemelos
             // 
             this.btngemelos.FlatAppearance.BorderSize = 0;
+            this.btngemelos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btngemelos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btngemelos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btngemelos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngemelos.Location = new System.Drawing.Point(3, 203);
@@ -176,6 +188,8 @@ namespace WindowsFormsApp2
             // btnhijo
             // 
             this.btnhijo.FlatAppearance.BorderSize = 0;
+            this.btnhijo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnhijo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnhijo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnhijo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnhijo.Location = new System.Drawing.Point(3, 243);
@@ -189,6 +203,8 @@ namespace WindowsFormsApp2
             // btnabuelo
             // 
             this.btnabuelo.FlatAppearance.BorderSize = 0;
+            this.btnabuelo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnabuelo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnabuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnabuelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnabuelo.Location = new System.Drawing.Point(3, 283);
@@ -202,6 +218,8 @@ namespace WindowsFormsApp2
             // btnhija
             // 
             this.btnhija.FlatAppearance.BorderSize = 0;
+            this.btnhija.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnhija.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnhija.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnhija.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnhija.Location = new System.Drawing.Point(3, 323);
@@ -215,6 +233,8 @@ namespace WindowsFormsApp2
             // btnieto
             // 
             this.btnieto.FlatAppearance.BorderSize = 0;
+            this.btnieto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnieto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnieto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnieto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnieto.Location = new System.Drawing.Point(3, 363);
@@ -228,6 +248,8 @@ namespace WindowsFormsApp2
             // btnabuela
             // 
             this.btnabuela.FlatAppearance.BorderSize = 0;
+            this.btnabuela.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnabuela.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnabuela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnabuela.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnabuela.Location = new System.Drawing.Point(3, 403);
@@ -241,6 +263,8 @@ namespace WindowsFormsApp2
             // btnbebe
             // 
             this.btnbebe.FlatAppearance.BorderSize = 0;
+            this.btnbebe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnbebe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnbebe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbebe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbebe.Location = new System.Drawing.Point(3, 443);
@@ -254,6 +278,8 @@ namespace WindowsFormsApp2
             // btnhermanos
             // 
             this.btnhermanos.FlatAppearance.BorderSize = 0;
+            this.btnhermanos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnhermanos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnhermanos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnhermanos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnhermanos.Location = new System.Drawing.Point(3, 483);
@@ -267,6 +293,8 @@ namespace WindowsFormsApp2
             // btnNieta
             // 
             this.btnNieta.FlatAppearance.BorderSize = 0;
+            this.btnNieta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnNieta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnNieta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNieta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNieta.Location = new System.Drawing.Point(3, 523);
@@ -280,6 +308,8 @@ namespace WindowsFormsApp2
             // btnPrima
             // 
             this.btnPrima.FlatAppearance.BorderSize = 0;
+            this.btnPrima.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnPrima.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnPrima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrima.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrima.Location = new System.Drawing.Point(3, 563);
@@ -293,6 +323,8 @@ namespace WindowsFormsApp2
             // btnSobrino
             // 
             this.btnSobrino.FlatAppearance.BorderSize = 0;
+            this.btnSobrino.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSobrino.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnSobrino.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSobrino.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSobrino.Location = new System.Drawing.Point(3, 603);
@@ -306,6 +338,8 @@ namespace WindowsFormsApp2
             // btnHERMANO
             // 
             this.btnHERMANO.FlatAppearance.BorderSize = 0;
+            this.btnHERMANO.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnHERMANO.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnHERMANO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHERMANO.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHERMANO.Location = new System.Drawing.Point(3, 643);
@@ -319,6 +353,8 @@ namespace WindowsFormsApp2
             // button1
             // 
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(3, 683);
@@ -335,6 +371,8 @@ namespace WindowsFormsApp2
             this.btnVolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVolver.BackgroundImage")));
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Location = new System.Drawing.Point(306, 624);
             this.btnVolver.Name = "btnVolver";

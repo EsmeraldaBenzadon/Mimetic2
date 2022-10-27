@@ -74,5 +74,10 @@ namespace WindowsFormsApp2
             bienvenidos Nuevaventana = new bienvenidos(this.nombreusuario);
             Nuevaventana.Show();
         }
+
+        private void Voc_basico_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
