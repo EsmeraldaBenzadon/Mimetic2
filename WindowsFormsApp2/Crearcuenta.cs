@@ -86,7 +86,6 @@ namespace WindowsFormsApp2
                             }
 
                             DatabaseProyecto.Close();
-                            MessageBox.Show("Sus datos se han enviado correctamente");
                             this.Hide();
                             bienvenidos Nuevaventana = new bienvenidos(Nombre);
                             Nuevaventana.Show();

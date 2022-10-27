@@ -69,7 +69,7 @@ namespace WindowsFormsApp2
             label.Text = letra;
             label.Location = new System.Drawing.Point(640, 575);
             label.BackColor = Color.Transparent;
-            label.Font = new Font("", 20);
+            label.Font = new Font("", 40);
             Controls.Add(label);
             label.Text = letra;
 
