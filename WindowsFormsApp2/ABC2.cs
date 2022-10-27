@@ -48,22 +48,18 @@ namespace WindowsFormsApp2
             player = new PictureBox();
             Controls.Add(player);
             player.Location = new System.Drawing.Point(339, 180);
-            //player.Ctlenabled = true;
             Size size = new Size(640, 360);
             player.Size = size;
             player.CreateControl();
             dirProyecto = AppContext.BaseDirectory;
-
             nombre = textBox1.Text;
             nombre_lista = strToArr(nombre);
             letra = nombre_lista[i];
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
             player.Image = Image.FromFile(dirProyecto + "Letras\\" + letra + ".gif");
             player.Show();
-
             player.Visible = true;
             player.Name = "V-" + i.ToString();
-            player.Show();
 
             label = new Label();
             label.AutoSize = true;

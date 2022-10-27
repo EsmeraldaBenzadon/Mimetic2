@@ -30,7 +30,6 @@ namespace WindowsFormsApp2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(familia));
-            this.reproductor = new AxWMPLib.AxWindowsMediaPlayer();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnMama = new System.Windows.Forms.Button();
             this.btnHermana = new System.Windows.Forms.Button();
@@ -51,19 +50,11 @@ namespace WindowsFormsApp2
             this.btnHERMANO = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.reproductor)).BeginInit();
+            this.player = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reproductor
-            // 
-            this.reproductor.Enabled = true;
-            this.reproductor.Location = new System.Drawing.Point(524, 190);
-            this.reproductor.Name = "reproductor";
-            this.reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("reproductor.OcxState")));
-            this.reproductor.Size = new System.Drawing.Size(680, 402);
-            this.reproductor.TabIndex = 3;
-            this.reproductor.Enter += new System.EventHandler(this.reproductor_Enter);
             // 
             // flowLayoutPanel1
             // 
@@ -88,6 +79,7 @@ namespace WindowsFormsApp2
             this.flowLayoutPanel1.Controls.Add(this.btnSobrino);
             this.flowLayoutPanel1.Controls.Add(this.btnHERMANO);
             this.flowLayoutPanel1.Controls.Add(this.button1);
+            this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(11, 147);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -96,6 +88,7 @@ namespace WindowsFormsApp2
             // 
             // btnMama
             // 
+            this.btnMama.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMama.FlatAppearance.BorderSize = 0;
             this.btnMama.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnMama.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -381,6 +374,29 @@ namespace WindowsFormsApp2
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
+            // player
+            // 
+            this.player.Location = new System.Drawing.Point(592, 240);
+            this.player.Name = "player";
+            this.player.Size = new System.Drawing.Size(551, 329);
+            this.player.TabIndex = 13;
+            this.player.TabStop = false;
+            this.player.Click += new System.EventHandler(this.PictureBox1_Click);
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(3, 723);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(235, 34);
+            this.button2.TabIndex = 20;
+            this.button2.Text = "NO HAY DE QUE                                          ";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // familia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -388,22 +404,20 @@ namespace WindowsFormsApp2
             this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.scroll_down_familia;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.player);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.reproductor);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "familia";
             this.Text = "familia";
-            ((System.ComponentModel.ISupportInitialize)(this.reproductor)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private AxWMPLib.AxWindowsMediaPlayer reproductor;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnHERMANO;
         private System.Windows.Forms.Button btnMama;
@@ -424,5 +438,7 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Button btnSobrino;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.PictureBox player;
+        private System.Windows.Forms.Button button2;
     }
 }

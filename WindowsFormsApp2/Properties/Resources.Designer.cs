@@ -123,6 +123,26 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton__2_ {
+            get {
+                object obj = ResourceManager.GetObject("boton (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton__3_ {
+            get {
+                object obj = ResourceManager.GetObject("boton (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton_asignar_contraseña {
             get {
                 object obj = ResourceManager.GetObject("boton asignar contraseña", resourceCulture);
@@ -563,6 +583,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap memotest_niveles {
+            get {
+                object obj = ResourceManager.GetObject("memotest niveles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap memotest1 {
             get {
                 object obj = ResourceManager.GetObject("memotest1", resourceCulture);
@@ -986,6 +1016,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap usuario_dibujo1 {
             get {
                 object obj = ResourceManager.GetObject("usuario dibujo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vector_393 {
+            get {
+                object obj = ResourceManager.GetObject("Vector 393", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

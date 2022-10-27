@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton;
+            this.button1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton__2_;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -62,7 +62,7 @@ namespace WindowsFormsApp2
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton__1_;
+            this.button2.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.boton__3_;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -81,12 +81,13 @@ namespace WindowsFormsApp2
             this.NomUsu.AutoSize = true;
             this.NomUsu.BackColor = System.Drawing.Color.Transparent;
             this.NomUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NomUsu.Location = new System.Drawing.Point(1205, 41);
+            this.NomUsu.Location = new System.Drawing.Point(103, 49);
             this.NomUsu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NomUsu.Name = "NomUsu";
             this.NomUsu.Size = new System.Drawing.Size(51, 20);
             this.NomUsu.TabIndex = 3;
             this.NomUsu.Text = "label1";
+            this.NomUsu.Click += new System.EventHandler(this.NomUsu_Click);
             // 
             // btnVolver
             // 
@@ -131,7 +132,7 @@ namespace WindowsFormsApp2
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.usuario_dibujo;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(1260, 21);
+            this.pictureBox3.Location = new System.Drawing.Point(23, 26);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(67, 61);
@@ -142,7 +143,7 @@ namespace WindowsFormsApp2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.menu_de_niveles;
+            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.memotest_niveles;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.pictureBox3);

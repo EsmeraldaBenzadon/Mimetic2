@@ -547,5 +547,17 @@
   <ItemGroup>
     <None Include="Resources\menu de niveles1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memotest niveles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector 393.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

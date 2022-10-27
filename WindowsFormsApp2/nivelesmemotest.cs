@@ -45,5 +45,10 @@ namespace WindowsFormsApp2
             menujuegos2 Nuevaventana = new menujuegos2 (this.NombreUsu);
             Nuevaventana.Show();
         }
+
+        private void NomUsu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

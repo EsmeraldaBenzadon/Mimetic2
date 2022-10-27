@@ -12,7 +12,7 @@ namespace WindowsFormsApp2
 {
     public partial class scroll : Form
     {
-        string frases;
+        //string frases;
         string titulo;
 
         public scroll(string title)
@@ -55,7 +55,7 @@ namespace WindowsFormsApp2
             //MessageBox.Show(sender.Text);
             string dirProyecto = AppContext.BaseDirectory;
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            pictureBox = Image.FromFile(dirProyecto + "Letras\\" + familia + ".gif");
+            //pictureBox = Image.FromFile(dirProyecto + "Letras\\" + familia + ".gif");
            
         }
 

@@ -20,100 +20,173 @@ namespace WindowsFormsApp2
 
         private void reproductor_Enter(object sender, EventArgs e)
         {
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            reproductor.URL = dirProyecto + "Letras\\" + fraces + ".mp4";
-            reproductor.Ctlcontrols.play();
+            //string dirProyecto = AppContext.BaseDirectory;
+            //dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            //reproductor.URL = dirProyecto + "Letras\\" + fraces + ".mp4";
+            //reproductor.Ctlcontrols.play();
         }
 
         private void btnMama_Click(object sender, EventArgs e)
         {
             fraces = "buenosdias";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+
         }
 
         private void btnpadrastro_Click(object sender, EventArgs e)
         {
-            fraces = "buenas noches";
+            fraces = "BUENASNOCHES";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnmadrastra_Click(object sender, EventArgs e)
         {
-            fraces = "¿como estas?";
+            fraces = "COMOESTAS";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnhijo_Click(object sender, EventArgs e)
         {
             fraces = "BIEN";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnhija_Click(object sender, EventArgs e)
         {
-            fraces = "mas o menos";
+            fraces = "masomenos2";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnbebe_Click(object sender, EventArgs e)
         {
-            fraces = "besos";
+            fraces = "BESOSMEJILLAS";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnhermanos_Click(object sender, EventArgs e)
         {
-            fraces = "gracias"; 
+            fraces = "gracias";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnHERMANO_Click(object sender, EventArgs e)
         {
-            fraces = "buen dia";
+            fraces = "BUENDIA";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnHermana_Click(object sender, EventArgs e)
         {
-            fraces = "buenas tardes";
+            fraces = "BUENASTARDES";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnmellizos_Click(object sender, EventArgs e)
         {
-            fraces = "¿que tal?";
+            fraces = "QUETAL";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btngemelos_Click(object sender, EventArgs e)
         {
-            fraces = "muy bien";
+            fraces = "MUYBIEN";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnabuelo_Click(object sender, EventArgs e)
         {
-            fraces = "todo bien";
+            fraces = "TODOBIEN";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnabuela_Click(object sender, EventArgs e)
         {
-            fraces = "muy mal";
+            fraces = "MUYMAL";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnieto_Click(object sender, EventArgs e)
         {
-            fraces = "mal";
+            fraces = "MAL";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnNieta_Click(object sender, EventArgs e)
         {
             fraces = "de nada";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnPrimo_Click(object sender, EventArgs e)
         {
             fraces = "no hay de que";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnPrima_Click(object sender, EventArgs e)
         {
-            fraces = "perdon";
+            fraces = "PERDON-DISCULPAS";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
         private void btnSobrino_Click(object sender, EventArgs e)
         {
-            fraces = "permiso";
+            fraces = "PERMISO";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
 
 
@@ -126,7 +199,16 @@ namespace WindowsFormsApp2
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            fraces = "hola";
+            fraces = "HOLA";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
