@@ -109,6 +109,7 @@ namespace WindowsFormsApp2
             TextBox textBox = new TextBox();
             Button buttonOk = new Button();
 
+            form.ControlBox = false;
             form.Text = title;
             label.Text = promptText;
 

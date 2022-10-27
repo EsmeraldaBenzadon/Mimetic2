@@ -13,7 +13,7 @@ namespace WindowsFormsApp2
 {
     public partial class ABC2 : Form
     {
-        public int indiceActual;
+        //public int indiceActual;
         public string NombreUsu, nombre;
         int i = 0;
         string letra;
@@ -36,14 +36,16 @@ namespace WindowsFormsApp2
             btnAtras.Visible = false;
             btnSiguiente.Visible = true;
 
-            for (int i = Controls.Count - 1; i >= 0; i--)
+            for (int j = Controls.Count - 1; j >= 0; j--)
             {
-                Control c = Controls[i];
+                Control c = Controls[j];
                 if (c.Name.StartsWith("L-") || c.Name.StartsWith("V-"))
                 {
-                    Controls.RemoveAt(i);
+                    Controls.RemoveAt(j);
                 }
             }
+
+            i = 0;
 
             player = new PictureBox();
             Controls.Add(player);
@@ -123,12 +125,12 @@ namespace WindowsFormsApp2
             List<string> resultado = new List<string>();
             for (int i = 0; i < palabra.Length; i++)
             {
-                if (palabra[i] == 'l' && palabra[i+1] == 'l')
+                if (palabra[i] == 'l' && i < (palabra.Length - 1) && palabra[i + 1] == 'l')
                 {
                     resultado.Add("ll");
                     i++;
                 }
-                else if (palabra[i] == 'c' && palabra[i + 1] == 'h')
+                else if (palabra[i] == 'c' && i < (palabra.Length - 1) && palabra[i + 1] == 'h')
                 {
                     resultado.Add("ch");
                     i++;
@@ -137,6 +139,7 @@ namespace WindowsFormsApp2
                 {
                     resultado.Add(palabra[i].ToString());
                 }
+
             }
             return resultado;
         }
