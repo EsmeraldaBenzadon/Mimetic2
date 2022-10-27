@@ -36,8 +36,8 @@ namespace WindowsFormsApp2
         {
             string dirProyecto = AppContext.BaseDirectory;
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            reproductor.URL = dirProyecto + "Letras\\" + letra + ".mp4";
-            reproductor.Ctlcontrols.play();
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + letra + ".gif");
+            player.Show();
         }
 
         private void Letra_Load(object sender, EventArgs e)

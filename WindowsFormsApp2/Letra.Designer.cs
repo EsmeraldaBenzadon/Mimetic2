@@ -29,22 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Letra));
-            this.reproductor = new AxWMPLib.AxWindowsMediaPlayer();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.lbl_letra = new System.Windows.Forms.Label();
             this.btnVolver = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.reproductor)).BeginInit();
+            this.player = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reproductor
-            // 
-            this.reproductor.Enabled = true;
-            this.reproductor.Location = new System.Drawing.Point(339, 264);
-            this.reproductor.Name = "reproductor";
-            this.reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("reproductor.OcxState")));
-            this.reproductor.Size = new System.Drawing.Size(701, 397);
-            this.reproductor.TabIndex = 0;
-            this.reproductor.Enter += new System.EventHandler(this.AxWindowsMediaPlayer1_Enter);
             // 
             // openFileDialog1
             // 
@@ -80,6 +70,14 @@
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
+            // player
+            // 
+            this.player.Location = new System.Drawing.Point(383, 251);
+            this.player.Name = "player";
+            this.player.Size = new System.Drawing.Size(640, 360);
+            this.player.TabIndex = 3;
+            this.player.TabStop = false;
+            // 
             // Letra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -87,25 +85,24 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.player);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.lbl_letra);
-            this.Controls.Add(this.reproductor);
             this.DoubleBuffered = true;
             this.Name = "Letra";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Letra_Load);
             this.Shown += new System.EventHandler(this.Letra_Shown);
-            ((System.ComponentModel.ISupportInitialize)(this.reproductor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private AxWMPLib.AxWindowsMediaPlayer reproductor;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label lbl_letra;
         private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.PictureBox player;
     }
 }

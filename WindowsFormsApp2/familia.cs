@@ -18,14 +18,6 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        private void reproductor_Enter(object sender, EventArgs e)
-        {
-            //string dirProyecto = AppContext.BaseDirectory;
-            //dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            //reproductor.URL = dirProyecto + "Letras\\" + fraces + ".mp4";
-            //reproductor.Ctlcontrols.play();
-        }
-
         private void btnMama_Click(object sender, EventArgs e)
         {
             fraces = "buenosdias";
@@ -83,7 +75,7 @@ namespace WindowsFormsApp2
 
         private void btnhermanos_Click(object sender, EventArgs e)
         {
-            fraces = "gracias";
+            fraces = "gracias-muchasgracias";
             string dirProyecto = AppContext.BaseDirectory;
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
             player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
@@ -193,7 +185,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //bienvenidos Nuevaventana = new bienvenidos(this.nombreusuario);
+            //bienvenidos Nuevaventana = new bienvenidos();
             //Nuevaventana.Show();
         }
 
@@ -209,6 +201,105 @@ namespace WindowsFormsApp2
         private void PictureBox1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            fraces = "losiento-lolamento";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+            fraces = "porejemplo";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button12_Click(object sender, EventArgs e)
+        {
+            fraces = "nombre";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+            fraces = "edad-o-cumpleaños";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            fraces = "si";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            fraces = "comotellamas";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+            fraces = "repetir";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            fraces = "felicidades-felicidades";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            fraces = "no";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            fraces = "porfavor";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            fraces = "apellido";
+            string dirProyecto = AppContext.BaseDirectory;
+            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
+            player.Show();
         }
     }
 }
