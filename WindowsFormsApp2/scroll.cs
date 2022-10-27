@@ -33,28 +33,36 @@ namespace WindowsFormsApp2
         
         private void scroll_Load(object sender, EventArgs e)
         {
-            if (titulo == "familia") 
+           string[] items = { "Mama", "Papa", "Perro" };
+
+            for (int i = 0; i < items.Length; i++)
             {
-                string[] familia = { "Mama", "Papa", "Perro" };
+                Button button = new Button();
+                button.AutoSize = true;
+                button.Name = "btn" + items[i];
+                button.Text = items[i];
+                button.Width = flowLayoutPanel1.Width;
+                button.Height = 30;
+                button.Font = new Font();
+                //button.FlatAppearance = ;
+                //button.BackgroundImage = ;
+                //button.BackgroundImage = imageList1.Images[0]; 
+                button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                button.FlatAppearance.BorderSize = 0;
 
-                for (int i = 0; i < familia.Length; i++)
-                {
-                    Button button = new Button();
-                    button.AutoSize = true;
-                    button.Name = "btn" + familia[i];
-                    button.Text = familia[i];
-                    flowLayoutPanel1.Controls.Add(button);
-                    button.Click += btnSide_Click;
-                    button.DialogResult = DialogResult.OK;
-
-                }
+                flowLayoutPanel1.Controls.Add(button);
+                button.Click += btnSide_Click;
+                button.DialogResult = DialogResult.OK;
             }
+            
         }
         public void btnSide_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show(sender.Text);
+            MessageBox.Show(((Button)sender).Text);
+
             string dirProyecto = AppContext.BaseDirectory;
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+
             //pictureBox = Image.FromFile(dirProyecto + "Letras\\" + familia + ".gif");
            
         }
