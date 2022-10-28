@@ -95,6 +95,12 @@
     <Compile Include="familia.Designer.cs">
       <DependentUpon>familia.cs</DependentUpon>
     </Compile>
+    <Compile Include="formatoLu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formatoLu.Designer.cs">
+      <DependentUpon>formatoLu.cs</DependentUpon>
+    </Compile>
     <Compile Include="inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="familia.resx">
       <DependentUpon>familia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatoLu.resx">
+      <DependentUpon>formatoLu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.cs</DependentUpon>

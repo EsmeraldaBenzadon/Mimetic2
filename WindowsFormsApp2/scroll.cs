@@ -30,10 +30,10 @@ namespace WindowsFormsApp2
             //reproductor.Ctlcontrols.play();
         }
 
-        
+
         private void scroll_Load(object sender, EventArgs e)
         {
-           string[] items = { "Mama", "Papa", "Perro" };
+            string[] items = { "Mama", "Papa", "Perro" };
 
             for (int i = 0; i < items.Length; i++)
             {
@@ -43,7 +43,7 @@ namespace WindowsFormsApp2
                 button.Text = items[i];
                 button.Width = flowLayoutPanel1.Width;
                 button.Height = 30;
-                button.Font = new Font();
+                //button.Font = new Font();
                 //button.FlatAppearance = ;
                 //button.BackgroundImage = ;
                 //button.BackgroundImage = imageList1.Images[0]; 
@@ -54,7 +54,7 @@ namespace WindowsFormsApp2
                 button.Click += btnSide_Click;
                 button.DialogResult = DialogResult.OK;
             }
-            
+
         }
         public void btnSide_Click(object sender, EventArgs e)
         {
@@ -64,7 +64,7 @@ namespace WindowsFormsApp2
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
 
             //pictureBox = Image.FromFile(dirProyecto + "Letras\\" + familia + ".gif");
-           
+
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -74,5 +74,40 @@ namespace WindowsFormsApp2
             //Nuevaventana.Show();
         }
 
+        private void ListBox1_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            // Muestra un elemento (Item) en el ListBox
+            e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Chocolate, e.Bounds, StringFormat.GenericDefault);
+
+            //// Muestra una linea separadora
+
+            e.Graphics.DrawLine(Pens.Chocolate, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
+
+           // e.DrawBackground();
+           // Graphics g = e.Graphics;
+           // Brush myBrush = Brushes.Black;
+           // Brush myBrush2 = Brushes.Red;
+           // e.Graphics.FillRectangle(new SolidBrush(Color.Silver), e.Bounds);
+            //e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, myBrush, e.Bounds, StringFormat.GenericDefault);
+           // for (int i = 0; i < listBox1.Items.Count; i++) ;
+
+            //e.DrawBackground();
+            //Graphics g = e.Graphics;
+            // e.Graphics.FillRectangles(new SolidBrush(Color.Gainsboro)
+            //e.DrawBackground();
+            //Graphics g = e.Graphics;
+            //g.DrawLine(Pens.Chocolate, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
+            //g.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Chocolate, e.Bounds, StringFormat.GenericDefault);
+            ////Brush myBrush = Brushes.Black;
+            ////Brush myBrush2 = Brushes.Red;
+            //g.FillRectangle(new SolidBrush(Color.Silver), e.Bounds);
+            //e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, myBrush, e.Bounds, StringFormat.GenericDefault);
+            //for (int i = 0; i < listBox1.Items.Count; i++);
+
+        }
+        public class MyListBoxItem
+        {
+        }
     }
 }
+
