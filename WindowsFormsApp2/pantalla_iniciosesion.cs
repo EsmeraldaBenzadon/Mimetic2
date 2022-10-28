@@ -45,7 +45,6 @@ namespace WindowsFormsApp2
 
             if (registroexist)
             {
-                MessageBox.Show("Bienvenido a Mimetic");
                 this.Hide();
                 bienvenidos abrir = new bienvenidos(nombre);
                 abrir.Show();

@@ -86,7 +86,6 @@ namespace WindowsFormsApp2
                             }
 
                             DatabaseProyecto.Close();
-                            MessageBox.Show("Sus datos se han enviado correctamente");
                             this.Hide();
                             bienvenidos Nuevaventana = new bienvenidos(Nombre);
                             Nuevaventana.Show();
@@ -110,6 +109,7 @@ namespace WindowsFormsApp2
             TextBox textBox = new TextBox();
             Button buttonOk = new Button();
 
+            form.ControlBox = false;
             form.Text = title;
             label.Text = promptText;
 

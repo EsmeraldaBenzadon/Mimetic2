@@ -61,7 +61,7 @@ namespace WindowsFormsApp2
         private void Btnfrases_Click(object sender, EventArgs e)
         {
             this.Hide();
-            familia Nuevaventana = new familia();
+            familia Nuevaventana = new familia(nombreusuario);
             Nuevaventana.Show();
         }
 
