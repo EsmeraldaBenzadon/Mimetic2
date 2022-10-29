@@ -96,6 +96,7 @@ namespace WindowsFormsApp2
 
             buttonOk.Text = "OK";
             buttonOk.DialogResult = DialogResult.OK;
+            buttonOk.CausesValidation = true;
 
             label.SetBounds(36, 36, 372, 13);
             textBox.SetBounds(36, 86, 700, 20);

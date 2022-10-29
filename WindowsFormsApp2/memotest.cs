@@ -75,7 +75,7 @@ namespace WindowsFormsApp2
  
 
                     //Búsqueda de Juegos Perdidos
-                    consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                    consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                     int juegoslose = accesobd(consulta);
 
                     //Calculo Juegos Perdidos
@@ -189,12 +189,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -269,12 +269,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -340,12 +340,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -411,12 +411,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -481,12 +481,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -551,12 +551,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -621,12 +621,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -691,12 +691,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -761,12 +761,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -831,12 +831,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -901,12 +901,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -971,12 +971,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -1041,12 +1041,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -1111,12 +1111,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -1181,12 +1181,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos
@@ -1251,12 +1251,12 @@ namespace WindowsFormsApp2
                 info.ExecuteNonQuery();
 
                 //Búsqueda de Juegos Ganados
-                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + ";";
+                string consulta = "select sum(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 1 + "and Id_juego = " + 1 + "; ";
                 int juegoswin = accesobd(consulta);
 
 
                 //Búsqueda de Juegos Perdidos
-                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + ";";
+                consulta = "select count(Progreso) from Progreso where NombreU = '" + NombreU + "' and Progreso = " + 0 + "and Id_juego = " + 1 + "; ";
                 int juegoslose = accesobd(consulta);
 
                 //Calculo Juegos Perdidos

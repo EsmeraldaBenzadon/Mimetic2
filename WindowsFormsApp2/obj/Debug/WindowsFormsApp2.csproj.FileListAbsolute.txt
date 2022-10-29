@@ -177,3 +177,4 @@ C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.nivelesquiz.resources
 C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.quizgame222.resources
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.formatoLu.resources
+C:\Users\dlgri\Desktop\sophyy\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.formatoLu.resources
