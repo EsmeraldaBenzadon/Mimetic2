@@ -54,14 +54,15 @@ namespace WindowsFormsApp2
             e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Black, e.Bounds, StringFormat.GenericDefault);
 
             // Muestra una linea separadora
-            e.Graphics.DrawLine(Pens.Black, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
+            e.Graphics.DrawLine(Pens.Peru, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
 
             //listBox1.BackColor = System.Drawing.Color.Peru;
             listBox1.ForeColor = System.Drawing.Color.Black;
             listBox1.Font = new Font("Microsoft Tai Le", 16);
             listBox1.ItemHeight = 30;
             pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            listBox1.BackColor = System.Drawing.Color.Peru;
+            listBox1.BackColor = System.Drawing.ColorTranslator.FromHtml("#FBFCBB");
+
 
             SetStyle(ControlStyles.SupportsTransparentBackColor |
                      ControlStyles.OptimizedDoubleBuffer |
@@ -71,32 +72,39 @@ namespace WindowsFormsApp2
 
         }
 
-
-            //private void scroll_Load(object sender, EventArgs e)
-            //{
-            //    string[] items = { "Mama", "Papa", "Perro" };
-
-            //    for (int i = 0; i < items.Length; i++)
-            //    {
-            //        Button button = new Button();
-            //        button.AutoSize = true;
-            //        button.Name = "btn" + items[i];
-            //        button.Text = items[i];
-            //        button.Width = flowLayoutPanel1.Width;
-            //        button.Height = 30;
-            //        //button.Font = new Font();
-            //        //button.FlatAppearance = ;
-            //        //button.BackgroundImage = ;
-            //        //button.BackgroundImage = imageList1.Images[0]; 
-            //        button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            //        button.FlatAppearance.BorderSize = 0;
-
-            //        flowLayoutPanel1.Controls.Add(button);
-            //        button.Click += btnSide_Click;
-            //        button.DialogResult = DialogResult.OK;
-            //    }
-
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            voc_basico Nuevaventana = new voc_basico();
+            Nuevaventana.Show();
         }
+
+
+        //private void scroll_Load(object sender, EventArgs e)
+        //{
+        //    string[] items = { "Mama", "Papa", "Perro" };
+
+        //    for (int i = 0; i < items.Length; i++)
+        //    {
+        //        Button button = new Button();
+        //        button.AutoSize = true;
+        //        button.Name = "btn" + items[i];
+        //        button.Text = items[i];
+        //        button.Width = flowLayoutPanel1.Width;
+        //        button.Height = 30;
+        //        //button.Font = new Font();
+        //        //button.FlatAppearance = ;
+        //        //button.BackgroundImage = ;
+        //        //button.BackgroundImage = imageList1.Images[0]; 
+        //        button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        //        button.FlatAppearance.BorderSize = 0;
+
+        //        flowLayoutPanel1.Controls.Add(button);
+        //        button.Click += btnSide_Click;
+        //        button.DialogResult = DialogResult.OK;
+        //    }
+
+    }
         //public void btnSide_Click(object sender, EventArgs e)
         //    {
         //        MessageBox.Show(((Button)sender).Text);
@@ -158,7 +166,7 @@ namespace WindowsFormsApp2
     public class MyListBoxItem
     {
     }
-}
+
 
     
 

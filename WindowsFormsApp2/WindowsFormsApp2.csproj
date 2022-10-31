@@ -143,6 +143,12 @@
     <Compile Include="nivelesquiz.Designer.cs">
       <DependentUpon>nivelesquiz.cs</DependentUpon>
     </Compile>
+    <Compile Include="numeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="numeros.Designer.cs">
+      <DependentUpon>numeros.cs</DependentUpon>
+    </Compile>
     <Compile Include="pantalla logueo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="nivelesquiz.resx">
       <DependentUpon>nivelesquiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="numeros.resx">
+      <DependentUpon>numeros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pantalla logueo.resx">
       <DependentUpon>pantalla logueo.cs</DependentUpon>
