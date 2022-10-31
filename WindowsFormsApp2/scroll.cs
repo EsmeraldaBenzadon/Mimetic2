@@ -74,9 +74,9 @@ namespace WindowsFormsApp2
 
         private void BtnVolver_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            voc_basico Nuevaventana = new voc_basico();
-            Nuevaventana.Show();
+        //    this.Hide();
+        //    voc_basico Nuevaventana = new voc_basico();
+        //    Nuevaventana.Show();
         }
 
 
