@@ -18,8 +18,7 @@ namespace WindowsFormsApp2
         public scroll(string title)
         {
             InitializeComponent();
-            this.titulo = title;
-            lbl_titulo.Text = title;
+
         }
 
         private void Reproductor_Enter(object sender, EventArgs e)
@@ -30,58 +29,91 @@ namespace WindowsFormsApp2
             //reproductor.Ctlcontrols.play();
         }
 
-
-        private void scroll_Load(object sender, EventArgs e)
+        private void listBox1_Click(object sender, EventArgs e)
         {
-            string[] items = { "Mama", "Papa", "Perro" };
-
-            for (int i = 0; i < items.Length; i++)
+            if (listBox1.SelectedItem != null)
             {
-                Button button = new Button();
-                button.AutoSize = true;
-                button.Name = "btn" + items[i];
-                button.Text = items[i];
-                button.Width = flowLayoutPanel1.Width;
-                button.Height = 30;
-                //button.Font = new Font();
-                //button.FlatAppearance = ;
-                //button.BackgroundImage = ;
-                //button.BackgroundImage = imageList1.Images[0]; 
-                button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                button.FlatAppearance.BorderSize = 0;
+                string text = (Convert.ToString(listBox1.SelectedItem));
+                //listBox1.GetItemText(listBox1.SelectedItem);
 
-                flowLayoutPanel1.Controls.Add(button);
-                button.Click += btnSide_Click;
-                button.DialogResult = DialogResult.OK;
+                //pictureBox1.Image = Properties.Resources.diciembre;
+                //pictureBox1.Show(); pictureBox1.Image = Properties.Resources.diciembre;
+                //pictureBox1.Show();
+                string dirProyecto = AppContext.BaseDirectory;
+                dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+                pictureBox1.Image = Image.FromFile(dirProyecto + "Letras\\" + text + ".gif");
+                pictureBox1.Show();
+
             }
 
-        }
-        public void btnSide_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(((Button)sender).Text);
-
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-
-            //pictureBox = Image.FromFile(dirProyecto + "Letras\\" + familia + ".gif");
-
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            //voc_basico Nuevaventana = new voc_basico(this.nombreusuario);//para pasar una variable a otro form 
-            //Nuevaventana.Show();
         }
 
         private void ListBox1_DrawItem(object sender, DrawItemEventArgs e)
         {
             // Muestra un elemento (Item) en el ListBox
-            e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Chocolate, e.Bounds, StringFormat.GenericDefault);
+            e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Black, e.Bounds, StringFormat.GenericDefault);
 
-            //// Muestra una linea separadora
+            // Muestra una linea separadora
+            e.Graphics.DrawLine(Pens.Black, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
 
-            e.Graphics.DrawLine(Pens.Chocolate, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
+        }
+
+
+
+
+
+
+        //private void scroll_Load(object sender, EventArgs e)
+        //{
+        //    string[] items = { "Mama", "Papa", "Perro" };
+
+        //    for (int i = 0; i < items.Length; i++)
+        //    {
+        //        Button button = new Button();
+        //        button.AutoSize = true;
+        //        button.Name = "btn" + items[i];
+        //        button.Text = items[i];
+        //        button.Width = flowLayoutPanel1.Width;
+        //        button.Height = 30;
+        //        //button.Font = new Font();
+        //        //button.FlatAppearance = ;
+        //        //button.BackgroundImage = ;
+        //        //button.BackgroundImage = imageList1.Images[0]; 
+        //        button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        //        button.FlatAppearance.BorderSize = 0;
+
+        //        flowLayoutPanel1.Controls.Add(button);
+        //        button.Click += btnSide_Click;
+        //        button.DialogResult = DialogResult.OK;
+        //    }
+
+    }
+    //public void btnSide_Click(object sender, EventArgs e)
+    //    {
+    //        MessageBox.Show(((Button)sender).Text);
+
+    //        string dirProyecto = AppContext.BaseDirectory;
+    //        dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+
+    //        //pictureBox = Image.FromFile(dirProyecto + "Letras\\" + familia + ".gif");
+
+    //    }
+
+        //private void btnVolver_Click(object sender, EventArgs e)
+        //{
+        //    this.Hide();
+        //    //voc_basico Nuevaventana = new voc_basico(this.nombreusuario);//para pasar una variable a otro form 
+        //    //Nuevaventana.Show();
+        //}
+
+        //private void listBox1_DrawItem(object sender, DrawItemEventArgs e)
+        //{
+        //    // Muestra un elemento (Item) en el ListBox
+        //    e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Chocolate, e.Bounds, StringFormat.GenericDefault);
+
+        //    //// Muestra una linea separadora
+
+        //    e.Graphics.DrawLine(Pens.Chocolate, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
 
            // e.DrawBackground();
            // Graphics g = e.Graphics;
@@ -108,6 +140,6 @@ namespace WindowsFormsApp2
         public class MyListBoxItem
         {
         }
-    }
-}
+    
+
 

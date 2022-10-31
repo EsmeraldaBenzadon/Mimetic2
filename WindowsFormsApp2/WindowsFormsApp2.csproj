@@ -155,6 +155,12 @@
     <Compile Include="pantalla_iniciosesion.Designer.cs">
       <DependentUpon>pantalla_iniciosesion.cs</DependentUpon>
     </Compile>
+    <Compile Include="primerlistbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="primerlistbox.Designer.cs">
+      <DependentUpon>primerlistbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="quizgame.cs">
@@ -231,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pantalla_iniciosesion.resx">
       <DependentUpon>pantalla_iniciosesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="primerlistbox.resx">
+      <DependentUpon>primerlistbox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
