@@ -50,8 +50,8 @@ namespace WindowsFormsApp2
         private void btn_numeros_Click(object sender, EventArgs e)
         {
             this.Hide();
-            titulo = "Numeros";
-            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            titulo = "numeros";
+            numeros Nuevaventana = new numeros (titulo);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 
