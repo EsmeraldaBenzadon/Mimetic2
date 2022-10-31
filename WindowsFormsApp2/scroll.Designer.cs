@@ -45,7 +45,7 @@
             "HIJO",
             "JUNIO",
             "diciembre"});
-            this.listBox1.Location = new System.Drawing.Point(12, 106);
+            this.listBox1.Location = new System.Drawing.Point(12, 206);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(241, 277);
             this.listBox1.TabIndex = 15;
@@ -54,7 +54,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(310, 106);
+            this.pictureBox1.Location = new System.Drawing.Point(425, 206);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(513, 294);
             this.pictureBox1.TabIndex = 14;
@@ -67,7 +67,7 @@
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.FlatAppearance.BorderSize = 0;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVolver.Location = new System.Drawing.Point(795, 446);
+            this.btnVolver.Location = new System.Drawing.Point(285, 582);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 66);
             this.btnVolver.TabIndex = 12;
@@ -77,10 +77,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnVolver);
+            this.DoubleBuffered = true;
             this.Name = "scroll";
             this.Text = "scroll";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
