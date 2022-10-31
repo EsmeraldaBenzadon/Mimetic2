@@ -94,12 +94,12 @@ namespace WindowsFormsApp2
 
         private void btnNieta_Click(object sender, EventArgs e)
         {
-            mostrarvideo("de nada");
+            mostrarvideo("denada");
         }
 
         private void btnPrimo_Click(object sender, EventArgs e)
         {
-            mostrarvideo("no hay de que");
+            mostrarvideo("nohaydeque");
         }
 
         private void btnPrima_Click(object sender, EventArgs e)
@@ -137,29 +137,17 @@ namespace WindowsFormsApp2
 
         private void Button13_Click(object sender, EventArgs e)
         {
-            fraces = "porejemplo";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("porejemplo");
         }
 
         private void Button12_Click(object sender, EventArgs e)
         {
-            fraces = "nombre";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("nombre");
         }
 
         private void Button10_Click(object sender, EventArgs e)
         {
-            fraces = "edad-o-cumpleaños";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("edad-o-cumpleaños");
         }
 
         private void Button6_Click(object sender, EventArgs e)
@@ -169,47 +157,27 @@ namespace WindowsFormsApp2
 
         private void Button8_Click(object sender, EventArgs e)
         {
-            fraces = "comotellamas";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("comotellamas");
         }
 
         private void Button14_Click(object sender, EventArgs e)
         {
-            fraces = "repetir";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("repetir");
         }
 
         private void Button11_Click(object sender, EventArgs e)
         {
-            fraces = "felicidades-felicidades";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("felicidades-felicidades");
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            fraces = "no";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("no");
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            fraces = "porfavor";
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + fraces + ".gif");
-            player.Show();
+            mostrarvideo("porfavor");
         }
 
         private void Button7_Click(object sender, EventArgs e)
