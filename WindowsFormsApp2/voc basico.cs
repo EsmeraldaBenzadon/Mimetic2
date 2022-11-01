@@ -43,7 +43,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             titulo = "dias";
-            dias Nuevaventana = new dias (titulo);//para pasar una variable a otro form 
+            diasdelasemana Nuevaventana = new diasdelasemana(titulo);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 

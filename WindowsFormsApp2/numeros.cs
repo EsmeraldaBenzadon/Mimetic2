@@ -18,6 +18,7 @@ namespace WindowsFormsApp2
            
         }
         string numero;
+        string titulo; 
 
         private void numero_Shown(object sender, EventArgs e)
         {
@@ -119,6 +120,13 @@ namespace WindowsFormsApp2
             dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
             pictureBox2.Image = Image.FromFile(dirProyecto + "Letras\\" + numero + ".gif");
             pictureBox2.Show();
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
+            Nuevaventana.Show();
         }
     }
 }

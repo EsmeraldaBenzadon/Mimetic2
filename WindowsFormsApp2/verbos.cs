@@ -12,26 +12,20 @@ namespace WindowsFormsApp2
 {
     public partial class verbos : Form
     {
-        public verbos()
+        public verbos(string titulo)
         {
             InitializeComponent();
         }
-
-        public verbos(string titulo)
-        {
-            this.titulo = titulo;
-        }
-
         string titulo; 
-
-        private void listBox1_DrawItem(object sender, DrawItemEventArgs e)
+        private void ListBox1_DrawItem(object sender, DrawItemEventArgs e)
         {
             // Muestra un elemento (Item) en el ListBox
             e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Black, e.Bounds, StringFormat.GenericDefault);
 
             // Muestra una linea separadora
-            e.Graphics.DrawLine(Pens.Black, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
-           
+            e.Graphics.DrawLine(Pens.Peru, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
+
+            //listBox1.BackColor = System.Drawing.Color.Peru;
             listBox1.ForeColor = System.Drawing.Color.Black;
             listBox1.Font = new Font("Microsoft Tai Le", 16);
             listBox1.ItemHeight = 30;
@@ -44,8 +38,17 @@ namespace WindowsFormsApp2
                      ControlStyles.AllPaintingInWmPaint |
                      ControlStyles.UserPaint, true);
             BackColor = Color.FromArgb(100, 255, 255, 255);
-
         }
+
+        public class MultiLineListBox : System.Windows.Forms.ListBox
+        {
+            public MultiLineListBox()
+            {
+                this.DrawMode = DrawMode.OwnerDrawVariable;
+                this.ScrollAlwaysVisible = true;
+            }
+        }
+
 
         private void listBox1_Click(object sender, EventArgs e)
         {
@@ -66,22 +69,14 @@ namespace WindowsFormsApp2
 
         }
 
-        public class MultiLineListBox : System.Windows.Forms.ListBox
-        {
-            public MultiLineListBox()
-            {
-                this.DrawMode = DrawMode.OwnerDrawVariable;
-                this.ScrollAlwaysVisible = true;
-            }
-        }
         public class MyListBoxItem
         {
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
+        private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
     }

@@ -21,97 +21,6 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        private void btnMama_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("buenosdias");
-
-        }
-
-        private void btnpadrastro_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("BUENASNOCHES");
-        }
-
-        private void btnmadrastra_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("COMOESTAS");
-        }
-
-        private void btnhijo_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("BIEN");
-        }
-
-        private void btnhija_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("masomenos2");
-        }
-
-        private void btnbebe_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("BESOSMEJILLAS");
-        }
-
-        private void btnhermanos_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("gracias-muchasgracias");
-        }
-
-        private void btnHERMANO_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("BUENDIA");
-        }
-
-        private void btnHermana_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("BUENASTARDES");
-        }
-
-        private void btnmellizos_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("QUETAL");
-        }
-
-        private void btngemelos_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("MUYBIEN");
-        }
-
-        private void btnabuelo_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("TODOBIEN");
-        }
-
-        private void btnabuela_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("MUYMAL");
-        }
-
-        private void btnieto_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("MAL");
-        }
-
-        private void btnNieta_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("denada");
-        }
-
-        private void btnPrimo_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("nohaydeque");
-        }
-
-        private void btnPrima_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("PERDON-DISCULPAS");
-        }
-
-        private void btnSobrino_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("PERMISO");
-        }
-
 
         private void BtnVolver_Click(object sender, EventArgs e)
         {
@@ -120,77 +29,62 @@ namespace WindowsFormsApp2
             Nuevaventana.Show();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+
+
+        private void ListBox1_DrawItem(object sender, DrawItemEventArgs e)
         {
-            mostrarvideo("HOLA");
+            // Muestra un elemento (Item) en el ListBox
+            e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Black, e.Bounds, StringFormat.GenericDefault);
+            e.Graphics.DrawString(listBox1.Items[e.Index].ToString(), e.Font, Brushes.Black, e.Bounds, StringFormat.GenericDefault);
+            // Muestra una linea separadora
+            e.Graphics.DrawLine(Pens.Peru, e.Bounds.Left, e.Bounds.Bottom, e.Bounds.Right, e.Bounds.Bottom);
+
+            //listBox1.BackColor = System.Drawing.Color.Peru;
+            listBox1.ForeColor = System.Drawing.Color.Black;
+            listBox1.Font = new Font("Microsoft Tai Le", 16);
+            listBox1.ItemHeight = 30;
+            pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            listBox1.BackColor = System.Drawing.ColorTranslator.FromHtml("#FBFCBB");
+
+
+            SetStyle(ControlStyles.SupportsTransparentBackColor |
+                     ControlStyles.OptimizedDoubleBuffer |
+                     ControlStyles.AllPaintingInWmPaint |
+                     ControlStyles.UserPaint, true);
+            BackColor = Color.FromArgb(100, 255, 255, 255);
         }
 
-        private void PictureBox1_Click(object sender, EventArgs e)
+
+        private void ListBox1_Click(object sender, EventArgs e)
         {
-            
+            if (listBox1.SelectedItem != null)
+            {
+                string text = (Convert.ToString(listBox1.SelectedItem));
+                //listBox1.GetItemText(listBox1.SelectedItem);
+
+                //pictureBox1.Image = Properties.Resources.diciembre;
+                //pictureBox1.Show(); pictureBox1.Image = Properties.Resources.diciembre;
+                //pictureBox1.Show();
+                string dirProyecto = AppContext.BaseDirectory;
+                dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
+                pictureBox1.Image = Image.FromFile(dirProyecto + "Letras\\" + text + ".gif");
+                pictureBox1.Show();
+
+            }
         }
 
-        private void Button3_Click(object sender, EventArgs e)
+        public class MultiLineListBox : System.Windows.Forms.ListBox
         {
-            mostrarvideo("losiento-lolamento");
+            public MultiLineListBox()
+            {
+                this.DrawMode = DrawMode.OwnerDrawVariable;
+                this.ScrollAlwaysVisible = true;
+            }
+        }
+        public class MyListBoxItem
+        {
         }
 
-        private void Button13_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("porejemplo");
-        }
 
-        private void Button12_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("nombre");
-        }
-
-        private void Button10_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("edad-o-cumpleaños");
-        }
-
-        private void Button6_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("si");
-        }
-
-        private void Button8_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("comotellamas");
-        }
-
-        private void Button14_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("repetir");
-        }
-
-        private void Button11_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("felicidades-felicidades");
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("no");
-        }
-
-        private void Button5_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("porfavor");
-        }
-
-        private void Button7_Click(object sender, EventArgs e)
-        {
-            mostrarvideo("apellido");
-        }
-
-        private void mostrarvideo(string frase)
-        {
-            string dirProyecto = AppContext.BaseDirectory;
-            dirProyecto = dirProyecto.Substring(0, dirProyecto.Length - 10);
-            player.Image = Image.FromFile(dirProyecto + "Letras\\" + frase + ".gif");
-            player.Show();
-        }
     }
 }

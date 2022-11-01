@@ -75,7 +75,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 

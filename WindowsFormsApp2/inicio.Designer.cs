@@ -41,26 +41,24 @@
             this.btnComenzar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnComenzar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnComenzar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComenzar.Location = new System.Drawing.Point(668, 737);
-            this.btnComenzar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnComenzar.Location = new System.Drawing.Point(504, 531);
             this.btnComenzar.Name = "btnComenzar";
-            this.btnComenzar.Size = new System.Drawing.Size(539, 200);
+            this.btnComenzar.Size = new System.Drawing.Size(359, 130);
             this.btnComenzar.TabIndex = 0;
             this.btnComenzar.UseVisualStyleBackColor = false;
             this.btnComenzar.Click += new System.EventHandler(this.BtnComenzar_Click);
             // 
             // Fondoinicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1924, 1050);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.btnComenzar);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Transparent;
             this.HelpButton = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Fondoinicio";
             this.Text = "Form1";
             this.TopMost = true;
