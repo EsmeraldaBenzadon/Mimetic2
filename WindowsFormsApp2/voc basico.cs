@@ -27,7 +27,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             titulo = "Meses";
-            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            meses Nuevaventana = new meses(titulo);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 

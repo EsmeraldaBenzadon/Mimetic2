@@ -131,6 +131,12 @@
     <Compile Include="menujuegos2.Designer.cs">
       <DependentUpon>menujuegos2.cs</DependentUpon>
     </Compile>
+    <Compile Include="meses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="meses.Designer.cs">
+      <DependentUpon>meses.cs</DependentUpon>
+    </Compile>
     <Compile Include="nivelesmemotest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,12 +166,6 @@
     </Compile>
     <Compile Include="pantalla_iniciosesion.Designer.cs">
       <DependentUpon>pantalla_iniciosesion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="primerlistbox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="primerlistbox.Designer.cs">
-      <DependentUpon>primerlistbox.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -232,6 +232,9 @@
     <EmbeddedResource Include="menujuegos2.resx">
       <DependentUpon>menujuegos2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="meses.resx">
+      <DependentUpon>meses.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nivelesmemotest.resx">
       <DependentUpon>nivelesmemotest.cs</DependentUpon>
     </EmbeddedResource>
@@ -246,9 +249,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pantalla_iniciosesion.resx">
       <DependentUpon>pantalla_iniciosesion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="primerlistbox.resx">
-      <DependentUpon>primerlistbox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

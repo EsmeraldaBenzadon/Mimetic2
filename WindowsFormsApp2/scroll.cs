@@ -74,9 +74,14 @@ namespace WindowsFormsApp2
 
         private void BtnVolver_Click(object sender, EventArgs e)
         {
-        //    this.Hide();
-        //    voc_basico Nuevaventana = new voc_basico();
-        //    Nuevaventana.Show();
+            this.Hide();
+            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            Nuevaventana.Show();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
 
