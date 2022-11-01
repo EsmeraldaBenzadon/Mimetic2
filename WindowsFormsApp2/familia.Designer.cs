@@ -57,23 +57,26 @@ namespace WindowsFormsApp2
             this.listBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Items.AddRange(new object[] {
-            "SEMANA",
-            "LUNES",
-            "MARTES",
-            "MIERCOLES",
-            "JUEVES",
-            "VIERNES",
-            "SABADO",
-            "DOMINGO",
-            "TODOS_LOS_LUNES",
-            "TODOS_LOS_MARTES",
-            "TODOS_LOS_MIERCOLES",
-            "TODOS_LOS_JUEVES",
-            "TODOS_LOS_VIERNES",
-            "TODOS_LOS_SABADOS",
-            "TODOS_LOS_DOMINGOS",
-            "TODO_EL_DIA",
-            "TODOS_LOS_DIAS"});
+            "HOLA",
+            "BUEN_DIA",
+            "BUENOS_DIAS",
+            "BUENA_TARDE",
+            "BUENAS_TARDES",
+            "BUENAS_NOCHES",
+            "COMO_ESTAS",
+            "BIEN",
+            "TODO_BIEN",
+            "MASO",
+            "MAL",
+            "BESOS",
+            "GRACIAS",
+            "DE_NADA",
+            "NO_HAY_DE_QUE",
+            "PERDON",
+            "PERMISO",
+            "QUE_TAL",
+            "MUY_MAL",
+            "MUY_BIEN"});
             this.listBox1.Location = new System.Drawing.Point(12, 146);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(259, 511);
