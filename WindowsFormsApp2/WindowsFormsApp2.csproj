@@ -193,6 +193,12 @@
     <Compile Include="scroll.Designer.cs">
       <DependentUpon>scroll.cs</DependentUpon>
     </Compile>
+    <Compile Include="verbos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verbos.Designer.cs">
+      <DependentUpon>verbos.cs</DependentUpon>
+    </Compile>
     <Compile Include="voc basico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -271,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="scroll.resx">
       <DependentUpon>scroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verbos.resx">
+      <DependentUpon>verbos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="voc basico.resx">
       <DependentUpon>voc basico.cs</DependentUpon>

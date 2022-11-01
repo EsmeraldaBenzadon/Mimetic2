@@ -58,8 +58,8 @@ namespace WindowsFormsApp2
         private void btn_verbos_Click(object sender, EventArgs e)
         {
             this.Hide();
-            titulo = "Verbos";
-            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            titulo = "verbos";
+            verbos Nuevaventana = new verbos(titulo);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 
