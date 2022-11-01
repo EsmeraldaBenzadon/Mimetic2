@@ -42,8 +42,8 @@ namespace WindowsFormsApp2
         private void btn_dias_Click(object sender, EventArgs e)
         {
             this.Hide();
-            titulo = "Dias";
-            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            titulo = "dias";
+            dias Nuevaventana = new dias (titulo);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 
