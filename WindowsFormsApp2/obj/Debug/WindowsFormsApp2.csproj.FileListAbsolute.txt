@@ -217,3 +217,4 @@ C:\Users\Esmeralda\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsF
 C:\Users\Esmeralda\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\Esmeralda\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\Esmeralda\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Esmeralda\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.dias.resources

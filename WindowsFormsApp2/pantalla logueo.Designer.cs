@@ -42,9 +42,10 @@
             this.btnInicios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnInicios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnInicios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicios.Location = new System.Drawing.Point(495, 190);
+            this.btnInicios.Location = new System.Drawing.Point(663, 281);
+            this.btnInicios.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnInicios.Name = "btnInicios";
-            this.btnInicios.Size = new System.Drawing.Size(382, 138);
+            this.btnInicios.Size = new System.Drawing.Size(573, 212);
             this.btnInicios.TabIndex = 0;
             this.btnInicios.UseVisualStyleBackColor = false;
             this.btnInicios.Click += new System.EventHandler(this.BtnInicios_Click);
@@ -58,23 +59,25 @@
             this.btnCrearc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnCrearc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCrearc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearc.Location = new System.Drawing.Point(486, 462);
+            this.btnCrearc.Location = new System.Drawing.Point(663, 669);
+            this.btnCrearc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCrearc.Name = "btnCrearc";
-            this.btnCrearc.Size = new System.Drawing.Size(379, 141);
+            this.btnCrearc.Size = new System.Drawing.Size(568, 217);
             this.btnCrearc.TabIndex = 1;
             this.btnCrearc.UseVisualStyleBackColor = false;
             this.btnCrearc.Click += new System.EventHandler(this.BtnCrearc_Click);
             // 
             // pantalla_logueo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.btnCrearc);
             this.Controls.Add(this.btnInicios);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "pantalla_logueo";
             this.Text = "pantalla_logueo";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
