@@ -418,4 +418,31 @@
   <data name="Vector 393" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vector 393.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="abuela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abuela-_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bebe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bebe (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hermanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hermanos (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hija" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hija (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hijo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hijo (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mama (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mellizos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mellizos (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papa (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sobrino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sobrino (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -595,5 +595,32 @@
   <ItemGroup>
     <None Include="Resources\Vector 393.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abuela-_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mellizos %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebe %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mama %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papa %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hijo %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hija %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hermanos %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sobrino %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

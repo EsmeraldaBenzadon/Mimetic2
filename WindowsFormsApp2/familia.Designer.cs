@@ -79,16 +79,16 @@ namespace WindowsFormsApp2
             "MUY_BIEN"});
             this.listBox1.Location = new System.Drawing.Point(12, 146);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(259, 511);
+            this.listBox1.Size = new System.Drawing.Size(259, 485);
             this.listBox1.TabIndex = 17;
             this.listBox1.Click += new System.EventHandler(this.ListBox1_Click);
             this.listBox1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.ListBox1_DrawItem);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(401, 239);
+            this.pictureBox1.Location = new System.Drawing.Point(466, 239);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(615, 352);
+            this.pictureBox1.Size = new System.Drawing.Size(550, 326);
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 

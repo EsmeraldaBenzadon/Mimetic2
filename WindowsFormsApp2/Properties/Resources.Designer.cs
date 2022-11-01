@@ -73,6 +73,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abuela {
+            get {
+                object obj = ResourceManager.GetObject("abuela", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap abuelasinco {
             get {
                 object obj = ResourceManager.GetObject("abuelasinco", resourceCulture);
@@ -86,6 +96,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap agosto {
             get {
                 object obj = ResourceManager.GetObject("agosto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bebe {
+            get {
+                object obj = ResourceManager.GetObject("bebe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,6 +433,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hermanos {
+            get {
+                object obj = ResourceManager.GetObject("hermanos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hermanossinco {
             get {
                 object obj = ResourceManager.GetObject("hermanossinco", resourceCulture);
@@ -423,9 +453,29 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hija {
+            get {
+                object obj = ResourceManager.GetObject("hija", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hijasinco {
             get {
                 object obj = ResourceManager.GetObject("hijasinco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hijo {
+            get {
+                object obj = ResourceManager.GetObject("hijo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -523,6 +573,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mama {
+            get {
+                object obj = ResourceManager.GetObject("mama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mamasinco {
             get {
                 object obj = ResourceManager.GetObject("mamasinco", resourceCulture);
@@ -556,6 +616,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap mayo {
             get {
                 object obj = ResourceManager.GetObject("mayo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mellizos {
+            get {
+                object obj = ResourceManager.GetObject("mellizos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -773,6 +843,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap papa {
+            get {
+                object obj = ResourceManager.GetObject("papa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PAPASINCO {
             get {
                 object obj = ResourceManager.GetObject("PAPASINCO", resourceCulture);
@@ -976,6 +1056,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap septiembre {
             get {
                 object obj = ResourceManager.GetObject("septiembre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sobrino {
+            get {
+                object obj = ResourceManager.GetObject("sobrino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

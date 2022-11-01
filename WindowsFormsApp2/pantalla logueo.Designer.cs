@@ -42,7 +42,7 @@
             this.btnInicios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnInicios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnInicios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicios.Location = new System.Drawing.Point(496, 212);
+            this.btnInicios.Location = new System.Drawing.Point(489, 198);
             this.btnInicios.Name = "btnInicios";
             this.btnInicios.Size = new System.Drawing.Size(382, 138);
             this.btnInicios.TabIndex = 0;
@@ -58,7 +58,7 @@
             this.btnCrearc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnCrearc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCrearc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearc.Location = new System.Drawing.Point(487, 485);
+            this.btnCrearc.Location = new System.Drawing.Point(490, 467);
             this.btnCrearc.Name = "btnCrearc";
             this.btnCrearc.Size = new System.Drawing.Size(379, 141);
             this.btnCrearc.TabIndex = 1;

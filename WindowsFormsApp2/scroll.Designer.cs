@@ -63,7 +63,20 @@
             "VIUDA",
             "SOLTERO",
             "PADRINO",
-            "MADRINA"});
+            "MADRINA",
+            "SEÑORA",
+            "PAREJA",
+            "VIEJO",
+            "AMIGOS",
+            "COMPAÑEROS",
+            "MUJER",
+            "HOMBRE",
+            "ADULTO",
+            "JOVEN",
+            "NIÑO",
+            "EMBARAZADA",
+            "NOVIO",
+            "NOVIA"});
             this.listBox1.Location = new System.Drawing.Point(-3, 131);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(259, 576);

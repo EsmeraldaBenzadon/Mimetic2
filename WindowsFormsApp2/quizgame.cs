@@ -85,7 +85,7 @@ namespace WindowsFormsApp2
           switch(qnum)
             {
                 case 1:
-                    pictureBox2.Image = Properties.Resources.PAPASINCO;
+                    pictureBox2.Image = Properties.Resources.papa;
                     lblQuestion.Text = "ELIGE LA OPCION CORRECTA";
                     button1.Text = "MAMÁ";
                     button2.Text = "PAPÁ";
@@ -97,7 +97,7 @@ namespace WindowsFormsApp2
 
 
                 case 2:
-                    pictureBox2.Image = Properties.Resources.mamasinco;
+                    pictureBox2.Image = Properties.Resources.mama;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "MAMÁ";
                     button2.Text = "PERRO";
@@ -108,7 +108,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 3:
-                    pictureBox2.Image = Properties.Resources.hijosinco;
+                    pictureBox2.Image = Properties.Resources.hijo;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "HERMANA";
                     button2.Text = "HIJO";
@@ -119,7 +119,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 4:
-                    pictureBox2.Image = Properties.Resources.bebesinco;
+                    pictureBox2.Image = Properties.Resources.bebe;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "HIJA";
                     button2.Text = "BEBE";
@@ -130,7 +130,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 5:
-                    pictureBox2.Image = Properties.Resources.hijasinco;
+                    pictureBox2.Image = Properties.Resources.hija;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "HIJA";
                     button2.Text = "PAPÁ";
@@ -141,7 +141,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 6:
-                    pictureBox2.Image = Properties.Resources.hermanossinco;
+                    pictureBox2.Image = Properties.Resources.hermanos;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "PRIMO";
                     button2.Text = "ABUELA";
@@ -152,7 +152,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 7:
-                    pictureBox2.Image = Properties.Resources.mellizossinco;
+                    pictureBox2.Image = Properties.Resources.mellizos;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "MELLIZOS";
                     button2.Text = "AMIGOS";
@@ -163,7 +163,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 8:
-                    pictureBox2.Image = Properties.Resources.abuelasinco;
+                    pictureBox2.Image = Properties.Resources.abuela;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "ABUELA";
                     button2.Text = "TIO";
@@ -185,7 +185,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 10:
-                    pictureBox2.Image = Properties.Resources.esposasinco;
+                    pictureBox2.Image = Properties.Resources.sobrino;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "ESPOSO";
                     button2.Text = "MARIDO";

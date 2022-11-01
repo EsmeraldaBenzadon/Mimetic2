@@ -56,7 +56,10 @@
             "TODOS_LOS_SABADOS",
             "TODOS_LOS_DOMINGOS",
             "TODO_EL_DIA",
-            "TODOS_LOS_DIAS"});
+            "TODOS_LOS_DIAS",
+            "LUNES_A_VIERNES",
+            "LUNES_A_DOMINGO",
+            "DIA"});
             this.listBox1.Location = new System.Drawing.Point(2, 133);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(259, 537);
