@@ -219,3 +219,7 @@ C:\Users\Esmeralda\Documents\GitHub\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsF
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.meses.resources
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.verbos.resources
 C:\Users\47872003\Documents\MimeticCaro\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.diasdelasemana.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.diasdelasemana.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.meses.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.numeros.resources
+C:\Users\47431890\Documents\Mimetic2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.verbos.resources

@@ -12,11 +12,12 @@ namespace WindowsFormsApp2
 {
     public partial class diasdelasemana : Form
     {
-        public diasdelasemana(string titulo)
+        public string nombreusuario;
+        public diasdelasemana(string nombreuse)
         {
             InitializeComponent();
+            nombreusuario = nombreuse;
         }
-        string titulo;  
 
         private void ListBox1_DrawItem(object sender, DrawItemEventArgs e)
         {
@@ -74,7 +75,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
+            voc_basico Nuevaventana = new voc_basico(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
     }

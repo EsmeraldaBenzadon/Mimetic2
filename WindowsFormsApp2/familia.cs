@@ -12,7 +12,6 @@ namespace WindowsFormsApp2
 {
     public partial class familia : Form
     {
-        string fraces;
         public string nombreusuario;
 
         public familia(string nombreuser)

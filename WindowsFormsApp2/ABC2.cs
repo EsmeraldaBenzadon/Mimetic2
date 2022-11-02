@@ -28,6 +28,7 @@ namespace WindowsFormsApp2
             btnAtras.Visible = false;
             btnSiguiente.Visible = false;
             NombreUsu = NombreU;
+            NomUsu.Text = NombreU;
         }
 
         private void button1_Click(object sender, EventArgs e)

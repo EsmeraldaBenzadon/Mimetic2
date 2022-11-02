@@ -27,7 +27,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             titulo = "Meses";
-            meses Nuevaventana = new meses(titulo);//para pasar una variable a otro form 
+            meses Nuevaventana = new meses(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 
@@ -35,7 +35,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             titulo = "Familia";
-            scroll Nuevaventana = new scroll(titulo);//para pasar una variable a otro form 
+            scroll Nuevaventana = new scroll(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 
@@ -43,7 +43,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             titulo = "dias";
-            diasdelasemana Nuevaventana = new diasdelasemana(titulo);//para pasar una variable a otro form 
+            diasdelasemana Nuevaventana = new diasdelasemana(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 
@@ -51,7 +51,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             titulo = "numeros";
-            numeros Nuevaventana = new numeros (titulo);//para pasar una variable a otro form 
+            numeros Nuevaventana = new numeros (nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 
@@ -59,7 +59,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             titulo = "verbos";
-            verbos Nuevaventana = new verbos(titulo);//para pasar una variable a otro form 
+            verbos Nuevaventana = new verbos(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 

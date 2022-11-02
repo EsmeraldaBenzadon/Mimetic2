@@ -12,13 +12,14 @@ namespace WindowsFormsApp2
 {
     public partial class numeros : Form
     {
-        public numeros(string titulo)
+        public string nombreusuario;
+        public numeros(string nombreuse)
         {
             InitializeComponent();
-           
+            nombreusuario = nombreuse;
+
         }
         string numero;
-        string titulo; 
 
         private void numero_Shown(object sender, EventArgs e)
         {
@@ -125,7 +126,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
+            voc_basico Nuevaventana = new voc_basico(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
     }

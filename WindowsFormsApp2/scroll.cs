@@ -12,12 +12,12 @@ namespace WindowsFormsApp2
 {
     public partial class scroll : Form
     {
-        //string frases;
-        string titulo;
+        public string nombreusuario;
 
-        public scroll(string title)
+        public scroll(string nombreuse)
         {
             InitializeComponent();
+            nombreusuario = nombreuse;
 
         }
 
@@ -75,7 +75,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
+            voc_basico Nuevaventana = new voc_basico(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
 

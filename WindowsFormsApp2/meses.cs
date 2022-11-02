@@ -12,10 +12,11 @@ namespace WindowsFormsApp2
 {
     public partial class meses : Form
     {
-        string titulo;
-        public meses(string titulo)
+        public string nombreusuario;
+        public meses(string nombreuse)
         {
             InitializeComponent();
+            nombreusuario = nombreuse;
         }
 
 
@@ -75,7 +76,7 @@ namespace WindowsFormsApp2
         private void btnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
+            voc_basico Nuevaventana = new voc_basico(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
     }

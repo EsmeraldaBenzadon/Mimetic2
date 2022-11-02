@@ -12,11 +12,13 @@ namespace WindowsFormsApp2
 {
     public partial class verbos : Form
     {
-        public verbos(string titulo)
+        public string nombreusuario;
+        public verbos(string nombreuse)
         {
             InitializeComponent();
+            nombreusuario = nombreuse;
         }
-        string titulo; 
+
         private void ListBox1_DrawItem(object sender, DrawItemEventArgs e)
         {
             // Muestra un elemento (Item) en el ListBox
@@ -76,7 +78,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            voc_basico Nuevaventana = new voc_basico(titulo);//para pasar una variable a otro form 
+            voc_basico Nuevaventana = new voc_basico(nombreusuario);//para pasar una variable a otro form 
             Nuevaventana.Show();
         }
     }
