@@ -622,5 +622,41 @@
   <ItemGroup>
     <None Include="Resources\sobrino %28online-video-cutter.com%29.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marzo-_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diciembre OCTUBRE %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noviembre-_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\octubre-Uaj2j4qd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\septiembre %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agosto-_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\julio_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juNio-_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mayo-_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abril-_online-video-cutter.com_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ener_cropped.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\febrero-A7pgCDNz.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

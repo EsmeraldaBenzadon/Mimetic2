@@ -445,4 +445,40 @@
   <data name="sobrino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sobrino (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="abrilcor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abril-_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agostocor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agosto-_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diciembrecor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diciembre OCTUBRE (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enerocor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ener_cropped.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="febrerocor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\febrero-A7pgCDNz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="juliocor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\julio_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="juniocor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\juNio-_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marzocor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marzo-_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mayocor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mayo-_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noviembrecor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noviembre-_online-video-cutter.com_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="octubrecor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\octubre-Uaj2j4qd.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="septiembrecor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\septiembre (online-video-cutter.com).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -88,7 +88,7 @@ namespace WindowsFormsApp2
             switch (qnum)
             {
                 case 1:
-                    pictureBox2.Image = Properties.Resources.ener;
+                    pictureBox2.Image = Properties.Resources.enerocor;
                     lblQuestion.Text = "ELIGE LA OPCION CORRECTA";
                     button1.Text = "MARZO";
                     button2.Text = "ENERO";
@@ -99,7 +99,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 2:
-                    pictureBox2.Image = Properties.Resources.abril;
+                    pictureBox2.Image = Properties.Resources.abrilcor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "ABRIL";
                     button2.Text = "ENERO";
@@ -110,7 +110,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 3:
-                    pictureBox2.Image = Properties.Resources.agosto;
+                    pictureBox2.Image = Properties.Resources.agostocor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "MARZO";
                     button2.Text = "NOVIEMBRE";
@@ -121,7 +121,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 4:
-                    pictureBox2.Image = Properties.Resources.noviembre;
+                    pictureBox2.Image = Properties.Resources.noviembrecor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "NOVIEMBRE";
                     button2.Text = "ABRIL";
@@ -132,7 +132,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 5:
-                    pictureBox2.Image = Properties.Resources.febrero;
+                    pictureBox2.Image = Properties.Resources.febrerocor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "FEBRERO";
                     button2.Text = "DICIEMBRE";
@@ -143,7 +143,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 6:
-                    pictureBox2.Image = Properties.Resources.junio;
+                    pictureBox2.Image = Properties.Resources.juniocor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "ENERO";
                     button2.Text = "OCTUBRE";
@@ -154,7 +154,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 7:
-                    pictureBox2.Image = Properties.Resources.septiembre;
+                    pictureBox2.Image = Properties.Resources.septiembrecor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "SEPTIEMBRE";
                     button2.Text = "OCTUBRE";
@@ -165,7 +165,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 8:
-                    pictureBox2.Image = Properties.Resources.mayo;
+                    pictureBox2.Image = Properties.Resources.mayocor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "MAYO";
                     button2.Text = "JULIO";
@@ -176,7 +176,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 9:
-                    pictureBox2.Image = Properties.Resources.marzo;
+                    pictureBox2.Image = Properties.Resources.marzocor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "JULIO";
                     button2.Text = "MARZO";
@@ -187,7 +187,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 10:
-                    pictureBox2.Image = Properties.Resources.diciembre;
+                    pictureBox2.Image = Properties.Resources.diciembrecor;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "MAYO";
                     button2.Text = "ENERO";
@@ -196,6 +196,30 @@ namespace WindowsFormsApp2
 
                     correctAnswer = 4;
                     break;
+
+                case 11:
+                    pictureBox2.Image = Properties.Resources.octubrecor;
+                    lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
+                    button1.Text = "ENERO";
+                    button2.Text = "JULIO";
+                    button3.Text = "MARZO";
+                    button4.Text = "OCTUBRE";
+
+                    correctAnswer = 4;
+                    break;
+
+
+                case 12:
+                    pictureBox2.Image = Properties.Resources.juniocor;
+                    lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
+                    button1.Text = "AGOSTO";
+                    button2.Text = "DICIEMBRE";
+                    button3.Text = "JUNIO";
+                    button4.Text = "FEBRERO";
+
+                    correctAnswer = 3;
+                    break;
+
             }
         }
 
