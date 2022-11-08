@@ -174,7 +174,7 @@ namespace WindowsFormsApp2
                     break;
 
                 case 9:
-                    pictureBox2.Image = Properties.Resources.sobrinosinco;
+                    pictureBox2.Image = Properties.Resources.sobrino;
                     lblQuestion.Text = "¿CUAL ES LA CORRECTA?";
                     button1.Text = "TIO";
                     button2.Text = "SOBRINO";
