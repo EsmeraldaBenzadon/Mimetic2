@@ -26,7 +26,7 @@ namespace WindowsFormsApp2
         private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            bienvenidos Nuevaventana = new bienvenidos (this.NombreUsu);
+            bienvenidos Nuevaventana = new bienvenidos (NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -34,7 +34,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "A";
-            Letra Nuevaventana = new Letra(letras);//para pasar una variable a otro form 
+            Letra Nuevaventana = new Letra(letras, NombreUsu);//para pasar una variable a otro form 
             Nuevaventana.Show();
 
         }
@@ -43,14 +43,14 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "B";
-            Letra Nuevaventana = new Letra("B");
+            Letra Nuevaventana = new Letra("B", NombreUsu);
             Nuevaventana.Show();
         }
 
         private void BtnC_Click(object sender, EventArgs e)
         {
             letras = "C";
-            Letra Nuevaventana = new Letra("C");
+            Letra Nuevaventana = new Letra("C", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -58,7 +58,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "CH";
-            Letra Nuevaventana = new Letra("CH");
+            Letra Nuevaventana = new Letra("CH", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -66,7 +66,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "D"; 
-            Letra Nuevaventana = new Letra("D");
+            Letra Nuevaventana = new Letra("D", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -74,7 +74,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "E";
-            Letra Nuevaventana = new Letra("E");
+            Letra Nuevaventana = new Letra("E", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -82,7 +82,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "F";
-            Letra Nuevaventana = new Letra("F");
+            Letra Nuevaventana = new Letra("F", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -90,7 +90,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "G";
-            Letra Nuevaventana = new Letra("G");
+            Letra Nuevaventana = new Letra("G", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -98,7 +98,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "H";
-            Letra Nuevaventana = new Letra("H");
+            Letra Nuevaventana = new Letra("H", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -106,7 +106,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "I";
-            Letra Nuevaventana = new Letra("I");
+            Letra Nuevaventana = new Letra("I", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -114,7 +114,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "J";
-            Letra Nuevaventana = new Letra("J");
+            Letra Nuevaventana = new Letra("J", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -122,7 +122,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "K";
-            Letra Nuevaventana = new Letra("K");
+            Letra Nuevaventana = new Letra("K", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -130,7 +130,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "L";
-            Letra Nuevaventana = new Letra("L");
+            Letra Nuevaventana = new Letra("L", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -138,7 +138,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "LL";
-            Letra Nuevaventana = new Letra("LL");
+            Letra Nuevaventana = new Letra("LL", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -146,7 +146,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "M";
-            Letra Nuevaventana = new Letra("M");
+            Letra Nuevaventana = new Letra("M", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -154,7 +154,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "N";
-            Letra Nuevaventana = new Letra("N");
+            Letra Nuevaventana = new Letra("N", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -162,7 +162,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "Ñ";
-            Letra Nuevaventana = new Letra("Ñ");
+            Letra Nuevaventana = new Letra("Ñ", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -170,7 +170,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "O";
-            Letra Nuevaventana = new Letra("O");
+            Letra Nuevaventana = new Letra("O", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -178,7 +178,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "P";
-            Letra Nuevaventana = new Letra("P");
+            Letra Nuevaventana = new Letra("P", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -186,7 +186,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "Q";
-            Letra Nuevaventana = new Letra("Q");
+            Letra Nuevaventana = new Letra("Q", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -194,7 +194,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "R";
-            Letra Nuevaventana = new Letra("R");
+            Letra Nuevaventana = new Letra("R", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -202,7 +202,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "RR";
-            Letra Nuevaventana = new Letra("RR");
+            Letra Nuevaventana = new Letra("RR", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -210,7 +210,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "S";
-            Letra Nuevaventana = new Letra ("S");
+            Letra Nuevaventana = new Letra ("S", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -218,7 +218,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "T";
-            Letra Nuevaventana = new Letra("T");
+            Letra Nuevaventana = new Letra("T", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -226,7 +226,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "U";
-            Letra Nuevaventana = new Letra("U");
+            Letra Nuevaventana = new Letra("U", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -234,7 +234,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "V";
-            Letra Nuevaventana = new Letra("V");
+            Letra Nuevaventana = new Letra("V", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -242,7 +242,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "W";
-            Letra Nuevaventana = new Letra("W");
+            Letra Nuevaventana = new Letra("W", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -250,7 +250,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "X";
-            Letra Nuevaventana = new Letra("X");
+            Letra Nuevaventana = new Letra("X", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -258,7 +258,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "Y";
-            Letra Nuevaventana = new Letra("Y");
+            Letra Nuevaventana = new Letra("Y", NombreUsu);
             Nuevaventana.Show();
         }
 
@@ -266,7 +266,7 @@ namespace WindowsFormsApp2
         {
             this.Hide();
             letras = "Z";
-            Letra Nuevaventana = new Letra("Z");
+            Letra Nuevaventana = new Letra("Z", NombreUsu);
             Nuevaventana.Show();
         }
 

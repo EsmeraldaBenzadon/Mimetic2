@@ -15,11 +15,12 @@ namespace WindowsFormsApp2
         string letra;
         public string NombreUsu;
 
-        public Letra(string le)
+        public Letra(string le, string nombre)
         {
-            InitializeComponent();
+            InitializeComponent(); 
             letra = le;
             lbl_letra.Text = le;
+            this.NombreUsu = nombre;
         }
 
         private void AxWindowsMediaPlayer1_Enter(object sender, EventArgs e)
@@ -53,7 +54,7 @@ namespace WindowsFormsApp2
         private void BtnVolver_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Abecedario Nuevaventana = new Abecedario (this.NombreUsu);
+            Abecedario Nuevaventana = new Abecedario (NombreUsu);
             Nuevaventana.Show();
         }
     }
